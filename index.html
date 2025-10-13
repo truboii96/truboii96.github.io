@@ -1,241 +1,117 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Simulprod — Scratch Archive by Team Anonymoouzz</title>
-  <meta name="description" content="Simulprod — a community-maintained Scratch archive made by Team Anonymoouzz." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#0f1724; /* change these to edit theme */
-      --card:#0b1220;
-      --muted:#94a3b8;
-      --accent:#7c3aed;
-      --glass: rgba(255,255,255,0.03);
-      --radius:14px;
-      --maxw:1100px;
-      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-      color-scheme: dark;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      background: linear-gradient(180deg,#061026 0%,var(--bg) 60%);
-      color:#e6eef8;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      padding:40px 20px;
-      display:flex;
-      justify-content:center;
-      align-items:flex-start;
-      font-size:16px;
-    }
-    .container{
-      width:100%;
-      max-width:var(--maxw);
-    }
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>simulprod.xyz</title>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<style>
+  :root{
+    --bg:#0f1724; --panel:#0b1220; --muted:#94a3b8; --accent:#7c3aed; --text:#e6eef8;
+    --radius:12px; --maxw:1100px;
+  }
+  :root[data-theme="light"]{
+    --bg:#f7f8fb; --panel:#ffffff; --muted:#6b7280; --accent:#6d28d9; --text:#0b1220;
+  }
 
-    header{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:16px;
-      margin-bottom:28px;
-    }
-    .brand{
-      display:flex;align-items:center;gap:12px
-    }
-    .logo{
-      width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#4c1d95);display:flex;align-items:center;justify-content:center;font-weight:800;color:white;font-size:20px;box-shadow:0 6px 18px rgba(0,0,0,0.6)
-    }
-    .site-title{line-height:1}
-    .site-title h1{margin:0;font-size:18px}
-    .site-title p{margin:0;color:var(--muted);font-size:13px}
+  *{box-sizing:border-box}
+  body{margin:0; min-height:100vh; font-family:Inter,system-ui,Segoe UI,Roboto,Arial; background:var(--bg); color:var(--text); display:flex; justify-content:center; padding:36px;}
+  .wrap{width:100%;max-width:var(--maxw);}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#4c1d95);display:flex;align-items:center;justify-content:center;font-weight:800;color:white;font-size:20px}
+  h1{margin:0;font-size:18px}
+  p.muted{margin:0;color:var(--muted);font-size:13px}
 
-    nav{display:flex;gap:12px;align-items:center}
-    .btn{background:var(--glass);border:1px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:10px;cursor:pointer}
-    .btn.primary{background:linear-gradient(90deg,var(--accent),#5b21b6);border:none;color:white;padding:10px 14px}
+  .hero{display:flex;gap:20px;align-items:center;padding:20px;border-radius:14px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border:1px solid rgba(0,0,0,0.08)}
+  .hero-left{flex:1}
+  .search{display:flex;gap:8px;margin-top:12px}
+  input[type="search"]{flex:1;padding:10px;border-radius:10px;border:1px solid rgba(0,0,0,0.08);background:transparent;color:inherit}
+  .btn{padding:8px 12px;border-radius:10px;border:none;background:rgba(255,255,255,0.04);cursor:pointer}
+  .btn.primary{background:linear-gradient(90deg,var(--accent),#5b21b6);color:white}
 
-    .hero{
-      display:flex;gap:28px;align-items:center;justify-content:space-between;margin-bottom:28px;
-      background: linear-gradient(90deg, rgba(255,255,255,0.02), transparent);
-      padding:22px;border-radius:var(--radius);backdrop-filter: blur(6px);
-      border:1px solid rgba(255,255,255,0.03)
-    }
-    .hero-left{flex:1;min-width:240px}
-    .hero-right{width:320px}
-    .hero h2{margin:0 0 8px 0;font-size:24px}
-    .hero p{margin:0;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+  .card{background:var(--panel);padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);min-height:110px}
+  footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
 
-    .searchbar{display:flex;gap:8px;margin-top:12px}
-    .searchbar input{flex:1;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
-
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px;margin-top:20px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);min-height:120px;display:flex;flex-direction:column;justify-content:space-between}
-    .card h3{margin:0;font-size:16px}
-    .card p{margin:6px 0 0 0;color:var(--muted);font-size:13px}
-    .meta{display:flex;gap:8px;align-items:center;margin-top:8px;color:var(--muted);font-size:13px}
-
-    footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
-
-    /* small screen tweaks */
-    @media (max-width:720px){
-      .hero{flex-direction:column}
-      .hero-right{width:100%}
-      body{padding:20px}
-    }
-
-    /* helper editable area: .editable-content */
-    .editable-content{background:rgba(255,255,255,0.01);padding:10px;border-radius:10px}
-  </style>
+  a.link{color:inherit;text-decoration:none;display:inline-block;padding:6px 10px;border-radius:8px}
+  .small{font-size:13px}
+</style>
 </head>
 <body>
-  <div class="container">
+  <div class="wrap">
     <header>
       <div class="brand">
         <div class="logo">S</div>
-        <div class="site-title">
-          <h1>Simulprod</h1>
-          <p>a Scratch archive — Team Anonymoouzz</p>
+        <div>
+          <h1>simulprod.xyz</h1>
+          <p class="muted small">a Scratch archive created by Team Anonymoouzz</p>
         </div>
       </div>
-      <nav>
-        <button class="btn" onclick="toggleDark()">Toggle Theme</button>
-        <a class="btn" href="#archive">Archive</a>
-        <a class="btn primary" href="#contribute">Contribute</a>
-      </nav>
+
+      <div style="display:flex;gap:10px;align-items:center">
+        <a class="link" href="upload.html">Upload</a>
+        <button id="themeBtn" class="btn">Toggle theme</button>
+      </div>
     </header>
 
     <section class="hero">
       <div class="hero-left">
-        <h2>Welcome to Simulprod</h2>
-        <p>Your community-curated archive of classic and notable Scratch projects. Organized and preserved by Team Anonymoouzz — browse, search, and contribute.</p>
+        <h2 style="margin:0 0 6px 0">Welcome to Simulprod</h2>
+        <p class="muted small">Community-curated archive of classic and notable Scratch projects. Browse, search, and contribute.</p>
 
-        <div class="searchbar" role="search">
-          <input id="q" placeholder="Search projects, users, tags..." />
-          <button class="btn" onclick="doSearch()">Search</button>
+        <div class="search" role="search">
+          <input id="q" type="search" placeholder="Search projects, users, tags..." />
+          <button class="btn" onclick="alert('Search is a placeholder — add client-side filter or backend later')">Search</button>
         </div>
 
-        <div style="margin-top:12px;color:var(--muted);font-size:13px">
-          <strong>Note:</strong> This is a design / index page — edit the markup below to populate the archive grid with real projects.
-        </div>
+        <div style="margin-top:12px;color:var(--muted);font-size:13px"><strong>Note:</strong> This is a design/index page — edit markup to integrate dynamic data later.</div>
       </div>
 
-      <div class="hero-right editable-content">
-        <h3>Quick Info</h3>
-        <p style="margin-top:8px;color:var(--muted)">Team: <strong>Team Anonymoouzz</strong></p>
-        <p style="margin-top:8px;color:var(--muted)">Type: <strong>Scratch archive</strong></p>
-        <p style="margin-top:8px;color:var(--muted)">Status: <strong>Design / Beta</strong></p>
+      <div style="width:280px">
+        <div style="background:rgba(0,0,0,0.04);padding:12px;border-radius:12px">
+          <strong>Quick info</strong>
+          <p class="muted small" style="margin-top:8px">Team: <strong>Team Anonymoouzz</strong><br>Type: <strong>Scratch archive</strong><br>Status: <strong>Design / Beta</strong></p>
+        </div>
       </div>
     </section>
 
-    <main id="archive">
-      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
-        <h3 style="margin:0">Recent / Featured Projects</h3>
-        <div style="color:var(--muted);font-size:13px">You can replace these cards with dynamic content later.</div>
+    <main>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px">
+        <h3 style="margin:0">Featured</h3>
+        <div class="muted small">Replace cards with real projects later</div>
       </div>
 
       <div class="grid" id="grid">
-        <!-- Editable project cards: duplicate and fill in project info -->
-        <article class="card">
-          <div>
-            <h3>Project Title 1</h3>
-            <p>Short description or excerpt of the project. Replace with actual project summary.</p>
-          </div>
-          <div class="meta">
-            <span>by <strong>username</strong></span>
-            <span>•</span>
-            <span>tag1, tag2</span>
-          </div>
-        </article>
-
-        <article class="card">
-          <div>
-            <h3>Project Title 2</h3>
-            <p>Short description or excerpt of the project. Replace with actual project summary.</p>
-          </div>
-          <div class="meta">
-            <span>by <strong>username2</strong></span>
-            <span>•</span>
-            <span>music, demo</span>
-          </div>
-        </article>
-
-        <article class="card">
-          <div>
-            <h3>Project Title 3</h3>
-            <p>Short description or excerpt of the project. Replace with actual project summary.</p>
-          </div>
-          <div class="meta">
-            <span>by <strong>archiver</strong></span>
-            <span>•</span>
-            <span>game</span>
-          </div>
-        </article>
-
-        <!-- Add more cards as needed -->
+        <div class="card"><strong>Nothing</strong><div class="muted small">by team anonymoouzz</div></div>
       </div>
-
-      <section id="contribute" style="margin-top:22px">
-        <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
-          <div style="flex:1;min-width:240px">
-            <h4 style="margin:0">Want to help preserve projects?</h4>
-            <p style="margin-top:6px;color:var(--muted)">We accept submissions, tips, and rips from the community. Please include author attribution and source when possible.</p>
-          </div>
-          <div style="display:flex;gap:8px">
-            <button class="btn" onclick="alert('Open contribution flow (replace with real form).')">Submit</button>
-            <a class="btn primary" href="#">Guidelines</a>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer>
-      <div>© <span id="year"></span> Simulprod — an archive by <strong>Team Anonymoouzz</strong></div>
-      <div style="margin-top:8px;color:var(--muted)">Design: simple, responsive, and easy to edit. Replace static markup with your preferred framework or backend later.</div>
+      © <span id="year"></span> simulprod.xyz
     </footer>
   </div>
 
-  <script>
-    // small helpers you can edit
-    document.getElementById('year').textContent = new Date().getFullYear();
+<script>
+  // theme persistence
+  const THEME_KEY = 'simulprod-theme';
+  const root = document.documentElement;
+  function applyTheme(t){
+    root.setAttribute('data-theme', t);
+    document.getElementById('themeBtn').textContent = t === 'light' ? 'Switch to dark' : 'Switch to light';
+  }
+  (function initTheme(){
+    const t = localStorage.getItem(THEME_KEY) || 'dark';
+    applyTheme(t);
+  })();
+  document.getElementById('themeBtn').addEventListener('click', () => {
+    const next = (root.getAttribute('data-theme') === 'light') ? 'dark' : 'light';
+    localStorage.setItem(THEME_KEY, next);
+    applyTheme(next);
+  });
 
-    function doSearch(){
-      const q = document.getElementById('q').value.trim();
-      if(!q){alert('Type a query to search (this is a demo).');return}
-      alert('Search: "'+q+'" — implement search backend or client-side filter.');
-    }
-
-    // theme toggle only flips CSS variables for demo
-    function toggleDark(){
-      const r = document.documentElement;
-      if(r.style.getPropertyValue('--bg') === 'white'){
-        r.style.setProperty('--bg','#0f1724');
-        r.style.setProperty('--card','#0b1220');
-        r.style.setProperty('--muted','#94a3b8');
-      } else {
-        r.style.setProperty('--bg','white');
-        r.style.setProperty('--card','#f7f7fb');
-        r.style.setProperty('--muted','#475569');
-      }
-    }
-
-    // small example: programmatically add a card (useful for templating)
-    function addCard(title,desc,user,tags){
-      const grid = document.getElementById('grid');
-      const a = document.createElement('article');
-      a.className='card';
-      a.innerHTML = `<div><h3>${escapeHtml(title)}</h3><p>${escapeHtml(desc)}</p></div><div class="meta">by <strong>${escapeHtml(user)}</strong> • ${escapeHtml(tags)}</div>`;
-      grid.prepend(a);
-    }
-    function escapeHtml(s){return String(s).replace(/[&<>\"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"}[c]});}
-
-    // Example: uncomment to add a sample card on load
-    // addCard('Newly added demo','Auto-added by script','anon','demo,auto')
-  </script>
+  // year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
