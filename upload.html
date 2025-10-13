@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>simulprod — Upload .sb3</title>
+<style>
+  :root{--bg:#0f1724;--panel:#0b1220;--muted:#94a3b8;--text:#e6eef8}
+  body{margin:0;font-family:system-ui;padding:28px;background:var(--bg);color:var(--text)}
+  .card{max-width:720px;margin:0 auto;background:var(--panel);padding:18px;border-radius:12px}
+  input,button{font-size:15px}
+  input[type=file]{width:100%}
+  .muted{color:var(--muted);font-size:13px}
+  progress{width:100%}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Upload .sb3</h1>
+    <p class="muted">Files are validated client-side and uploaded to the Cloudflare Worker. The Worker must forward safely to Discord (server-side).</p>
+
+    <form id="f">
+      <label>
+        Choose .sb3 file
+        <input id="file" type="file" accept=".sb3,application/zip" required />
+      </label>
+      <div style="height:12px"></div>
+      <div style="display:flex;gap:8px">
+        <button id="send" type="submit">Upload</button>
+        <button id="clear" type="button">Clear</button>
+      </div>
+    </form>
+
+    <div style="margin-top:12px">
+      <progress id="prog" value="0" max="100" style="display:none"></progress>
+      <div id="status" class="muted" style="margin-top:8px"></div>
+    </div>
+  </div>
+
+<script>
+  const WORKER_URL = 'https://old-math-07e6.cxcofficial750.workers.dev/'; // your CF worker
+  const form = document.getElementById('f');
+  const fileInput = document.getElementById('file');
+  const status = document.getElementById('status');
+  const prog = document.getElementById('prog');
+  const clearBtn = document.getElementById('clear');
+
+  clearBtn.addEventListener('click', ()=>{ fileInput.value=''; status.textContent=''; prog.style.display='none'; prog.value=0; });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const f = fileInput.files[0];
+    if (!f) { alert('Choose a file'); return; }
+    if (!f.name.toLowerCase().endsWith('.sb3')) {
+      if (!confirm('.sb3 extension not present — continue?')) return;
+    }
+    // small client-side limit
+    if (f.size > 25 * 1024 * 1024) { alert('File too large (25MB limit in client).'); return; }
+
+    status.textContent = 'Uploading...';
+    prog.style.display = 'block';
+    prog.value = 0;
+
+    try {
+      const fd = new FormData();
+      fd.append('sb3', f, f.name);
+
+      // Use XMLHttpRequest to show progress
+      await new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', WORKER_URL, true);
+
+        xhr.upload.onprogress = (ev) => {
+          if (ev.lengthComputable) {
+            const pct = Math.round((ev.loaded / ev.total) * 100);
+            prog.value = pct;
+          }
+        };
+
+        xhr.onload = () => {
+          if (xhr.status >= 200 && xhr.status < 300) {
+            resolve(xhr.responseText);
+          } else {
+            reject(new Error('Upload failed: ' + xhr.status + ' ' + xhr.statusText));
+          }
+        };
+        xhr.onerror = () => reject(new Error('Network error during upload'));
+        xhr.send(fd);
+      });
+
+      status.textContent = 'Upload complete — server responded OK.';
+      prog.value = 100;
+    } catch (err) {
+      console.error(err);
+      status.textContent = 'Upload error: ' + err.message;
+    }
+  });
+</script>
+</body>
+</html>
