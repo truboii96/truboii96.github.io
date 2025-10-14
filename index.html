@@ -5,20 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Team Anonymoouzz</title>
   <link rel="stylesheet" href="https://unpkg.com/custom-cursor@latest/dist/cursor.min.css">
-<script src="https://unpkg.com/custom-cursor@latest/dist/cursor.min.js"></script>
-
+  <script src="https://unpkg.com/custom-cursor@latest/dist/cursor.min.js"></script>
   <link rel="icon" href="ra71jycguwje1.png" type="image/png">
+
   <script>
-document.addEventListener("click", () => {
-  const bg = new Audio("during pride month_ - leroy - SoundLoadMate.com.mp3");
-  bg.loop = true;
-  bg.volume = 0.8;
-  bg.play();
-}, { once: true });
-</script>
+  document.addEventListener("click", () => {
+    const bg = new Audio("during pride month_ - leroy - SoundLoadMate.com.mp3");
+    bg.loop = true;
+    bg.volume = 0.8;
+    bg.play();
+  }, { once: true });
+  </script>
+
   <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    html,body{height:100%}
+    * { box-sizing:border-box; margin:0; padding:0 }
+    html, body { height:100% }
+
     body {
       background-image: url('a9390df225d214751df548dcb74a209f.gif');
       background-size: 100% 100%;
@@ -31,10 +33,47 @@ document.addEventListener("click", () => {
       align-items:center;
       justify-content:center;
       overflow:hidden;
+      animation: pageFlow 6s ease-in-out infinite;
     }
-    .overlay{position:fixed;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0.18),rgba(0,0,0,0.55));pointer-events:none;}
-    .wrap{z-index:2;width:min(1100px,94vw);text-align:center;padding:3rem 2rem;display:grid;gap:1.6rem;place-items:center;}
-    .crazy{
+
+    @keyframes pageFlow {
+      0% { transform: translateY(0) rotate(0deg) scale(1); filter: brightness(1); }
+      25% { transform: translateY(-8px) rotate(-0.5deg) scale(1.01); filter: brightness(1.05); }
+      50% { transform: translateY(0) rotate(0.3deg) scale(1); filter: brightness(1); }
+      75% { transform: translateY(8px) rotate(0.5deg) scale(1.01); filter: brightness(1.05); }
+      100% { transform: translateY(0) rotate(0deg) scale(1); filter: brightness(1); }
+    }
+
+    .overlay {
+      position:fixed; inset:0;
+      background:linear-gradient(180deg,rgba(0,0,0,0.18),rgba(0,0,0,0.55));
+      pointer-events:none;
+      animation: overlayFlow 6s ease-in-out infinite;
+    }
+
+    @keyframes overlayFlow {
+      0% { opacity:0.6; }
+      50% { opacity:0.7; }
+      100% { opacity:0.6; }
+    }
+
+    .wrap {
+      z-index:2;
+      width:min(1100px,94vw);
+      text-align:center;
+      padding:3rem 2rem;
+      display:grid;
+      gap:1.6rem;
+      place-items:center;
+      animation: wrapFlow 6s ease-in-out infinite;
+    }
+
+    @keyframes wrapFlow {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .crazy {
       font-size: clamp(2.4rem, 8vw, 9rem);
       line-height:0.9;
       font-weight:900;
@@ -54,37 +93,69 @@ document.addEventListener("click", () => {
       animation: chroma 8s linear infinite, wobble 6s ease-in-out infinite;
       filter: drop-shadow(0 10px 30px rgba(0,0,0,0.6));
     }
-    .crazy::before, .crazy::after{
+
+    .crazy::before, .crazy::after {
       content: attr(data-text);
-      position:absolute;left:0;top:0;width:100%;height:100%;
+      position:absolute; left:0; top:0; width:100%; height:100%;
       -webkit-text-fill-color: transparent;
-      background-clip:text;-webkit-background-clip:text;
+      background-clip:text; -webkit-background-clip:text;
       mix-blend-mode: screen;
       z-index:-1;
       transform-origin:center;
       pointer-events:none;
     }
-    .crazy::before{
+
+    .crazy::before {
       background: linear-gradient(90deg,#ff6b6b,#ffd56b);
       filter: blur(14px) saturate(140%);
       transform: translate(12px,12px) rotate(1deg) scale(1.02);
       opacity:0.7;
       animation: echoA 6s ease-in-out infinite;
     }
-    .crazy::after{
+
+    .crazy::after {
       background: linear-gradient(90deg,#5eead4,#60a5fa);
       filter: blur(28px) saturate(130%);
       transform: translate(-18px,-18px) rotate(-2deg) scale(1.06);
       opacity:0.5;
       animation: echoB 8s ease-in-out infinite;
     }
-    @keyframes chroma{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
-    @keyframes wobble{0%{transform:rotate(-4deg) skewX(-8deg) translateY(0)}25%{transform:rotate(-2deg) skewX(-6deg) translateY(-6px)}50%{transform:rotate(0deg) skewX(-3deg) translateY(0)}75%{transform:rotate(-6deg) skewX(-10deg) translateY(6px)}100%{transform:rotate(-4deg) skewX(-8deg) translateY(0)}}
-    @keyframes echoA{0%{opacity:0.55; transform: translate(10px,10px) scale(1.02)}50%{opacity:0.85; transform: translate(22px,12px) scale(1.05)}100%{opacity:0.55; transform: translate(10px,10px) scale(1.02)}}
-    @keyframes echoB{0%{opacity:0.45; transform: translate(-16px,-16px) scale(1.06)}50%{opacity:0.65; transform: translate(-28px,-20px) scale(1.08)}100%{opacity:0.45; transform: translate(-16px,-16px) scale(1.06)}}
-    .discord-btn{
-      display:inline-flex;align-items:center;gap:0.8rem;padding:0.8rem 1.2rem;border-radius:14px;
-      text-decoration:none;font-weight:700;font-size:clamp(0.9rem,2.2vw,1.15rem);
+
+    @keyframes chroma {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+
+    @keyframes wobble {
+      0%{transform:rotate(-4deg) skewX(-8deg) translateY(0)}
+      25%{transform:rotate(-2deg) skewX(-6deg) translateY(-6px)}
+      50%{transform:rotate(0deg) skewX(-3deg) translateY(0)}
+      75%{transform:rotate(-6deg) skewX(-10deg) translateY(6px)}
+      100%{transform:rotate(-4deg) skewX(-8deg) translateY(0)}
+    }
+
+    @keyframes echoA {
+      0%{opacity:0.55; transform: translate(10px,10px) scale(1.02)}
+      50%{opacity:0.85; transform: translate(22px,12px) scale(1.05)}
+      100%{opacity:0.55; transform: translate(10px,10px) scale(1.02)}
+    }
+
+    @keyframes echoB {
+      0%{opacity:0.45; transform: translate(-16px,-16px) scale(1.06)}
+      50%{opacity:0.65; transform: translate(-28px,-20px) scale(1.08)}
+      100%{opacity:0.45; transform: translate(-16px,-16px) scale(1.06)}
+    }
+
+    .discord-btn {
+      display:inline-flex;
+      align-items:center;
+      gap:0.8rem;
+      padding:0.8rem 1.2rem;
+      border-radius:14px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:clamp(0.9rem,2.2vw,1.15rem);
       background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
       border:1px solid rgba(255,255,255,0.08);
       backdrop-filter: blur(6px);
@@ -92,14 +163,44 @@ document.addEventListener("click", () => {
       box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 2px 6px rgba(255,255,255,0.02) inset;
       transition: transform .18s ease, box-shadow .18s ease;
     }
-    .discord-btn:hover{transform:translateY(-6px) rotate(-1deg); box-shadow:0 18px 40px rgba(0,0,0,0.6)}
-    .discord-icon{width:28px;height:28px;display:inline-block;background:linear-gradient(90deg,#5865F2,#6a8cff);border-radius:8px;display:grid;place-items:center;font-weight:900;color:#fff}
-    .sub{font-size:clamp(0.85rem,1.6vw,1.05rem);opacity:0.95}
-    .archive-link{margin-top:1rem;display:inline-block;color:#fff;font-weight:600;text-decoration:none;padding:0.6rem 1rem;border-radius:12px;background:rgba(0,0,0,0.4);backdrop-filter:blur(5px);transition:all 0.2s ease}
-    .archive-link:hover{background:rgba(255,255,255,0.2);transform:translateY(-4px)}
-    @media (max-width:520px){.crazy{font-size: clamp(2rem, 12vw, 5rem)}.wrap{padding:2rem 1rem}}
+
+    .discord-btn:hover { transform:translateY(-6px) rotate(-1deg); box-shadow:0 18px 40px rgba(0,0,0,0.6) }
+
+    .discord-icon {
+      width:28px; height:28px;
+      display:inline-block;
+      background:linear-gradient(90deg,#5865F2,#6a8cff);
+      border-radius:8px;
+      display:grid;
+      place-items:center;
+      font-weight:900;
+      color:#fff;
+    }
+
+    .sub { font-size:clamp(0.85rem,1.6vw,1.05rem); opacity:0.95 }
+
+    .archive-link {
+      margin-top:1rem;
+      display:inline-block;
+      color:#fff;
+      font-weight:600;
+      text-decoration:none;
+      padding:0.6rem 1rem;
+      border-radius:12px;
+      background:rgba(0,0,0,0.4);
+      backdrop-filter:blur(5px);
+      transition:all 0.2s ease;
+    }
+
+    .archive-link:hover { background:rgba(255,255,255,0.2); transform:translateY(-4px) }
+
+    @media (max-width:520px) {
+      .crazy{font-size: clamp(2rem, 12vw, 5rem)}
+      .wrap{padding:2rem 1rem}
+    }
   </style>
 </head>
+
 <body>
   <div class="overlay" aria-hidden="true"></div>
   <main class="wrap">
@@ -113,16 +214,16 @@ document.addEventListener("click", () => {
     <a class="archive-link" href="https://simulprod.xyz/archive" target="_blank" rel="noopener noreferrer">Archive</a>
     <p style="position:fixed;bottom:10px;left:50%;transform:translateX(-50%);color:white;font-family:sans-serif;opacity:0.8;">Click anywhere to start music 🎵</p>
   </main>
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-  customCursor({
-    size: 40,
-    color: '#00ffff',
-    hoverScale: 1.5,
-    hoverEffect: true
-  });
-});
-</script>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    customCursor({
+      size: 40,
+      color: '#00ffff',
+      hoverScale: 1.5,
+      hoverEffect: true
+    });
+  });
+  </script>
 </body>
 </html>
