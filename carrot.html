@@ -82,7 +82,6 @@ a8"     "" ""     `Y8 88P'   "Y8 88P'   "Y8 a8"     "8a  88
 
 <select id="platform">
   <option value="1">ScriptBlox</option>
-  <option value="3">RequireHub</option>
   <option value="4">RScripts</option>
   <option value="5">RScripts (Trending)</option>
 </select>
@@ -102,7 +101,6 @@ async function search() {
 
   try {
     if (platform === '1') await searchScriptBlox(query);
-    else if (platform === '3') await searchRequireHub(query);
     else if (platform === '4') await searchRScripts(query);
     else if (platform === '5') await getRSTrending();
   } catch (err) {
