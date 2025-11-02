@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Script Finder Web</title>
+<style>
+  body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Consolas, monospace;
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    color: orange;
+    white-space: pre;
+    font-family: monospace;
+    font-size: 12px;
+  }
+
+  select, input, button {
+    margin: 8px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  input, select {
+    width: 240px;
+  }
+
+  button {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ffaa00;
+  }
+
+  #results {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin-inline: auto;
+  }
+
+  .result {
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<h1>
+                                                         ,d     
+                                                         88     
+ ,adPPYba, ,adPPYYba, 8b,dPPYba, 8b,dPPYba,  ,adPPYba, MM88MMM  
+a8"     "" ""     `Y8 88P'   "Y8 88P'   "Y8 a8"     "8a  88     
+8b         ,adPPPPP88 88         88         8b       d8  88     
+"8a,   ,aa 88,    ,88 88         88         "8a,   ,a8"  88,    
+ `"Ybbd8"' `"8bbdP"Y8 88         88          `"YbbdP"'   "Y888  
+</h1>
+
+<h2>🔍 Script Finder</h2>
+
+<select id="platform">
+  <option value="1">ScriptBlox</option>
+  <option value="2">Scribd</option>
+  <option value="3">RequireHub</option>
+  <option value="4">RScripts</option>
+  <option value="5">RScripts (Trending)</option>
+</select>
+
+<br>
+<input type="text" id="query" placeholder="Enter search query...">
+<button onclick="search()">Search</button>
+
+<div id="results"></div>
+
+<script>
+async function search() {
+  const platform = document.getElementById('platform').value;
+  const query = document.getElementById('query').value.trim();
+  const resultsDiv = document.getElementById('results');
+  resultsDiv.innerHTML = '<p>Loading...</p>';
+
+  try {
+    if (platform === '1') await searchScriptBlox(query);
+    else if (platform === '2') await searchScribd(query);
+    else if (platform === '3') await searchRequireHub(query);
+    else if (platform === '4') await searchRScripts(query);
+    else if (platform === '5') await getRSTrending();
+  } catch (err) {
+    resultsDiv.innerHTML = `<p style="color:red;">Error: ${err}</p>`;
+  }
+}
+
+// ---------------- ScriptBlox ----------------
+async function searchScriptBlox(query) {
+  const res = await fetch(`https://scriptblox.com/api/script/search?q=${encodeURIComponent(query)}&page=1&max=20`);
+  const data = await res.json();
+  const scripts = data.result?.scripts || [];
+  showResults(scripts.map(s => ({
+    title: s.title,
+    link: `https://scriptblox.com/script/${s.slug}`
+  })));
+}
+
+// ---------------- Scribd ----------------
+async function searchScribd(query) {
+  const res = await fetch(`https://www.scribd.com/search/query?query=${encodeURIComponent(query)}`);
+  const data = await res.json();
+  const docs = data.results?.documents?.content?.documents || [];
+  showResults(docs.map(d => ({
+    title: d.title,
+    link: `https://www.scribd.com${d.reader_url}`
+  })));
+}
+
+// ---------------- RequireHub ----------------
+async function searchRequireHub(query) {
+  const res = await fetch('https://requirehubv2.pythonanywhere.com/');
+  const text = await res.text();
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(text, 'text/html');
+  const cards = [...doc.querySelectorAll('.card')];
+  const results = cards.map(c => ({
+    title: c.querySelector('h2')?.innerText || 'Untitled',
+    script: c.querySelector('code')?.innerText || 'No script available'
+  })).filter(r => r.title.toLowerCase().includes(query.toLowerCase()));
+  showResults(results);
+}
+
+// ---------------- RScripts ----------------
+async function searchRScripts(query) {
+  const res = await fetch(`https://rscripts.net/api/v2/scripts?page=1&q=${encodeURIComponent(query)}&orderBy=date&sort=desc`);
+  const data = await res.json();
+  const scripts = data.scripts || [];
+  const html = scripts.map((s, i) => `
+    <div class="result">
+      <b>${i + 1}. ${s.title}</b><br>
+      Author: ${s.user?.username || 'Unknown'}<br>
+      Views: ${s.views || 0}<br>
+      <a href="#" onclick="showRSDetails('${s._id}')">View Details</a>
+    </div>
+  `).join('');
+  document.getElementById('results').innerHTML = html || '<p>No results found.</p>';
+}
+
+async function showRSDetails(id) {
+  const res = await fetch(`https://rscripts.net/api/v2/script?id=${id}`);
+  const data = await res.json();
+  const script = data.script?.[0];
+  if (!script) return;
+  document.getElementById('results').innerHTML = `
+    <div class="result">
+      <h3>${script.title}</h3>
+      <p><b>Game:</b> ${script.game?.title || 'Unknown'}</p>
+      <p><b>Author:</b> ${script.user?.username || 'Unknown'}</p>
+      <p><b>Views:</b> ${script.views}</p>
+      <p><b>Description:</b> ${script.description || 'No description.'}</p>
+      <p><b>Raw Script:</b><br><code>${script.rawScript || 'N/A'}</code></p>
+      <p><a href="https://rscripts.net/script/${id}" target="_blank">Open on RScripts.net</a></p>
+      <button onclick="search()">⬅ Back</button>
+    </div>
+  `;
+}
+
+// ---------------- RScripts Trending ----------------
+async function getRSTrending() {
+  const res = await fetch('https://rscripts.net/api/v2/trending');
+  const data = await res.json();
+  const items = data.success || [];
+  showResults(items.map(i => ({
+    title: i.script?.title,
+    author: i.user?.username,
+    link: `https://rscripts.net/script/${i.script?._id}`
+  })));
+}
+
+// ---------------- Display Helper ----------------
+function showResults(arr) {
+  const html = arr.map((r, i) => `
+    <div class="result">
+      <b>${i + 1}. ${r.title || 'Untitled'}</b><br>
+      ${r.author ? `By: ${r.author}<br>` : ''}
+      ${r.script ? `<code>${r.script}</code><br>` : ''}
+      ${r.link ? `<a href="${r.link}" target="_blank">Open</a>` : ''}
+    </div>
+  `).join('');
+  document.getElementById('results').innerHTML = html || '<p>No results found.</p>';
+}
+</script>
+</body>
+</html>
