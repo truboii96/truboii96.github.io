@@ -3,17 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Santa Tracker</title>
-  <link rel="stylesheet" href="style.css">
+  <title>🎅 Santa Tracker with Leaflet</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-sA+e2Y2glZ4k9dLE0tE/JkB20+8e3Dg+WZ3f3E1pLF4="
+    crossorigin=""
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Santa Tracker</h1>
+  <h1>🎄 Santa Tracker 🎅</h1>
   <div id="countdown"></div>
-  <div id="map-container">
-    <img src="assets/map-bg.jpg" alt="World Map" id="map">
-    <img src="assets/santa.png" alt="Santa" id="santa">
-  </div>
-  <p id="location-text">Santa is preparing for takeoff!</p>
+  <div id="map"></div>
+  <p id="location-text">Santa is getting ready for takeoff!</p>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-o9N1jNq+l6kQ7D9ybvFtdA0ZcC4Txbg0Jczo3EB4zPM="
+    crossorigin=""
+  ></script>
 
   <script src="script.js"></script>
 </body>
