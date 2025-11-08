@@ -1,0 +1,34 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #003366, #000);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#map-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#map {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#santa {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+#countdown {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
