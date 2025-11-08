@@ -1,13 +1,13 @@
-// Countdown to Christmas
-const countdownEl = document.getElementById('countdown');
+// === COUNTDOWN TO CHRISTMAS ===
+const countdownEl = document.getElementById("countdown");
 
 function updateCountdown() {
   const now = new Date();
-  const christmas = new Date(now.getFullYear(), 11, 25);
+  const christmas = new Date(now.getFullYear(), 11, 25); // Dec 25
   const diff = christmas - now;
 
   if (diff <= 0) {
-    countdownEl.textContent = "🎁 Santa is delivering gifts!";
+    countdownEl.textContent = "🎁 Santa is delivering gifts right now!";
     return;
   }
 
@@ -21,26 +21,48 @@ function updateCountdown() {
 setInterval(updateCountdown, 60000);
 updateCountdown();
 
-// Fake Santa "movement"
-const santa = document.getElementById('santa');
-const locationText = document.getElementById('location-text');
+// === LEAFLET MAP ===
+const map = L.map("map").setView([20, 0], 2); // World view
 
-const locations = [
-  { city: "New York", top: "40%", left: "30%" },
-  { city: "London", top: "35%", left: "50%" },
-  { city: "Paris", top: "40%", left: "52%" },
-  { city: "Tokyo", top: "45%", left: "80%" },
-  { city: "Sydney", top: "70%", left: "85%" }
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+// Santa icon
+const santaIcon = L.icon({
+  iconUrl: "assets/santa-icon.png",
+  iconSize: [50, 50],
+  iconAnchor: [25, 25],
+});
+
+const santaMarker = L.marker([0, 0], { icon: santaIcon }).addTo(map);
+
+const locationText = document.getElementById("location-text");
+
+// Fake Santa route (you can randomize or add more!)
+const route = [
+  { city: "North Pole 🎅", coords: [89.9, 135] },
+  { city: "New York, USA 🗽", coords: [40.7128, -74.006] },
+  { city: "London, UK 🇬🇧", coords: [51.5074, -0.1278] },
+  { city: "Paris, France 🇫🇷", coords: [48.8566, 2.3522] },
+  { city: "Nairobi, Kenya 🇰🇪", coords: [-1.2864, 36.8172] },
+  { city: "Tokyo, Japan 🇯🇵", coords: [35.6762, 139.6503] },
+  { city: "Sydney, Australia 🇦🇺", coords: [-33.8688, 151.2093] },
+  { city: "Santiago, Chile 🇨🇱", coords: [-33.4489, -70.6693] },
 ];
 
-let i = 0;
+let currentStop = 0;
+
 function moveSanta() {
-  const loc = locations[i];
-  santa.style.top = loc.top;
-  santa.style.left = loc.left;
-  locationText.textContent = `🎅 Santa is now in ${loc.city}!`;
-  i = (i + 1) % locations.length;
+  const stop = route[currentStop];
+  santaMarker.setLatLng(stop.coords);
+  map.panTo(stop.coords);
+  locationText.textContent = `🎅 Santa is now in ${stop.city}!`;
+
+  currentStop = (currentStop + 1) % route.length;
 }
 
-setInterval(moveSanta, 5000);
+// Move Santa every 5 seconds
 moveSanta();
+setInterval(moveSanta, 5000);
