@@ -1,155 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🎄 Santa Tracker</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎅 Santa Tracker</title>
 
-  <!-- Leaflet CSS -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-sA+e2Y2glZ4k9dLE0tE/JkB20+8e3Dg+WZ3f3E1pLF4="
-    crossorigin=""
-  />
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-sA+e2Y2glZ4k9dLE0tE/JkB20+8e3Dg+WZ3f3E1pLF4="
+  crossorigin=""
+/>
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      background: linear-gradient(to bottom, #003366, #000);
-      color: white;
-      overflow-x: hidden;
-    }
+<style>
+  /* Ensure body and html fill the page */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #003366, #000);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    overflow-x: hidden;
+  }
 
-    h1 {
-      margin-top: 15px;
-    }
+  h1 {
+    text-align: center;
+    margin: 15px 0;
+  }
 
-    #countdown {
-      font-size: 1.3em;
-      margin-top: 10px;
-    }
+  #countdown {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 10px;
+  }
 
-    #map {
-      height: 70vh;
-      width: 90%;
-      max-width: 1000px;
-      margin: 20px auto;
-      border: 3px solid #fff;
-      border-radius: 10px;
-    }
+  #map {
+    height: 70vh; /* crucial for Leaflet to render */
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #fff;
+  }
 
-    #location-text {
-      font-size: 1.1em;
-      margin-bottom: 20px;
-    }
+  #location-text {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
 
-    /* Falling snow */
-    .snowflake {
-      position: fixed;
-      top: -10px;
-      color: white;
-      font-size: 1em;
-      user-select: none;
-      pointer-events: none;
-      z-index: 1000;
-      animation-name: fall;
-      animation-timing-function: linear;
-    }
+  /* Falling snow */
+  .snowflake {
+    position: fixed;
+    top: -10px;
+    color: white;
+    font-size: 1em;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1000;
+    animation-name: fall;
+    animation-timing-function: linear;
+  }
 
-    @keyframes fall {
-      0% { transform: translateY(0px); }
-      100% { transform: translateY(100vh); }
-    }
-  </style>
+  @keyframes fall {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+  }
+</style>
 </head>
 <body>
-  <h1>🎄 Santa Tracker 🎅</h1>
-  <div id="countdown"></div>
-  <div id="map"></div>
-  <p id="location-text">Santa is getting ready for takeoff!</p>
 
-  <!-- Leaflet JS -->
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-o9N1jNq+l6kQ7D9ybvFtdA0ZcC4Txbg0Jczo3EB4zPM="
-    crossorigin=""
-  ></script>
+<h1>🎄 Santa Tracker 🎅</h1>
+<div id="countdown"></div>
+<div id="map"></div>
+<p id="location-text">Santa is getting ready for takeoff!</p>
 
-  <!-- Embedded JS for Santa Tracker + Snow -->
-  <script>
-    // ====== Countdown ======
-    const countdownEl = document.getElementById("countdown");
-    function updateCountdown() {
-      const now = new Date();
-      const christmas = new Date(now.getFullYear(), 11, 25);
-      const diff = christmas - now;
-      if (diff <= 0) {
-        countdownEl.textContent = "🎁 It's Christmas! Santa is delivering gifts!";
-        return;
-      }
-      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((diff / (1000 * 60)) % 60);
-      countdownEl.textContent = `${days} days, ${hours} hrs, ${minutes} mins until Christmas!`;
+<!-- Leaflet JS -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-o9N1jNq+l6kQ7D9ybvFtdA0ZcC4Txbg0Jczo3EB4zPM="
+  crossorigin=""
+></script>
+
+<script>
+  // ====== Countdown ======
+  const countdownEl = document.getElementById("countdown");
+  function updateCountdown() {
+    const now = new Date();
+    const christmas = new Date(now.getFullYear(), 11, 25);
+    const diff = christmas - now;
+    if (diff <= 0) {
+      countdownEl.textContent = "🎁 It's Christmas! Santa is delivering gifts!";
+      return;
     }
-    updateCountdown();
-    setInterval(updateCountdown, 60000);
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    countdownEl.textContent = `${days} days, ${hours} hrs, ${minutes} mins until Christmas!`;
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 60000);
 
-    // ====== Leaflet Map ======
-    const map = L.map("map").setView([20, 0], 2); // World view
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
-    }).addTo(map);
+  // ====== Leaflet Map ======
+  const map = L.map("map").setView([20, 0], 2); // world view
 
-    // Santa icon
-    const santaIcon = L.icon({
-      iconUrl: "assets/santa-icon.png", // replace with your Santa image
-      iconSize: [50, 50],
-      iconAnchor: [25, 25]
-    });
-    const santaMarker = L.marker([0, 0], { icon: santaIcon }).addTo(map);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
 
-    const locationText = document.getElementById("location-text");
+  // Santa icon
+  const santaIcon = L.icon({
+    iconUrl: "assets/santa-icon.png", // replace with your own Santa image
+    iconSize: [50, 50],
+    iconAnchor: [25, 25]
+  });
 
-    // Santa route
-    const route = [
-      { city: "North Pole 🎅", coords: [89.9, 135] },
-      { city: "New York, USA 🗽", coords: [40.7128, -74.006] },
-      { city: "London, UK 🇬🇧", coords: [51.5074, -0.1278] },
-      { city: "Paris, France 🇫🇷", coords: [48.8566, 2.3522] },
-      { city: "Tokyo, Japan 🇯🇵", coords: [35.6762, 139.6503] },
-      { city: "Sydney, Australia 🇦🇺", coords: [-33.8688, 151.2093] },
-      { city: "Santiago, Chile 🇨🇱", coords: [-33.4489, -70.6693] }
-    ];
+  const santaMarker = L.marker([0,0], {icon: santaIcon}).addTo(map);
 
-    let currentStop = 0;
-    function moveSanta() {
-      const stop = route[currentStop];
-      santaMarker.setLatLng(stop.coords);
-      map.panTo(stop.coords, { animate: true, duration: 2 });
-      locationText.textContent = `🎅 Santa is now in ${stop.city}!`;
-      currentStop = (currentStop + 1) % route.length;
-    }
-    moveSanta();
-    setInterval(moveSanta, 5000);
+  const locationText = document.getElementById("location-text");
 
-    // ====== Snow Animation ======
-    function createSnowflake() {
-      const snowflake = document.createElement("div");
-      snowflake.classList.add("snowflake");
-      snowflake.style.left = Math.random() * window.innerWidth + "px";
-      snowflake.style.fontSize = (Math.random() * 10 + 10) + "px";
-      snowflake.style.animationDuration = (Math.random() * 5 + 5) + "s";
-      snowflake.textContent = "❄";
-      document.body.appendChild(snowflake);
-      setTimeout(() => snowflake.remove(), 10000); // remove after animation
-    }
-    setInterval(createSnowflake, 200);
-  </script>
+  // Route for Santa
+  const route = [
+    { city: "North Pole 🎅", coords: [89.9, 135] },
+    { city: "New York, USA 🗽", coords: [40.7128, -74.006] },
+    { city: "London, UK 🇬🇧", coords: [51.5074, -0.1278] },
+    { city: "Paris, France 🇫🇷", coords: [48.8566, 2.3522] },
+    { city: "Tokyo, Japan 🇯🇵", coords: [35.6762, 139.6503] },
+    { city: "Sydney, Australia 🇦🇺", coords: [-33.8688, 151.2093] },
+    { city: "Santiago, Chile 🇨🇱", coords: [-33.4489, -70.6693] }
+  ];
+
+  let currentStop = 0;
+  function moveSanta() {
+    const stop = route[currentStop];
+    santaMarker.setLatLng(stop.coords);
+    map.panTo(stop.coords, { animate: true, duration: 2 });
+    locationText.textContent = `🎅 Santa is now in ${stop.city}!`;
+    currentStop = (currentStop + 1) % route.length;
+  }
+
+  moveSanta();
+  setInterval(moveSanta, 5000);
+
+  // ====== Snow ======
+  function createSnowflake() {
+    const snowflake = document.createElement("div");
+    snowflake.classList.add("snowflake");
+    snowflake.style.left = Math.random() * window.innerWidth + "px";
+    snowflake.style.fontSize = (Math.random() * 10 + 10) + "px";
+    snowflake.style.animationDuration = (Math.random() * 5 + 5) + "s";
+    snowflake.textContent = "❄";
+    document.body.appendChild(snowflake);
+    setTimeout(() => snowflake.remove(), 10000);
+  }
+
+  setInterval(createSnowflake, 200);
+</script>
+
 </body>
 </html>
