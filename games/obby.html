@@ -3,25 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Roblox-Style Obby Game</title>
+    <title>Enhanced 3D Roblox-Style Obby Game</title>
     <style>
         body { margin: 0; overflow: hidden; }
         canvas { display: block; }
-        #instructions {
+        #hud {
             position: absolute;
             top: 10px;
             left: 10px;
             color: white;
             font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-shadow: 1px 1px 2px black;
+        }
+        #instructions {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+        }
+        #timer {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-shadow: 1px 1px 2px black;
+        }
+        #lives {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-shadow: 1px 1px 2px black;
         }
     </style>
 </head>
 <body>
+    <div id="hud">Score: 0</div>
+    <div id="timer">Time: 0:00</div>
+    <div id="lives">Lives: 3</div>
     <div id="instructions">
-        Click to lock pointer and play.<br>
-        WASD: Move<br>
-        Space: Jump<br>
-        Esc: Unlock pointer
+        <h2>Welcome to the Ultimate Obby!</h2>
+        <p>Click to lock pointer and start.</p>
+        <p>Controls:</p>
+        <ul>
+            <li>WASD: Move</li>
+            <li>Space: Jump</li>
+            <li>Shift: Sprint</li>
+            <li>Esc: Unlock pointer / Pause</li>
+        </ul>
+        <p>Collect coins, avoid obstacles, reach the end!</p>
     </div>
     <script type="importmap">
         {
@@ -34,80 +76,202 @@
     <script type="module">
         import * as THREE from 'three';
         import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
+        import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
         // Scene setup
         const scene = new THREE.Scene();
-        scene.background = new THREE.Color(0x87CEEB); // Sky blue
-        scene.fog = new THREE.Fog(0x87CEEB, 0, 500);
+        scene.background = new THREE.Color(0x87CEEB);
+        scene.fog = new THREE.FogExp2(0x87CEEB, 0.002);
 
         // Camera
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        camera.position.y = 2; // Player height
+        camera.position.set(0, 2, -5); // Start position
 
         // Renderer
         const renderer = new THREE.WebGLRenderer({ antialias: true });
         renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
         document.body.appendChild(renderer.domElement);
 
-        // Pointer lock controls
+        // Controls
         const controls = new PointerLockControls(camera, document.body);
         scene.add(controls.getObject());
 
-        // Lock pointer on click
+        // Show instructions initially
+        const instructions = document.getElementById('instructions');
+        instructions.style.display = 'block';
+
+        // Lock on click
         document.addEventListener('click', () => {
-            controls.lock();
+            if (!controls.isLocked) {
+                controls.lock();
+                instructions.style.display = 'none';
+            }
         });
 
-        // Unlock on Esc (handled by browser, but we can listen)
+        controls.addEventListener('lock', () => {
+            instructions.style.display = 'none';
+        });
+
         controls.addEventListener('unlock', () => {
-            console.log('Pointer unlocked');
+            instructions.style.display = 'block';
+            instructions.innerHTML = '<h2>Paused</h2><p>Click to resume.</p>';
         });
 
         // Lighting
-        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
         scene.add(ambientLight);
 
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-        directionalLight.position.set(50, 50, 50);
-        scene.add(directionalLight);
+        const sunLight = new THREE.DirectionalLight(0xffddaa, 1);
+        sunLight.position.set(50, 50, 50);
+        sunLight.castShadow = true;
+        sunLight.shadow.mapSize.width = 2048;
+        sunLight.shadow.mapSize.height = 2048;
+        sunLight.shadow.camera.near = 0.5;
+        sunLight.shadow.camera.far = 500;
+        sunLight.shadow.camera.left = -100;
+        sunLight.shadow.camera.right = 100;
+        sunLight.shadow.camera.top = 100;
+        sunLight.shadow.camera.bottom = -100;
+        scene.add(sunLight);
 
         // Ground
-        const groundGeometry = new THREE.PlaneGeometry(100, 100);
-        const groundMaterial = new THREE.MeshLambertMaterial({ color: 0x228B22 });
-        const ground = new THREE.Mesh(groundGeometry, groundMaterial);
+        const groundTexture = new THREE.TextureLoader().load('https://threejs.org/examples/textures/terrain/grasslight-big.jpg');
+        groundTexture.wrapS = groundTexture.wrapT = THREE.RepeatWrapping;
+        groundTexture.repeat.set(25, 25);
+        const groundMaterial = new THREE.MeshLambertMaterial({ map: groundTexture });
+        const ground = new THREE.Mesh(new THREE.PlaneGeometry(500, 500), groundMaterial);
         ground.rotation.x = -Math.PI / 2;
+        ground.receiveShadow = true;
         scene.add(ground);
 
-        // Platforms for obby (simple level)
+        // Materials
         const platformMaterial = new THREE.MeshLambertMaterial({ color: 0xFFD700 });
+        const lavaMaterial = new THREE.MeshBasicMaterial({ color: 0xFF4500 });
+        const spikeMaterial = new THREE.MeshLambertMaterial({ color: 0x808080 });
+        const coinMaterial = new THREE.MeshLambertMaterial({ color: 0xFFFF00, emissive: 0xFFFF00, emissiveIntensity: 0.5 });
+        const checkpointMaterial = new THREE.MeshLambertMaterial({ color: 0x00FF00 });
 
-        // Start platform
-        const startPlatform = new THREE.Mesh(new THREE.BoxGeometry(10, 1, 10), platformMaterial);
-        startPlatform.position.set(0, 0.5, 0);
-        scene.add(startPlatform);
+        // Collidables, killzones, coins, checkpoints
+        const collidables = [];
+        const killzones = [];
+        const coins = [];
+        const checkpoints = [];
+        let currentCheckpoint = new THREE.Vector3(0, 2, -5);
 
-        // Jump platform 1
-        const platform1 = new THREE.Mesh(new THREE.BoxGeometry(5, 1, 5), platformMaterial);
-        platform1.position.set(0, 1.5, 15);
-        scene.add(platform1);
+        // Function to create platform
+        function createPlatform(pos, size, mat = platformMaterial) {
+            const platform = new THREE.Mesh(new THREE.BoxGeometry(...size), mat);
+            platform.position.set(...pos);
+            platform.castShadow = true;
+            platform.receiveShadow = true;
+            scene.add(platform);
+            collidables.push(platform);
+            return platform;
+        }
 
-        // Jump platform 2 (higher)
-        const platform2 = new THREE.Mesh(new THREE.BoxGeometry(5, 1, 5), platformMaterial);
-        platform2.position.set(10, 3.5, 20);
-        scene.add(platform2);
+        // Function to create moving platform
+        function createMovingPlatform(pos, size, movement) {
+            const platform = createPlatform(pos, size);
+            platform.userData = { movement, originalPos: pos.slice(), time: 0 };
+            return platform;
+        }
 
-        // Obstacle (spinning blade simulation with a box)
-        const obstacle = new THREE.Mesh(new THREE.BoxGeometry(2, 10, 2), new THREE.MeshLambertMaterial({ color: 0xFF0000 }));
-        obstacle.position.set(-10, 5, 30);
-        scene.add(obstacle);
+        // Function to create spike
+        function createSpike(pos) {
+            const geometry = new THREE.ConeGeometry(1, 3, 8);
+            const spike = new THREE.Mesh(geometry, spikeMaterial);
+            spike.position.set(...pos);
+            spike.castShadow = true;
+            scene.add(spike);
+            killzones.push(spike);
+            return spike;
+        }
+
+        // Function to create lava
+        function createLava(pos, size) {
+            const lava = new THREE.Mesh(new THREE.BoxGeometry(...size), lavaMaterial);
+            lava.position.set(...pos);
+            scene.add(lava);
+            killzones.push(lava);
+            return lava;
+        }
+
+        // Function to create coin
+        function createCoin(pos) {
+            const coin = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, 0.1, 32), coinMaterial);
+            coin.rotation.x = Math.PI / 2;
+            coin.position.set(...pos);
+            scene.add(coin);
+            coins.push(coin);
+            return coin;
+        }
+
+        // Function to create checkpoint
+        function createCheckpoint(pos) {
+            const checkpoint = new THREE.Mesh(new THREE.BoxGeometry(2, 5, 2), checkpointMaterial);
+            checkpoint.position.set(...pos);
+            scene.add(checkpoint);
+            checkpoints.push(checkpoint);
+            return checkpoint;
+        }
+
+        // Level design - More complex with sections
+        // Start area
+        createPlatform([0, 0.5, 0], [20, 1, 20]);
+        createCoin([5, 2, 5]);
+        createCoin([-5, 2, 5]);
+        createCheckpoint([0, 0.5, 10]);
+
+        // Section 1: Jumping platforms
+        createPlatform([0, 1.5, 25], [10, 1, 10]);
+        createMovingPlatform([15, 2.5, 40], [8, 1, 8], { axis: 'x', range: 10, speed: 0.02 });
+        createPlatform([0, 3.5, 55], [10, 1, 10]);
+        createCoin([0, 5, 55]);
+        createLava([0, 0, 40], [50, 0.5, 30]);
+
+        // Section 2: Spike dodging
+        createPlatform([0, 0.5, 80], [15, 1, 15]);
+        createSpike([3, 3.5, 80]);
+        createSpike([-3, 3.5, 80]);
+        createSpike([0, 3.5, 85]);
+        createCoin([0, 2, 75]);
+        createCheckpoint([0, 0.5, 90]);
+
+        // Section 3: Moving obstacles
+        const blade = new THREE.Mesh(new THREE.BoxGeometry(2, 10, 2), new THREE.MeshLambertMaterial({ color: 0xFF0000 }));
+        blade.position.set(-20, 5, 110);
+        blade.castShadow = true;
+        scene.add(blade);
+        killzones.push(blade);
+        blade.userData = { rotationSpeed: 0.05 };
+
+        createPlatform([0, 0.5, 110], [20, 1, 20]);
+        createMovingPlatform([0, 1.5, 130], [10, 1, 10], { axis: 'z', range: 15, speed: 0.03 });
+        createCoin([0, 3, 130]);
+        createLava([0, 0, 120], [30, 0.5, 40]);
+
+        // Section 4: Climb
+        createPlatform([20, 1.5, 160], [5, 1, 5]);
+        createPlatform([20, 3.5, 165], [5, 1, 5]);
+        createPlatform([20, 5.5, 170], [5, 1, 5]);
+        createPlatform([20, 7.5, 175], [5, 1, 5]);
+        createCoin([20, 9, 175]);
+        createCheckpoint([20, 7.5, 180]);
+
+        // Section 5: Final challenge
+        createMovingPlatform([-10, 2.5, 200], [8, 1, 8], { axis: 'x', range: 20, speed: 0.025 });
+        createSpike([-5, 4.5, 200]);
+        createMovingPlatform([10, 3.5, 220], [8, 1, 8], { axis: 'y', range: 5, speed: 0.015 });
+        createCoin([10, 5, 220]);
+        createLava([0, 0, 210], [50, 0.5, 50]);
 
         // End platform
-        const endPlatform = new THREE.Mesh(new THREE.BoxGeometry(10, 1, 10), new THREE.MeshLambertMaterial({ color: 0x00FF00 }));
-        endPlatform.position.set(0, 0.5, 50);
-        scene.add(endPlatform);
-
-        // Collect all collidable objects
-        const collidables = [ground, startPlatform, platform1, platform2, endPlatform, obstacle];
+        const endPlatform = createPlatform([0, 0.5, 250], [20, 1, 20], new THREE.MeshLambertMaterial({ color: 0x00FF00 }));
+        createCoin([0, 2, 245]);
+        createCoin([5, 2, 250]);
+        createCoin([-5, 2, 250]);
 
         // Player physics
         let velocity = new THREE.Vector3();
@@ -116,17 +280,37 @@
         let moveBackward = false;
         let moveLeft = false;
         let moveRight = false;
+        let isSprinting = false;
         let canJump = false;
 
-        const gravity = -0.005;
-        const jumpVelocity = 0.15;
-        const moveSpeed = 0.1;
+        const baseSpeed = 0.1;
+        const sprintMultiplier = 1.5;
+        const gravity = -0.008;
+        const jumpVelocity = 0.18;
+        const playerHeight = 2;
+        const playerRadius = 0.8;
 
-        // Raycaster for ground detection
-        const raycaster = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3(0, -1, 0), 0, 2.1); // Slightly more than player height
+        // Raycasters for collision detection
+        const raycasterDown = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3(0, -1, 0));
+        const raycasterUp = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3(0, 1, 0));
+        const raycasterForward = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3());
+        const raycasterBackward = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3());
+        const raycasterLeft = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3());
+        const raycasterRight = new THREE.Raycaster(new THREE.Vector3(), new THREE.Vector3());
+
+        // HUD elements
+        const hud = document.getElementById('hud');
+        const timerEl = document.getElementById('timer');
+        const livesEl = document.getElementById('lives');
+        let score = 0;
+        let time = 0;
+        let lives = 3;
+        let gameOver = false;
+        let startTime = Date.now();
 
         // Keyboard controls
         document.addEventListener('keydown', (event) => {
+            if (gameOver) return;
             switch (event.code) {
                 case 'KeyW': moveForward = true; break;
                 case 'KeyS': moveBackward = true; break;
@@ -138,6 +322,7 @@
                         canJump = false;
                     }
                     break;
+                case 'ShiftLeft': isSprinting = true; break;
             }
         });
 
@@ -147,87 +332,194 @@
                 case 'KeyS': moveBackward = false; break;
                 case 'KeyA': moveLeft = false; break;
                 case 'KeyD': moveRight = false; break;
+                case 'ShiftLeft': isSprinting = false; break;
             }
         });
 
-        // Resize handler
+        // Resize
         window.addEventListener('resize', () => {
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
         });
 
-        // Collision detection function
-        function checkCollision(position) {
-            for (let obj of collidables) {
-                const box = new THREE.Box3().setFromObject(obj);
-                const playerBox = new THREE.Box3(
-                    new THREE.Vector3(position.x - 1, position.y - 2, position.z - 1),
-                    new THREE.Vector3(position.x + 1, position.y, position.z + 1)
-                );
-                if (box.intersectsBox(playerBox)) {
-                    return true;
+        // Collision check function
+        function checkCollisions(raycaster, distance, objects) {
+            raycaster.ray.origin.copy(camera.position);
+            const intersections = raycaster.intersectObjects(objects);
+            if (intersections.length > 0 && intersections[0].distance < distance) {
+                return intersections[0];
+            }
+            return null;
+        }
+
+        // Update moving objects
+        function updateMovingObjects() {
+            collidables.forEach(obj => {
+                if (obj.userData.movement) {
+                    const { axis, range, speed } = obj.userData.movement;
+                    obj.userData.time += speed;
+                    const offset = Math.sin(obj.userData.time) * range / 2;
+                    obj.position[axis] = obj.userData.originalPos[axis - 'x'.charCodeAt(0) + 'x'.charCodeAt(0)] + offset; // 0:x,1:y,2:z
+                }
+            });
+
+            blade.rotation.y += blade.userData.rotationSpeed;
+        }
+
+        // Collect coins
+        function collectCoins() {
+            for (let i = coins.length - 1; i >= 0; i--) {
+                const coin = coins[i];
+                const distance = camera.position.distanceTo(coin.position);
+                if (distance < 1.5) {
+                    scene.remove(coin);
+                    coins.splice(i, 1);
+                    score += 10;
+                    hud.innerText = `Score: ${score}`;
+                    // Add sound effect if possible
+                } else {
+                    coin.rotation.y += 0.05; // Spin coins
                 }
             }
-            return false;
+        }
+
+        // Check checkpoints
+        function checkCheckpoints() {
+            for (let checkpoint of checkpoints) {
+                const distance = camera.position.distanceTo(checkpoint.position);
+                if (distance < 3) {
+                    currentCheckpoint.copy(camera.position);
+                    checkpoint.material.color.set(0xFFFF00); // Activate visual
+                }
+            }
+        }
+
+        // Check death
+        function checkDeath() {
+            // Fall death
+            if (camera.position.y < -10) {
+                die();
+                return;
+            }
+
+            // Killzones
+            for (let kz of killzones) {
+                const box = new THREE.Box3().setFromObject(kz);
+                const playerBox = new THREE.Box3(
+                    new THREE.Vector3(camera.position.x - playerRadius, camera.position.y - playerHeight, camera.position.z - playerRadius),
+                    new THREE.Vector3(camera.position.x + playerRadius, camera.position.y, camera.position.z + playerRadius)
+                );
+                if (box.intersectsBox(playerBox)) {
+                    die();
+                    return;
+                }
+            }
+        }
+
+        function die() {
+            lives--;
+            livesEl.innerText = `Lives: ${lives}`;
+            if (lives <= 0) {
+                gameOver = true;
+                alert('Game Over! Final Score: ' + score);
+                controls.unlock();
+                return;
+            }
+            camera.position.copy(currentCheckpoint);
+            velocity.set(0, 0, 0);
+        }
+
+        // Update timer
+        function updateTimer() {
+            if (gameOver) return;
+            time = Math.floor((Date.now() - startTime) / 1000);
+            const minutes = Math.floor(time / 60);
+            const seconds = time % 60;
+            timerEl.innerText = `Time: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
         }
 
         // Animation loop
+        let prevTime = performance.now();
         function animate() {
             requestAnimationFrame(animate);
 
-            if (controls.isLocked) {
+            if (controls.isLocked && !gameOver) {
+                const time = performance.now();
+                const delta = (time - prevTime) / 1000;
+
                 // Movement
+                velocity.x -= velocity.x * 10.0 * delta;
+                velocity.z -= velocity.z * 10.0 * delta;
+                velocity.y += gravity;
+
                 direction.z = Number(moveForward) - Number(moveBackward);
                 direction.x = Number(moveRight) - Number(moveLeft);
                 direction.normalize();
 
-                if (moveForward || moveBackward) velocity.z = direction.z * moveSpeed;
-                else velocity.z = 0;
-                if (moveLeft || moveRight) velocity.x = direction.x * moveSpeed;
-                else velocity.x = 0;
+                const speed = baseSpeed * (isSprinting ? sprintMultiplier : 1);
 
-                controls.moveRight(velocity.x);
-                controls.moveForward(velocity.z);
+                if (moveForward || moveBackward) velocity.z -= direction.z * speed * 50 * delta;
+                if (moveLeft || moveRight) velocity.x -= direction.x * speed * 50 * delta;
 
-                // Gravity and jumping
-                velocity.y += gravity;
-
+                // Apply velocity
+                controls.moveRight(-velocity.x * delta);
+                controls.moveForward(-velocity.z * delta);
                 camera.position.y += velocity.y;
 
-                // Ground collision
-                raycaster.ray.origin.copy(camera.position);
-                const intersections = raycaster.intersectObjects(collidables);
-                if (intersections.length > 0) {
-                    const distance = intersections[0].distance;
-                    if (distance < 2) { // Player height
+                // Collision detection
+                // Down
+                raycasterDown.ray.origin.copy(camera.position);
+                raycasterDown.ray.origin.y -= playerHeight / 2;
+                let intersectionDown = checkCollisions(raycasterDown, playerHeight / 2 + 0.1, collidables);
+                if (intersectionDown) {
+                    velocity.y = Math.max(0, velocity.y);
+                    camera.position.y = intersectionDown.point.y + playerHeight;
+                    canJump = true;
+                } else if (velocity.y > 0) {
+                    // Up
+                    raycasterUp.ray.origin.copy(camera.position);
+                    raycasterUp.ray.origin.y += playerHeight / 2;
+                    let intersectionUp = checkCollisions(raycasterUp, playerHeight / 2 + 0.1, collidables);
+                    if (intersectionUp) {
                         velocity.y = 0;
-                        camera.position.y = intersections[0].point.y + 2;
-                        canJump = true;
                     }
                 }
 
-                // Side collisions (simple prevention)
-                const proposedPosition = camera.position.clone();
-                if (checkCollision(proposedPosition)) {
-                    // Revert movement if colliding
-                    camera.position.sub(velocity);
+                // Horizontal collisions
+                const horizontalDirections = [
+                    { ray: raycasterForward, dir: camera.getWorldDirection(new THREE.Vector3()).normalize() },
+                    { ray: raycasterBackward, dir: camera.getWorldDirection(new THREE.Vector3()).normalize().negate() },
+                    { ray: raycasterLeft, dir: new THREE.Vector3().crossVectors(camera.getWorldDirection(new THREE.Vector3()), new THREE.Vector3(0,1,0)).normalize().negate() },
+                    { ray: raycasterRight, dir: new THREE.Vector3().crossVectors(camera.getWorldDirection(new THREE.Vector3()), new THREE.Vector3(0,1,0)).normalize() }
+                ];
+
+                for (let { ray, dir } of horizontalDirections) {
+                    ray.ray.direction.copy(dir);
+                    ray.ray.origin.copy(camera.position);
+                    let inter = checkCollisions(ray, playerRadius + 0.1, collidables);
+                    if (inter) {
+                        const pushBack = dir.clone().negate().multiplyScalar(0.1);
+                        camera.position.add(pushBack);
+                    }
                 }
 
-                // Obstacle rotation (simple animation)
-                obstacle.rotation.y += 0.05;
-            }
+                updateMovingObjects();
+                collectCoins();
+                checkCheckpoints();
+                checkDeath();
+                updateTimer();
 
-            // Check for win (reach end platform)
-            if (camera.position.z > 45 && camera.position.z < 55 && Math.abs(camera.position.x) < 5 && camera.position.y < 3) {
-                alert('You win! Reached the end.');
-                controls.unlock();
-            }
+                // Win condition
+                const endBox = new THREE.Box3().setFromObject(endPlatform);
+                const playerPos = camera.position;
+                if (endBox.containsPoint(playerPos) && playerPos.y < 5) {
+                    gameOver = true;
+                    alert(`You win! Score: ${score} Time: ${timerEl.innerText.split(': ')[1]}`);
+                    controls.unlock();
+                }
 
-            // Death if fall below
-            if (camera.position.y < -10) {
-                camera.position.set(0, 2, 0);
-                velocity.set(0, 0, 0);
+                prevTime = time;
             }
 
             renderer.render(scene, camera);
